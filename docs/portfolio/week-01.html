@@ -49,7 +49,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-e068420ea456326da06e1a0f8a236e46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-795ae1ca5c1dbc58ec319c3e1f3f461f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,6 +79,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -197,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolio/week-05.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Professional Discovery Interview</span></a>
+ <span class="menu-text">Discovery Interview Journal</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -271,16 +300,22 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#kompetensi-target" id="toc-kompetensi-target" class="nav-link active" data-scroll-target="#kompetensi-target">Kompetensi target</a></li>
-  <li><a href="#evidence-wajib" id="toc-evidence-wajib" class="nav-link" data-scroll-target="#evidence-wajib">Evidence wajib</a></li>
+  <li><a href="#evidence-ai-dan-feedback" id="toc-evidence-ai-dan-feedback" class="nav-link" data-scroll-target="#evidence-ai-dan-feedback">Evidence, AI, dan feedback</a></li>
+  <li><a href="#lima-character" id="toc-lima-character" class="nav-link" data-scroll-target="#lima-character">Lima character</a></li>
+  <li><a href="#lembar-kerja-mahasiswa-peta-karakter" id="toc-lembar-kerja-mahasiswa-peta-karakter" class="nav-link" data-scroll-target="#lembar-kerja-mahasiswa-peta-karakter">1. Lembar Kerja Mahasiswa (Peta Karakter)</a></li>
+  <li><a href="#episode-yang-dianalisis" id="toc-episode-yang-dianalisis" class="nav-link" data-scroll-target="#episode-yang-dianalisis">Episode yang dianalisis</a></li>
+  <li><a href="#perubahan-language" id="toc-perubahan-language" class="nav-link" data-scroll-target="#perubahan-language">Perubahan language</a></li>
+  <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-assessment</a></li>
   <li><a href="#konteks-performance" id="toc-konteks-performance" class="nav-link" data-scroll-target="#konteks-performance">Konteks performance</a></li>
   <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">Evidence</a></li>
   <li><a href="#analisis-komunikasi" id="toc-analisis-komunikasi" class="nav-link" data-scroll-target="#analisis-komunikasi">Analisis komunikasi</a></li>
   <li><a href="#penggunaan-ai" id="toc-penggunaan-ai" class="nav-link" data-scroll-target="#penggunaan-ai">Penggunaan AI</a></li>
   <li><a href="#feedback-dan-tindak-lanjut" id="toc-feedback-dan-tindak-lanjut" class="nav-link" data-scroll-target="#feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</a></li>
-  <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-assessment</a>
+  <li><a href="#self-assessment-1" id="toc-self-assessment-1" class="nav-link" data-scroll-target="#self-assessment-1">Self-assessment</a>
   <ul class="collapse">
   <li><a href="#assessment-dosen" id="toc-assessment-dosen" class="nav-link" data-scroll-target="#assessment-dosen">Assessment dosen</a></li>
   </ul></li>
+  <li><a href="#evidence-tambahan" id="toc-evidence-tambahan" class="nav-link" data-scroll-target="#evidence-tambahan">Evidence Tambahan</a></li>
   </ul>
 </nav>
     </div>
@@ -319,26 +354,134 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="kompetensi-target">Kompetensi target</h2>
 <p>Membedakan person, personality, dan character serta memilih objective, repertoire, dan language yang sesuai.</p>
 </section>
-<section id="evidence-wajib" class="level2">
-<h2 class="anchored" data-anchor-id="evidence-wajib">Evidence wajib</h2>
+<section id="evidence-ai-dan-feedback" class="level2">
+<h2 class="anchored" data-anchor-id="evidence-ai-dan-feedback">Evidence, AI, dan feedback</h2>
+<p><strong>Bukti Fisik (Transkrip Asli WhatsApp):</strong> <em>(Terdapat di bagian bawah dokumen pada “Evidence Tambahan”)</em></p>
 <ul>
-<li>Lima character dari sedikitnya tiga domain kehidupan.</li>
-<li>Objective, responsibility, repertoire, dan risiko tiap character.</li>
-<li>Satu contoh perubahan language ketika character berubah.</li>
+<li><strong>AI:</strong> Digunakan murni sebagai <em>sparring partner</em> setelah kejadian untuk mengaudit apakah gaya komunikasiku saat terdesak sudah mencerminkan karakter profesional atau masih terbawa sifat reaktif personal. Aku menolak mentah-mentah saran kalimat <em>template</em> dari AI yang terdengar seperti <em>customer service</em> korporat karena lawan bicaraku adalah rekan kepanitiaan seangkatan.</li>
+<li><strong>Refleksi:</strong> Aku sering mencampuradukkan <em>personality</em> bawaanku yang perfeksionis (ingin semua <em>output</em> langsung sempurna sekali jalan) dengan tuntutan <em>character</em> sebagai pengurus PR yang sebenarnya lebih membutuhkan kecepatan <em>update</em> status agar tim desain tidak menggantung.</li>
+<li><strong>Next practice:</strong> Memisahkan dokumen kerja menjadi “Draf Kasar Validasi Teknis” dan “Final Copywriting” agar alur kerja tim tidak terhambat oleh sifat perfeksionisku.</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Lihat contoh pengisian">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Lihat contoh pengisian
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="../examples/week-01.html">Buka contoh fiktif Minggu 1</a> untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.</p>
-</div>
-</div>
+</section>
+<section id="lima-character" class="level2">
+<h2 class="anchored" data-anchor-id="lima-character">Lima character</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Domain dan character</th>
+<th>Person &amp; relationship</th>
+<th>Objective &amp; responsibility</th>
+<th>Repertoire &amp; language</th>
+<th>Risiko dan latihan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Intra-Self</strong> — <em>Mindful Crafter &amp; Dancer</em></td>
+<td>Diri sendiri di luar jam layar laptop</td>
+<td>Menjaga kewarasan mental dari paparan <em>coding</em> lewat gerakan tari Jaipong dan hitungan pola rajut (<em>Stitch Fiddle</em>)</td>
+<td>Dialog batin tanpa penghakiman, fokus sensorik pada benang/gerak, jeda dari notifikasi</td>
+<td>Menganggap waktu hobi sebagai “kemalasan produktif”; latih menjadwalkan waktu merajut sebagai hak istirahat resmi</td>
+</tr>
+<tr class="even">
+<td><strong>Family</strong> — <em>Tech-Savvy Daughter</em></td>
+<td>Ayah (partner diskusi sistem &amp; logika)</td>
+<td>Bertukar pikiran tentang arsitektur sistem (seperti <em>blockchain voting bot</em>) sambil tetap menjadi anak yang hangat di rumah</td>
+<td>Kasual-analitis, antusias, menyelipkan candaan keluarga di sela bahasan teknis</td>
+<td>Terlalu fokus berdebat soal efisiensi algoritma sampai lupa menanyakan kabar; latih membuka obrolan dengan topik non-teknis</td>
+</tr>
+<tr class="odd">
+<td><strong>Organization</strong> — <em>PR &amp; Publication Manager IMPACT 6.0</em></td>
+<td>Rekan panitia (Ribka), divisi acara, dan peserta SMA se-Indonesia</td>
+<td>Menjaga akurasi <em>guidebook</em>, ketepatan rilis informasi lomba Matematika-Fisika-Informatika, dan citra resmi STEI ITB</td>
+<td>Terstruktur, persuasif, <em>zero-ambiguity</em>, berbasis <em>checklist</em> penayangan</td>
+<td>Menahan informasi terlalu lama demi mengejar kalimat yang “paling estetik”; latih rilis bertahap (<em>iterative drafting</em>)</td>
+</tr>
+<tr class="even">
+<td><strong>Work / Academic Team</strong> — <em>Product Manager &amp; Logic Scripter</em></td>
+<td>Tim <em>developer</em> &amp; <em>illustrator</em> gim Kotak Nusantara (Ren’Py)</td>
+<td>Menjembatani alur cerita budaya dengan keterbatasan logika kode <code>script.rpy</code> agar gim bebas <em>bug</em> saat dimainkan</td>
+<td>Bahasa <em>user flow</em>, <em>conditional branching</em> (<code>if/else</code>), negosiasi <em>scope</em> fitur</td>
+<td>Terlalu mendikte artistik; latih menanyakan kapasitas waktu rekan sebelum mengunci cabang skenario baru</td>
+</tr>
+<tr class="odd">
+<td><strong>Community</strong> — <em>Penggerak Sosial SINEMA</em></td>
+<td>Pengurus panti asuhan, donatur, dan relawan mahasiswa</td>
+<td>Menciptakan interaksi yang setara, hangat, dan berdampak nyata bagi adik-adik panti asuhan</td>
+<td>Bahasa membumi, penuh empati, mendengarkan aktif, bebas istilah elitis kampus</td>
+<td>Terjebak pola pikir “penyelamat” (<em>savior complex</em>) yang kaku; latih berbaur dan mengobrol sejajar sebelum memulai acara</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lembar-kerja-mahasiswa-peta-karakter" class="level2">
+<h2 class="anchored" data-anchor-id="lembar-kerja-mahasiswa-peta-karakter">1. Lembar Kerja Mahasiswa (Peta Karakter)</h2>
+<p><strong>Nama Mahasiswa:</strong> Fayza Kamilia <strong>Tanggal Pengerjaan:</strong> 20 September 2026</p>
+</section>
+<section id="episode-yang-dianalisis" class="level2">
+<h2 class="anchored" data-anchor-id="episode-yang-dianalisis">Episode yang dianalisis</h2>
+<p><strong>Konteks:</strong> Pukul 17.30 WIB, baru saja selesai kelas di Jatinangor dan bersiap mengendarai motor pulang ke kosan di tengah mendung, grup kepanitiaan <strong>IMPACT 6.0</strong> mendadak ramai. Ada perubahan ketentuan teknis babak penyisihan Informatika dari divisi soal yang harus segera diumumkan ke peserta SMA malam itu juga. <strong>Ribka</strong> menghubungiku untuk meminta teks <em>caption</em> dan ralat <em>guidebook</em>. Muncul <em>story</em> panik di kepalaku: <em>“Kalau aku bilang lagi di jalan naik motor dan belum pegang laptop, aku bakal dianggap PR Manager yang lambat dan menghambat kerja divisi visual.”</em> Padahal <strong>fakta</strong> objektifnya: aku sedang berada di area parkir motor, belum bisa mengetik dokumen panjang, dan baru akan tiba di kosan 15 menit lagi.</p>
+<p><strong>Objective &amp; Pengukuran State (Self-Report):</strong> - <strong>State Awal:</strong> Tingkat kepanikan/terburu-buru <strong>8/10</strong> (takut kehujanan di jalan sekaligus takut menghambat tim desain); tingkat kejelasan koordinasi <strong>3/10</strong>. - <strong>Objective:</strong> Mengubah respons dari kepanikan pasif menjadi koordinasi taktis yang membagi tahap pengiriman informasi agar tim desain tetap bisa bekerja sebelum tenggat mereka tanpa membahayakan perjalananku. - <strong>State Akhir:</strong> Tingkat kepanikan turun menjadi <strong>2/10</strong> setelah kesepakatan dua tahap tercapai; tingkat kejelasan koordinasi naik ke <strong>9/10</strong> karena jam serah terima terukur jelas.</p>
+<p><strong>Transkrip Adaptasi (Kutipan Langsung):</strong> Awalnya aku hanya menjelaskan kendala posisiku yang sedang di parkiran motor dan takut salah ketik kalau dipaksakan membuat <em>full caption</em> di HP (<code>17:34:05</code>). Namun, respons susulan Ribka (<code>17:34:30</code>) memberi <strong>informasi baru</strong>: anak desain harus segera <em>export</em> poster sebelum jam 6 sore karena ada urusan kelas/kuis, dan mereka sebenarnya baru butuh poin intinya saja dulu untuk ditempel di gambar. Informasi baru inilah yang membuatku beradaptasi (<code>17:34:50</code>): memecah pengiriman menjadi 3 poin inti saat itu juga di parkiran, dan <em>caption</em> + <em>link</em> Bitly menyusul pukul 18.15.</p>
+<blockquote class="blockquote">
+<p><strong>Ribka:</strong> “fay, anak soal barusan ketok palu revisi aturan penyisihan informatika. tim desain udah siap pasang template nih, teks pengumuman sama poin ralatnya bisa naik jam 6 sore ini gak?” <strong>Fayza:</strong> “rib, posisi aku lagi di parkiran motor mau ngegas balik kosan dulu 15 menit biar ga kehujanan. kalau aku ketik full caption sekarang di HP takut ada syarat teknis yang kelewat” <strong>Ribka (Informasi Baru):</strong> “waduh, soalnya anak desain harus beresin posternya sebelum jam 6 nih fay mau ada kuis, mereka butuh poin yang buat ditempel di gambarnya aja dulu sih” <strong>Fayza (Adaptasi):</strong> “gimana kalau sekarang aku ketik 3 poin inti perubahannya dulu buat dimasukin anak desain ke slide poster? nanti jam 18.15 pas nyampe kosan baru aku kirim teks caption rapi + link bitly guidebook barunya” <strong>Ribka (Agreement):</strong> “eh iya hati-hati di jalan fay! boleh banget gitu aja, kirim 3 poin intinya sekarang ya biar anak desain langsung jalan, caption sama bitly kita tunggu jam 18.15”</p>
+</blockquote>
+</section>
+<section id="perubahan-language" class="level2">
+<h2 class="anchored" data-anchor-id="perubahan-language">Perubahan language</h2>
+<p>Jika aku berbicara memakai <em>character</em> <strong>teman main biasa</strong>, aku akan membalas: <em>“Bentar elah rib, gue lagi mau naik motor nih mendung banget, ntar malem aja yak.”</em> Namun, karena aku sedang memegang <em>character</em> <strong>PR &amp; Publication Manager IMPACT 6.0</strong>, bahasaku bergeser menjadi <strong>manajemen alur kerja (<em>workflow</em>)</strong>: menyatakan kendala keselamatan berkendara secara ringkas, merespons kebutuhan mendesak tim desain dengan menyuplai 3 poin inti poster terlebih dahulu, lalu mengunci jam pengiriman <em>caption</em> dan <em>shortlink</em> Bitly pada pukul 18.15 WIB.</p>
+</section>
+<section id="self-assessment" class="level2">
+<h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 40%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensi</th>
+<th style="text-align: right;">Skor</th>
+<th>Alasan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Person &amp; Character</td>
+<td style="text-align: right;">3</td>
+<td>Lima karakter dipetakan spesifik beserta risiko dan latihan, tetapi relasi kuasa dan tujuan yang bersaing belum dianalisis.</td>
+</tr>
+<tr class="even">
+<td>Objective &amp; State</td>
+<td style="text-align: right;">4</td>
+<td>State awal dan akhir diukur eksplisit (Kepanikan 8/10 <span class="math inline">\(\rightarrow\)</span> 2/10; Kejelasan Koordinasi 3/10 <span class="math inline">\(\rightarrow\)</span> 9/10), meski berupa <em>self-report</em>.</td>
+</tr>
+<tr class="odd">
+<td>Repertoire, Language &amp; AI</td>
+<td style="text-align: right;">4</td>
+<td>Teknik <em>unbundling</em> (poin poster dulu, <em>caption</em> menyusul), pergeseran bahasa dari teman biasa ke PR Manager, dan penolakan saran AI yang bernada korporat.</td>
+</tr>
+<tr class="even">
+<td>Response &amp; Adaptation</td>
+<td style="text-align: right;">4</td>
+<td>Informasi baru dari Ribka (desain harus selesai sebelum jam 6 dan hanya butuh poin inti) mengubah responsku dari melapor kendala menjadi mengirim 3 poin saat itu juga.</td>
+</tr>
+<tr class="odd">
+<td>Agreement, Action &amp; Relationship</td>
+<td style="text-align: right;">3</td>
+<td>Kesepakatan dua tahap terlaksana sebelum janji 18.15 dan dikonfirmasi Ribka, tetapi belum ada <em>review</em> lanjutan atau <em>repair</em> karena episodenya sederhana.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Total: 18/20.</strong></p>
 </section>
 <section id="konteks-performance" class="level2">
 <h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
@@ -406,8 +549,8 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Adaptation/replay:</strong> Jelaskan apa yang Anda ubah dan response setelah perubahan.</p>
 <p><strong>Next practice:</strong> Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.</p>
 </section>
-<section id="self-assessment" class="level2">
-<h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
+<section id="self-assessment-1" class="level2">
+<h2 class="anchored" data-anchor-id="self-assessment-1">Self-assessment</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -452,6 +595,25 @@ ul.task-list li input[type="checkbox"] {
 <strong>Prioritas perbaikan:</strong> —<br>
 <strong>Keputusan:</strong> Belum dinilai / Perlu revisi / Tercapai</p>
 </section>
+<hr>
+</section>
+<section id="evidence-tambahan" class="level2">
+<h2 class="anchored" data-anchor-id="evidence-tambahan">Evidence Tambahan</h2>
+<p><em>Catatan privasi: sebagian jam dan menit pada log chat disamarkan demi privasi. Isi pesan dikutip langsung dari percakapan; karena itu klaim durasi pada dokumen ini bersifat perkiraan.</em></p>
+<p><strong>Transkrip Chat WhatsApp (Manajemen Rilis Publikasi IMPACT 6.0):</strong> <em>(Catatan: Baris pukul 17:34:30 dan rincian poin 17:36:40 disertakan utuh sesuai chat asli tanpa ringkasan)</em> &gt; <strong>[12/05/26, 17:32:10] Ribka:</strong> fay, anak soal barusan ketok palu revisi aturan penyisihan informatika. tim desain udah siap pasang template nih, teks pengumuman sama poin ralatnya bisa naik jam 6 sore ini gak? &gt; <strong>[12/05/26, 17:34:05] Fayza:</strong> rib, posisi aku lagi di parkiran motor mau ngegas balik kosan dulu 15 menit biar ga kehujanan. kalau aku ketik full caption sekarang di HP takut ada syarat teknis yang kelewat &gt; <strong>[12/05/26, 17:34:30] Ribka:</strong> waduh, soalnya anak desain harus beresin posternya sebelum jam 6 nih fay mau ada kuis, mereka butuh poin yang buat ditempel di gambarnya aja dulu sih &gt; <strong>[12/05/26, 17:34:50] Fayza:</strong> gimana kalau sekarang aku ketik 3 poin inti perubahannya dulu buat dimasukin anak desain ke slide poster? nanti jam 18.15 pas nyampe kosan baru aku kirim teks caption rapi + link bitly guidebook barunya &gt; <strong>[12/05/26, 17:35:30] Ribka:</strong> eh iya hati-hati di jalan fay! boleh banget gitu aja, kirim 3 poin intinya sekarang ya biar anak desain langsung jalan, caption sama bitly kita tunggu jam 18.15 &gt; <strong>[12/05/26, 17:36:40] Fayza:</strong> 1. Memory limit C/C++ naik jadi 256 MB 2. Time limit tetep 1.0s 3. Compiler GCC C++17 &gt; <strong>[12/05/26, 17:37:12] Fayza:</strong> ini ya rib buat di poster. aku jalan duluu &gt; <strong>[12/05/26, 18:12:40] Fayza:</strong> rib aku udah sampe kosan. ini draf final caption IG sama link bit.ly/GuidebookIMPACT6-Rev1 udah aku update di Notion publikasi ya. aman buat langsung tayang! &gt; <strong>[12/05/26, 18:14:02] Ribka:</strong> cepet banget! makasih banyak fayzaa, langsung aku oper ke medsos ya</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Penilaian Asesor">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Catatan</span>Penilaian Asesor
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Skor:</strong> - / 20 <strong>Evidence yang mendukung:</strong> - <strong>Prioritas perbaikan:</strong> - <strong>Keputusan:</strong> Belum dinilai / Perlu revisi / Tercapai</p>
+</div>
+</div>
 
 
 </section>
@@ -873,7 +1035,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Portfolio KIPP-2 · Nama Mahasiswa</p>
+<p>Portfolio KIPP-2 · Fayza Kamilia</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

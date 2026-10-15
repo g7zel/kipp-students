@@ -1,11 +1,11 @@
 ---
 title: "Relationship Conversation"
 week: 3
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "19"
 assessor_score: "—"
-description: "Evidence listening, boundary, request, atau repair."
-categories: [Fondasi, Relationship]
+description: "Evidence percakapan personal, listening, penentuan batasan (boundary), dan perbaikan hubungan."
+categories: [Fondasi, Inter-Personal]
 ---
 
 ## Kompetensi target
@@ -18,8 +18,79 @@ Melakukan personal conversation dengan listening, clarity, boundary, dan relatio
 - Evidence listening dan response.
 - Analisis relationship state sebelum dan sesudah.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 3](../examples/week-03.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+## Konteks, Competing Objectives, dan Relationship State
+
+Dalam pengerjaan proyek kolaboratif **Desain Website Aksang**, saya bertanggung jawab menyusun *design system* dan *prototyping* antarmuka di **Figma**, sementara rekan setim saya (**Dimas**) mengeksekusi implementasi kodenya ke repositori **GitHub**. Saat saya melakukan `git pull` untuk mengecek progres tampilan di *branch* pengembangan, saya terkejut melihat komponen *navigation bar* dan tata letak kartu informasi yang saya rancang berjam-jam di Figma telah diubah total oleh Dimas menjadi tampilan *default template* yang kaku tanpa memberi tahu saya.
+
+**Analisis Tujuan yang Bersaing (Competing Objectives) & Dinamika Peran:**
+Konflik ini berakar dari benturan dua *objective* yang sama-sama valid tetapi saling mengorbankan:
+- **Objective Saya (UI/UX Designer):** Menciptakan antarmuka yang kaya secara visual (menggunakan tumpukan *layer* dan animasi transisi) agar *user experience* terasa modern dan nilai estetika proyek tinggi.
+- **Objective Dimas (Front-End Developer):** Mengejar keterbacaan dan stabilitas *layout* di layar ponsel (*mobile responsiveness*) menggunakan CSS murni dalam sisa waktu kurang dari satu malam sebelum demo.
+- Ketika desain saya yang kompleks menghambat tujuan Dimas (membuat tampilan HP pecah), Dimas menggunakan wewenang eksekusinya di GitHub untuk memotong desain saya secara sepihak, yang kemudian memicu reaksi pasif-agresif saya di grup.
+
+**State sebelum percakapan:** Saya merasa kerja keras riset UI/UX saya tidak dihargai (skor kekesalan dan ketegangan **8/10**). Di grup besar, saya sempat melontarkan kalimat dingin: *"Kok tampilannya beda jauh sama Figma ya?"* yang membuat suasana grup langsung hening. **Objective** saya adalah menarik komunikasi ke jalur *personal chat* (1-on-1) untuk melakukan *repair* atas nada sindiran saya, memahami hambatan teknis Dimas, menetapkan *boundary*, dan menyepakati desain kompromi yang realistis dikoding malam itu juga.
+
+## Potongan Transcript Percakapan
+
+> **Fayza (Repair & Observation):** "dim, sorry ya tadi komentar aku di grup kesannya nodong banget. aku mau ngobrol berdua aja soal tampilan halaman utama Aksang yang barusan kamu push ke GitHub. tadi pas aku pull, aku liat komponen card sama navbar-nya berubah jadi polos, beda sama design system yang udah kita kunci di Figma"
+> **Dimas:** "iya fay, sorry juga aku langsung ubah di kode. jujur semalem aku stress banget pas ngoding bagian responsifnya. animasi sama tumpukan layer yang kamu bikin di Figma itu kalau dipaksain pake CSS murni bikin layout di layar HP pecah terus, sedangkan besok pagi harus udah jalan"
+> **Fayza (Listening & Paraphrase):** "oh gitu.. jadi kamu bukannya sengaja ngebuang desain Figma-nya, tapi karena struktur layer yang aku bikin terlalu rumit buat dibikin responsif di layar HP dalam waktu semalem ya?"
+> **Dimas:** "iya fay, aku takut pas demo besok tampilannya malah berantakan di mobile, makanya aku tembak pake komponen standar aja biar aman"
+> **Fayza (Boundary & Co-Creation Proposal):** "paham banget dim, makasih udah jelasin kendala kodenya. tapi dari sisi UX, informasi filter di bagian atas itu ga boleh ilang karena itu fitur utama kita, dan ke depannya tolong kabarin aku dulu ya sebelum potong komponen di kode biar aku ga kaget pas pull. gimana kalau sekarang aku sederhanain struktur auto-layout di Figma-nya jadi 1 kolom statis aja biar CSS kamu ga pecah di HP, tapi warna sama tombol filternya tetep ngikutin design system? kita kerjain bareng 30 menit di branch baru, aman gak?"
+> **Dimas (Agreement):** "wah kalau dibikin 1 kolom statis gitu sih CSS-nya gampang banget fay, ga bakal pecah! sorry ya semalem aku ga bilang dulu. ayo gas sekarang, aku buka branch `fix/ui-responsive` ya"
+
+## Analisis Listening, Boundary, dan Skala Adaptasi
+
+Melalui **Paraphrase**, saya mendapatkan informasi krusial bahwa penyebab Dimas membuang desain saya bukanlah ketidaksukaan personal, melainkan **animasi dan tumpukan *layer* Figma yang memecahkan *layout* CSS di layar HP**.
+- **Dua Boundary yang Ditegakkan:** (1) *Boundary Produk:* Fitur filter utama di bagian atas tidak boleh dihapus karena merupakan fungsi inti hasil riset pengguna; (2) *Boundary Relasi Kerja:* Setiap kendala implementasi wajib dikomunikasikan sebelum memotong fitur di GitHub.
+- **Mengapa Adaptasi "1 Kolom Statis" Berdampak Besar:** Bagi saya sebagai desainer UI/UX, membuang animasi dan merombak tumpukan *layer* menjadi **1 kolom statis** adalah pengorbanan besar terhadap ego estetika awal saya, ditambah saya harus menata ulang *auto-layout* komponen induk di Figma saat itu juga (pukul 20.50 WIB) dan menyepakati kerja bareng 30 menit di *branch* `fix/ui-responsive` agar Dimas tidak perlu menebak-nebak desain yang harus dikoding.
+
+## Relationship Outcome dan Evidence
+
+- **State sesudah percakapan:** Ketegangan turun dari **8/10 menjadi 1/10**. Pada pukul 21.22 WIB malam itu, perubahan di *branch* `fix/ui-responsive` selesai dikoding dan di-*merge* oleh Dimas.
+- **Check-in Lanjutan (14 Juni 2026):** Tiga hari kemudian saat akan masuk ke halaman berikutnya, Dimas berinisiatif menghubungi saya lebih dulu untuk mengecek tingkat kesulitan *layout* di Figma sebelum mulai ngoding—membuktikan kesepakatan komunikasi kami berjalan langgeng.
+- **Catatan Penggunaan AI:** AI tidak digunakan untuk menyusun chat ke Dimas; hanya digunakan untuk membantu menyusun struktur refleksi portofolio ini.
+
+## Self-assessment
+
+| Dimensi | Skor | Alasan / Evidence Singkat |
+|---|---:|---|
+| Person & Character | 4 | Tujuan yang bersaing (estetika animasi/layer vs stabilitas CSS mobile H-1 demo) dan dinamika peran dianalisis, serta reaksi pasif-agresifku diakui. |
+| Objective & State | 4 | Ketegangan diukur 8/10 $\rightarrow$ 1/10 dengan tujuan jelas, didukung penanda penyelesaian (*merge* malam itu). |
+| Repertoire, Language & AI | 3 | *Repair*, observasi, parafrase, dan dua *boundary* eksplisit sudah kuat; AI hanya dicatat tidak dipakai untuk chat, tanpa pengecekan atau penolakan yang bisa diuji. |
+| Response & Adaptation | 4 | Mengorbankan desain beranimasi/multi-layer menjadi *auto-layout* 1 kolom statis, memperbarui Figma saat itu juga, dan hasilnya di-*merge* malam itu. |
+| Agreement, Action & Relationship | 4 | Terbukti lewat chat penyelesaian *push/merge* malam itu dan *check-in* proaktif dari Dimas tiga hari kemudian. |
+
+**Total: 19/20.**
 
 {{< include ../includes/evidence-template.md >}}
+
+***
+
+## Evidence Tambahan
+
+*Catatan privasi: sebagian jam dan menit pada log chat disamarkan demi privasi. Isi pesan dikutip langsung dari percakapan; karena itu klaim durasi pada dokumen ini bersifat perkiraan.*
+
+**1. Bukti Transkrip Chat Asli Resolusi Handoff Figma-GitHub (11 Juni 2026 — Teks Asli Utuh + Akhir Sesi 30 Menit):**
+> **[11/06/26, 20:40:15] Fayza:** dim, sorry ya tadi komentar aku di grup kesannya nodong banget. aku mau ngobrol berdua aja soal tampilan halaman utama Aksang yang barusan kamu push ke GitHub. tadi pas aku pull, aku liat komponen card sama navbar-nya berubah jadi polos, beda sama design system yang udah kita kunci di Figma
+> **[11/06/26, 20:42:30] Dimas:** iya fay, sorry juga aku langsung ubah di kode. jujur semalem aku stress banget pas ngoding bagian responsifnya. animasi sama tumpukan layer yang kamu bikin di Figma itu kalau dipaksain pake CSS murni bikin layout di layar HP pecah terus, sedangkan besok pagi harus udah jalan
+> **[11/06/26, 20:44:10] Fayza:** oh gitu.. jadi kamu bukannya sengaja ngebuang desain Figma-nya, tapi karena struktur layer yang aku bikin terlalu rumit buat dibikin responsif di layar HP dalam waktu semalem ya?
+> **[11/06/26, 20:45:00] Dimas:** iya fay, aku takut pas demo besok tampilannya malah berantakan di mobile, makanya aku tembak pake komponen standar aja biar aman
+> **[11/06/26, 20:47:22] Fayza:** paham banget dim, makasih udah jelasin kendala kodenya. tapi dari sisi UX, informasi filter di bagian atas itu ga boleh ilang karena itu fitur utama kita, dan ke depannya tolong kabarin aku dulu ya sebelum potong komponen di kode biar aku ga kaget pas pull
+> **[11/06/26, 20:48:05] Fayza:** gimana kalau sekarang aku sederhanain struktur auto-layout di Figma-nya jadi 1 kolom statis aja biar CSS kamu ga pecah di HP, tapi warna sama tombol filternya tetep ngikutin design system? kita kerjain bareng 30 menit di branch baru, aman gak?
+> **[11/06/26, 20:49:40] Dimas:** wah kalau dibikin 1 kolom statis gitu sih CSS-nya gampang banget fay, ga bakal pecah! sorry ya semalem aku ga bilang dulu. ayo gas sekarang, aku buka branch `fix/ui-responsive` ya
+> **[11/06/26, 20:50:15] Fayza:** mantap, link frame Figma yang udah aku sederhanain barusan aku update ya. gas!
+> **[11/06/26, 21:22:40] Dimas:** fay udah beres aku push dan merge ke main ya branch `fix/ui-responsive`-nya! coba kamu git pull lagi deh, tombol filternya udah balik dan di layar hp udah rapi 1 kolom ga pecah lagi
+> **[11/06/26, 21:24:05] Fayza:** barusan aku pull, cakep banget dim udah pas sama figma yang baru!! makasih banyak udah mau lembur bareng benerin ini yaa
+
+**2. Bukti Transkrip Chat Check-In Lanjutan pada Halaman Berikutnya (14 Juni 2026):**
+> **[14/06/26, 19:30:10] Dimas:** fay, malem ini aku mau mulai ngoding halaman detail lomba nih. di figma ada bagian yang pake tumpukan layer kayak kemaren lagi ga? aku nanya dulu sesuai janji kita kemaren wkwk
+> **[14/06/26, 19:31:45] Fayza:** hahaha mantap udah nanya duluan sekarang! aman dim, buat halaman detail ini dari awal udah langsung aku bikin 1 kolom statis semua kok ga pake layer numpuk, jadi bisa langsung kamu hajar CSS-nya
+> **[14/06/26, 19:32:15] Dimas:** asik pengertian banget, gas aku kerjain sekarang ya!
+
+::: {.callout-note title="Penilaian Asesor"}
+**Skor:** - / 20
+**Evidence yang mendukung:** -
+**Prioritas perbaikan:** -
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::

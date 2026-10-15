@@ -1,9 +1,9 @@
 student:
-  name: "Nama Mahasiswa"
-  id: "NIM"
-  program: "Program Studi"
-  cohort: "Angkatan"
-  email: "nama@kampus.ac.id"
+  name: "Fayza Kamilia"
+  id: "18225097"
+  program: "Sistem dan teknologi informasi"
+  cohort: "2025"
+  email: "18225097@mahasiswa.itb.ac.id"
 
 course:
   code: "KIPP-2"
@@ -12,5 +12,5 @@ course:
   semester: "Semester / Tahun Akademik"
 
 repository:
-  url: "https://github.com/USERNAME/NAMA-REPOSITORY"
+  url: "https://github.com/g7zel/kipp-students.git"
 
