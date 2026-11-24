@@ -1,25 +1,66 @@
 ---
 title: "Capstone Performance Portfolio"
 week: 15
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "20/20"
 assessor_score: "—"
 description: "Integrated person-centered communication performance."
 categories: [Assessment, Capstone]
 ---
 
-## Kompetensi target
+## Person, character, dan performance plan
 
-Mengintegrasikan person, character, objective, state, repertoire, language, response, agreement, action, relationship, dan AI judgment.
+Pada 23 November 2026, saya memfasilitasi rapat evaluasi *capstone* (merangkum perjalanan Minggu 5–14) bersama **Pak Hendra** (Ketua Poktan), **Kak Huda** (Penyuluh Pertanian), **Mas Ajad** (perwakilan petani muda ≤35 th), dan **Pak Rinal** (perwakilan petani senior ≥49 th) untuk memutuskan kelanjutan pilot NUSATANI pasca-uji 14 hari.
 
-## Evidence wajib
+- **Character:** Hadir sebagai **fasilitator & mahasiswa peneliti**, bukan pemilik permanen operasional kebun maupun pihak yang memaksakan adopsi aplikasi.
+- **Initial multi-states:** Mas Ajad sangat antusias menginginkan perluasan segera (*Desire*); Kak Huda melihat manfaat transparansi rekomendasi tetapi tetap hati-hati pada batasan 25 pola NPK (*Interest dengan syarat*); Pak Rinal merasa lebih dihargai berkat papan saung dwibahasa namun tetap tidak ingin diwajibkan memakai HP (*Attention netral*); Pak Hendra belum memutuskan apakah kelompok siap melanjutkan setelah masa kuliah tim selesai (*Uncommitted / Evaluation*).
+- **Objective:** Menghasilkan keputusan berbasis bukti lapangan—lanjut terbatas, ubah, atau berhenti—lengkap dengan pemilik tanggung jawab (*owner*), rencana transisi peran mahasiswa, jadwal *review*, dan pencatatan *dissent*.
+- **Performance plan:** Presentasi data pilot 2 menit $\rightarrow$ verifikasi tafsir bersama $\rightarrow$ pembahasan opsi & *trade-off* $\rightarrow$ negosiasi kepemilikan risiko $\rightarrow$ penutupan eksplisit.
 
-- Person/character/state map dan performance plan.
-- Rekaman/transcript, observer feedback, serta decisive adaptation.
-- Agreement/action atau specific disagreement, relationship outcome, AI critique, dan reflection.
+## Evidence dan decisive adaptation
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 15](../examples/week-15.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+**Ringkasan bukti pilot 14 hari (9–22 November 2026):** 12 dari 14 hari pencatatan berjalan lancar; keterlambatan tindakan harian pada petak uji turun dari menunda 1–2 hari menjadi **<30 menit** setelah notifikasi; 2 kejadian hilang sinyal tertangani kartu SOP luring dwibahasa; nol insiden salah dosis pupuk; papan saung Indonesia–Sunda dibaca rutin oleh petani senior dan penggarap. *Caveat eksplisit:* baru 1 petak uji, 1 komoditas, durasi 14 hari, dan tanpa *control group*.
 
-{{< include ../includes/evidence-template.md >}}
+**Momen Decisive Adaptation:**
+
+> **Saya (draf awal):** “Melihat 12 hari berjalan lancar dan SUS sebelumnya 86,9, data pilot mendukung perluasan langsung ke 5 lahan kelompok bulan depan.”  
+> **Pak Hendra:** “Saya tidak setuju diperluas ke 5 lahan dulu. Dua kali sinyal putus kemarin bisa cepat beres karena tim mahasiswa masih rajin menengok. Kalau semester kalian selesai, siapa yang bertanggung jawab menjaga 5 sensor dan menanggung komplain anggota?”  
+> **Kak Huda:** “Betul, dan aturan kita baru fokus nitrogen. Kalau langsung 5 lahan dengan tanaman berbeda, saya tidak sanggup mengawal validasinya sendirian.”  
+> **Saya:** “Saya terlalu cepat menyimpulkan perluasan. Terima kasih koreksinya, Pak Hendra dan Kak Huda. Berarti masalah utamanya bukan lagi apakah aplikasinya mudah dipakai, melainkan **siapa pemilik risiko pemeliharaan** setelah tim mahasiswa selesai, serta batas cakupan aturan pupuk kita?”  
+> **Pak Hendra:** “Tepat. Kami baru sanggup menjaga 1 petak percontohan jika ada panduan perawatan sederhana dan batas tanggung jawab yang jelas.”
+
+Saya langsung **menghentikan slide rekomendasi perluasan 5 lahan** dan membuka pembahasan ulang berbasis batas kapasitas *ownership* lokal.
+
+## Outcome
+
+- **Agreement eksplisit:**
+  1. **Scope:** Pilot dilanjutkan selama **1 musim tanam hanya pada 1 petak percontohan** (bukan 5 lahan) dengan fokus komoditas yang sama.
+  2. **Ownership & Boundary:** **Pengurus Poktan (Pak Hendra)** menjadi pemilik penjadwalan & papan saung dwibahasa; **Kak Huda** memegang hak veto validasi agronomi dan eskalasi *risiko merah*; **Relawan petani muda (Mas Ajad dkk.)** mengelola pembaruan papan saung & pelaporan gangguan.
+  3. **Rencana transisi & exit peran:** Tim mahasiswa NUSATANI menyerahkan buku panduan pemeliharaan sensor, daftar *troubleshooting* luring, serta kode/dokumentasi terbuka, lalu **selesai dari peran operator harian setelah masa transisi 3 minggu (14 Desember 2026)** dan hanya berstatus dukungan konsultatif terbatas.
+  4. **Stop rule & Review:** Jika sensor mengalami gangguan berulang (>3 kali dalam 2 minggu) tanpa solusi mandiri atau membebani kerja relawan, alat dinonaktifkan sementara dan kelompok kembali penuh ke jadwal manual. **Review bersama dijadwalkan 6 minggu kemudian (4 Januari 2027).**
+- **Specific disagreement (Dissent):** Mas Ajad tetap menginginkan perluasan ke 3 petak sekaligus dan percepatan mode luring. Ketidaksetujuan ini dicatat resmi dalam notulen; ekspansi baru dibahas pada *review* Januari 2027 setelah mode luring diuji dan aturan pupuk mencakup unsur P serta K.
+- **Relationship outcome:** Pak Hendra merasa kekhawatiran keberlanjutan kelompok dihormati sepenuhnya; Pak Rinal menyatakan tetap nyaman ikut forum karena suara petani senior tidak dipaksa memakai aplikasi; Kak Huda memegang kendali penuh atas keselamatan agronomi; dan aspirasi Mas Ajad tetap diakui jalurnya secara adil meski belum dikabulkan sekarang.
+
+## Observer feedback dan replay
+
+Pengamat menilai *decisive adaptation* saya (menghentikan slide perluasan 5 lahan) sudah sangat substantif, tetapi mencatat bahwa kalimat pembuka *“data pilot mendukung perluasan”* terlalu kuat untuk sampel 1 petak selama 14 hari.
+
+**Replay perbaikan bahasa pembuka:**
+> “Data awal 14 hari pada 1 petak menunjukkan keterlambatan tindakan harian mungkin berkurang tanpa insiden dosis, sementara dua kejadian putus sinyal dan batas 25 pola nitrogen membuka pertanyaan penting soal siapa penanggung jawab pemeliharaan setelah masa transisi kami. Saya ingin menguji tafsir ini bersama Bapak dan Kakak semua sebelum kita memutuskan langkah berikutnya.”
+
+## AI critique dan reflection
+
+- **AI critique:** Sebelum rapat, AI membantu merangkum catatan log 14 hari dan mendaftar *caveat* statistik yang mungkin terlewat. Namun, AI menyarankan opsi utama: *“Segera ekspansi ke 5–10 lahan karena skor SUS 86,9 dan tingkat selesai 100% menunjukkan produk siap pakai.”* Rekomendasi AI ini **saya tolak tegas** karena AI hanya membaca angka *engagement/usability*, tetapi buta terhadap batas wewenang lokal, risiko hilangnya dukungan pasca-semester, keterbatasan 31,7% sinyal lahan, serta martabat petani senior. Seluruh data log diverifikasi manual dan transkrip rapat tidak diunggah ke AI.
+- **Refleksi akhir (Minggu 5–15):** Pelajaran terpenting sepanjang perjalanan NUSATANI bukanlah bagaimana merancang *pitch* paling persuasif atau membuat semua orang berkata “ya”. Kompetensi komunikasi yang paling menentukan justru keberanian **mengizinkan respons, keberatan, dan batas kehidupan nyata orang lain mengubah tujuan, desain solusi, bahkan peran kita sendiri**—termasuk tahu kapan harus mundur dari posisi operator agar kemandirian dan wewenang tetap berada di tangan komunitas petani itu sendiri.
+
+## Self-assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Peran, relasi kuasa, *multi-state* lima pihak, dan transisi karakter (keluar dari peran operator) dipetakan utuh |
+| Objective & State | 4 | Ketidakpastian sampel kecil, *competing objectives*, dan batas wewenang dikelola tanpa *overclaiming* |
+| Repertoire, Language & AI | 4 | Fasilitasi berbasis bukti, *replay* pelunakan klaim, dan penolakan kritis atas rekomendasi *scale-up* AI |
+| Response & Adaptation | 4 | Keberatan *risk ownership* Pak Hendra & Kak Huda langsung membatalkan rencana ekspansi prematur 5 lahan |
+| Agreement, Action & Relationship | 4 | *Owner*, batas tanggung jawab, *dissent*, rencana transisi 3 minggu, *stop rule*, dan jadwal *review* lengkap |
+
+**Total: 20/20 — Unggul.**

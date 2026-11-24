@@ -2,7 +2,7 @@
 title: "Five-Language Translation Portfolio"
 week: 4
 status: "Siap dinilai"
-self_score: "19"
+self_score: "19/20"
 assessor_score: "—"
 description: "Evidence adaptasi repertoire dan language ke lima target berbeda tanpa mengubah core meaning."
 categories: [Fondasi, Adaptasi Bahasa]

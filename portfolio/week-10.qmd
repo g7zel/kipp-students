@@ -1,25 +1,65 @@
 ---
 title: "Action & Agreement Challenge"
 week: 10
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "20/20"
 assessor_score: "—"
 description: "Barrier, authority, negotiation, agreement, dan action evidence."
 categories: [TAIDA, Action]
 ---
 
-## Kompetensi target
+## Desire–action gap
 
-Menemukan desire–action gap dan menghasilkan agreement yang feasible serta eksplisit.
+Meski petani muda dan penyuluh menunjukkan keinginan kuat terhadap rancangan Iterasi 4, adopsi uji lapangan sempat tertahan oleh empat hambatan (*barrier*) dan perbedaan wewenang (*authority*):
 
-## Evidence wajib
+| Barrier | Person dengan authority | Posisi Awal vs. Kepentingan Dasar |
+|---|---|---|
+| Izin lahan uji & skema kepemilikan sensor bersama (65,1% mau pakai milik kelompok; hanya 27% beli sendiri) | Pak Hendra (Ketua Kelompok Tani) | **Posisi:** “Alat harus langsung bebas masalah tanpa keluar biaya kelompok.”<br>**Kepentingan:** Melindungi kas kelompok dan memastikan petani tidak dirugikan bila alat error |
+| Validasi akurasi 25 pola NPK (fokus nitrogen) & keamanan saran AI | Kak Huda (Penyuluh Pertanian) | **Posisi:** “Semua rekomendasi harus diverifikasi dulu sebelum menyentuh tanaman.”<br>**Kepentingan:** Menjaga keamanan panen dan kepercayaan petani binaannya |
+| Kesiapan Iterasi 4, panduan IoT, dan mitigasi hilang sinyal (31,7% kasus) | Tim Produk & IoT NUSATANI | **Posisi:** “Butuh uji lahan secepatnya untuk validasi akhir.”<br>**Kepentingan:** Mendapat bukti lapangan nyata tanpa merusak reputasi tim akibat gagal teknis |
+| Ketergantungan pendampingan petani senior (SUS 65 & 72,5) | Peneliti UX & Petani Muda | **Posisi:** “Fokus uji ke petani ≤35 tahun saja.”<br>**Kepentingan:** Menjaga kelayakan pilot awal sambil menyiapkan skema pendampingan di tahap berikutnya |
 
-- Barrier dan authority map.
-- Options dan trade-off yang dibahas.
-- Agreement dengan owner/deadline serta bukti action atau review.
+**Titik temu kepentingan:** Semua pihak menginginkan uji coba berskala sangat terkendali yang melindungi panen petani, tidak membebani kas kelompok, dan menghasilkan bukti teknis objektif.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 10](../examples/week-10.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+## Options dan trade-off
 
-{{< include ../includes/evidence-template.md >}}
+1. **Opsi 1 — Uji Pra-Pilot Terkendali (UT-4 Iterasi 4 + Validasi 25 Pola NPK + Pilot 14 Hari pada 1 Lahan Uji Bersinyal dengan Sensor Pinjaman Tim):** Risiko gagal panen dan biaya kelompok mendekati nol, bukti lapangan nyata mulai terkumpul; *trade-off*: cakupan baru 1 komoditas dan kondisi *offline* belum diuji penuh.
+2. **Opsi 2 — Gelar Langsung di 5 Lahan Kelompok Tani:** Data variasi lahan cepat didapat; *trade-off*: risiko tinggi bila aturan NPK meleset atau sinyal putus di 31,7% titik lahan.
+3. **Opsi 3 — Hanya Melanjutkan Uji Figma Tanpa Sensor Fisik:** Bebas risiko lahan; *trade-off*: tidak pernah membuktikan keandalan integrasi IoT dan sensor di lapangan.
+
+Setelah berdiskusi terbuka tanpa tekanan, **Pak Hendra** dan **Kak Huda** memilih **Opsi 1** dengan syarat tidak ada biaya kelompok selama pilot, validasi agronomi tuntas sebelum pemasangan sensor, dan alat dapat dicabut kapan saja.
+
+## Agreement eksplisit
+
+> **Scope:** Validasi aturan 25 pola NPK, pengujian **UT-4** prototipe Iterasi 4 (4 partisipan petani muda), dan uji coba sensor terpasang selama 14 hari pada 1 lahan uji bersinyal milik anggota kelompok tani.  
+> **Owner:** Peneliti UX (Saya) menjalankan UT-4 & rekap bukti; Lead UI/UX memfinalisasi Iterasi 4; Engineer IoT menyiapkan kit sensor & kartu SOP cadangan; Kak Huda memvalidasi 25 pola NPK; Pak Hendra menetapkan 1 petak lahan uji bersinyal & mengawasi aturan henti.  
+> **Prasyarat & Sumber Daya:** Dokumen 25 aturan NPK, prototipe Figma Iterasi 4, 1 set sensor pinjaman tim (bebas biaya kelompok), dan kartu SOP luring.  
+> **Deadline & Checkpoint:** *Checkpoint* tinjauan agronomi & kesiapan alat **28 Oktober 2026 pukul 16.00 WIB**; eksekusi UT-4 **3–5 November 2026**; keputusan *go/no-go* pemasangan sensor **7 November 2026**.  
+> **Definisi Selesai:** (1) Seluruh 25 aturan NPK disetujui tertulis oleh Kak Huda, (2) skor penyelesaian mandiri integrasi IoT di UT-4 ≥90% dan 4/4 partisipan memahami alasan rekomendasi, serta (3) notifikasi gangguan sensor terbaca dalam <5 detik.  
+> **Stop rule:** Pilot lahan dihentikan atau ditunda segera jika rekomendasi dosis menyimpang dari catatan penyuluh, jika terjadi 2 kali kegagalan notifikasi sensor tanpa peringatan, atau jika petani merasa beban pencatatan mengganggu kerja harian.  
+> **Review:** **21 November 2026 pukul 10.00 WIB** bersama Pak Hendra, Kak Huda, dan petani penguji (evaluasi jalur tugas dan relasi).
+
+## Action evidence dan adaptation
+
+Kesepakatan ini tidak berhenti pada rencana, melainkan dibuktikan lewat eksekusi *checkpoint* dan adaptasi nyata sebelum keputusan *go/no-go*:
+
+1. **Temuan Checkpoint (28 Oktober 2026):** Saat tinjauan agronomi, **Kak Huda** menemukan **2 dari 25 pola aturan NPK** merekomendasikan dosis nitrogen berlebih untuk fase generatif tanaman. Pada hari yang sama, **Pak Hendra** mengingatkan perlunya prosedur jelas saat sinyal hilang agar petani tidak kebingungan menunggu aplikasi.
+2. **Aksi Perbaikan Nyata:** Tim langsung merevisi 2 aturan NPK tersebut (dikonfirmasi ulang oleh Kak Huda via catatan revisi bertanggal 30 Oktober 2026) dan mencetak **kartu SOP cadangan luring berlaminasi** yang ditempel langsung pada kotak sensor sebagai pengaman sementara sebelum fitur mode luring rampung.
+3. **Hasil Eksekusi UT-4 (3–5 November 2026):** Pengujian Iterasi 4 menunjukkan peningkatan penyelesaian mandiri integrasi IoT dari **75% (UT-3) menjadi 100%**, **4 dari 4 partisipan** mampu menjelaskan ulang alasan di balik rekomendasi dosis, dan notifikasi gangguan sensor terdeteksi dalam **<5 detik**.
+4. **Evaluasi Jalur Ganda:**
+   - *Jalur Tugas:* Seluruh syarat *Definisi Selesai* pra-pilot terpenuhi tepat waktu pada 7 November 2026 sehingga izin uji 1 lahan disetujui Pak Hendra; integritas data tetap dijaga dengan memisahkan hasil terverifikasi dari template kosong sebelumnya.
+   - *Jalur Relasi:* Kepercayaan antara tim, penyuluh, dan Ketua Kelompok Tani menguat karena keberatan keduanya langsung diwujudkan menjadi perubahan teknis nyata, dan hak menghentikan pilot kapan saja tetap dipegang penuh oleh pihak kelompok tani.
+
+**AI Statement:** AI digunakan untuk menyusun *checklist* awal identifikasi risiko operasional dan menguji ketajaman rumusan *stop rule* agar bebas dari kata kabur. Otoritas validasi agronomi sepenuhnya dipegang oleh Kak Huda, dan izin lahan sepenuhnya dipegang oleh Pak Hendra—AI tidak pernah diminta menyatakan sistem aman untuk lahan.
+
+## Self-assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | *Authority*, tanggung jawab, serta Posisi vs. Kepentingan tiap pihak dipetakan tajam dan empatik |
+| Objective & State | 4 | *Desire–action gap*, 4 *barrier*, dan titik temu kepentingan dirumuskan sangat konkret |
+| Repertoire, Language & AI | 4 | 3 opsi & *trade-off* proporsional; formula kesepakatan bebas kata kabur; batas peran AI transparan |
+| Response & Adaptation | 4 | Temuan *checkpoint* (2 aturan NPK & SOP luring) langsung dieksekusi sebelum *go/no-go* dan teruji di UT-4 |
+| Agreement, Action & Relationship | 4 | *Scope, owner, checkpoint, definisi selesai, stop rule, review*, bukti aksi nyata, dan evaluasi jalur ganda lengkap |
+
+**Total: 20/20 — Unggul.**

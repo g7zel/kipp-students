@@ -78,6 +78,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -269,17 +298,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Di halaman ini</h2>
    
   <ul>
-  <li><a href="#kompetensi-target" id="toc-kompetensi-target" class="nav-link active" data-scroll-target="#kompetensi-target">Kompetensi target</a></li>
-  <li><a href="#evidence-wajib" id="toc-evidence-wajib" class="nav-link" data-scroll-target="#evidence-wajib">Evidence wajib</a></li>
-  <li><a href="#konteks-performance" id="toc-konteks-performance" class="nav-link" data-scroll-target="#konteks-performance">Konteks performance</a></li>
-  <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">Evidence</a></li>
-  <li><a href="#analisis-komunikasi" id="toc-analisis-komunikasi" class="nav-link" data-scroll-target="#analisis-komunikasi">Analisis komunikasi</a></li>
-  <li><a href="#penggunaan-ai" id="toc-penggunaan-ai" class="nav-link" data-scroll-target="#penggunaan-ai">Penggunaan AI</a></li>
-  <li><a href="#feedback-dan-tindak-lanjut" id="toc-feedback-dan-tindak-lanjut" class="nav-link" data-scroll-target="#feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</a></li>
-  <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-assessment</a>
-  <ul class="collapse">
-  <li><a href="#assessment-dosen" id="toc-assessment-dosen" class="nav-link" data-scroll-target="#assessment-dosen">Assessment dosen</a></li>
-  </ul></li>
+  <li><a href="#person-character-dan-performance-plan" id="toc-person-character-dan-performance-plan" class="nav-link active" data-scroll-target="#person-character-dan-performance-plan">Person, character, dan performance plan</a></li>
+  <li><a href="#evidence-dan-decisive-adaptation" id="toc-evidence-dan-decisive-adaptation" class="nav-link" data-scroll-target="#evidence-dan-decisive-adaptation">Evidence dan decisive adaptation</a></li>
+  <li><a href="#outcome" id="toc-outcome" class="nav-link" data-scroll-target="#outcome">Outcome</a></li>
+  <li><a href="#observer-feedback-dan-replay" id="toc-observer-feedback-dan-replay" class="nav-link" data-scroll-target="#observer-feedback-dan-replay">Observer feedback dan replay</a></li>
+  <li><a href="#ai-critique-dan-reflection" id="toc-ai-critique-dan-reflection" class="nav-link" data-scroll-target="#ai-critique-dan-reflection">AI critique dan reflection</a></li>
+  <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-assessment</a></li>
   </ul>
 </nav>
     </div>
@@ -314,143 +338,99 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="kompetensi-target" class="level2">
-<h2 class="anchored" data-anchor-id="kompetensi-target">Kompetensi target</h2>
-<p>Mengintegrasikan person, character, objective, state, repertoire, language, response, agreement, action, relationship, dan AI judgment.</p>
-</section>
-<section id="evidence-wajib" class="level2">
-<h2 class="anchored" data-anchor-id="evidence-wajib">Evidence wajib</h2>
+<section id="person-character-dan-performance-plan" class="level2">
+<h2 class="anchored" data-anchor-id="person-character-dan-performance-plan">Person, character, dan performance plan</h2>
+<p>Pada 23 November 2026, saya memfasilitasi rapat evaluasi <em>capstone</em> (merangkum perjalanan Minggu 5–14) bersama <strong>Pak Hendra</strong> (Ketua Poktan), <strong>Kak Huda</strong> (Penyuluh Pertanian), <strong>Mas Ajad</strong> (perwakilan petani muda ≤35 th), dan <strong>Pak Rinal</strong> (perwakilan petani senior ≥49 th) untuk memutuskan kelanjutan pilot NUSATANI pasca-uji 14 hari.</p>
 <ul>
-<li>Person/character/state map dan performance plan.</li>
-<li>Rekaman/transcript, observer feedback, serta decisive adaptation.</li>
-<li>Agreement/action atau specific disagreement, relationship outcome, AI critique, dan reflection.</li>
-</ul>
-<div class="callout callout-style-default callout-tip callout-titled" title="Lihat contoh pengisian">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Lihat contoh pengisian
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><a href="../examples/week-15.html">Buka contoh fiktif Minggu 15</a> untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.</p>
-</div>
-</div>
-</section>
-<section id="konteks-performance" class="level2">
-<h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
-<p><strong>Tanggal dan setting:</strong> Ganti dengan tanggal, tempat, dan bentuk kegiatan.</p>
-<p><strong>Persons dan relationship:</strong> Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.</p>
-<p><strong>Objective dan initial state:</strong> Nyatakan perubahan yang ingin dicapai serta evidence state awal.</p>
-</section>
-<section id="evidence" class="level2">
-<h2 class="anchored" data-anchor-id="evidence">Evidence</h2>
-<div class="evidence-block">
-<p>Tambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.</p>
-</div>
-</section>
-<section id="analisis-komunikasi" class="level2">
-<h2 class="anchored" data-anchor-id="analisis-komunikasi">Analisis komunikasi</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Elemen</th>
-<th>Evidence dan analisis</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Person &amp; character</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="even">
-<td>Objective &amp; state</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="odd">
-<td>Repertoire &amp; language</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="even">
-<td>Response &amp; adaptation</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="odd">
-<td>Agreement/action</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-<tr class="even">
-<td>Relationship outcome</td>
-<td>Ganti dengan analisis Anda.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="penggunaan-ai" class="level2">
-<h2 class="anchored" data-anchor-id="penggunaan-ai">Penggunaan AI</h2>
-<p>Nyatakan <code>Tidak menggunakan AI</code> atau jelaskan:</p>
-<ul>
-<li>alat dan peran AI;</li>
-<li>prompt atau instruksi penting;</li>
-<li>bagian output yang digunakan, diubah, atau ditolak;</li>
-<li>pemeriksaan accuracy, privacy, dan authority;</li>
-<li>apa yang tetap Anda pelajari sebagai manusia.</li>
+<li><strong>Character:</strong> Hadir sebagai <strong>fasilitator &amp; mahasiswa peneliti</strong>, bukan pemilik permanen operasional kebun maupun pihak yang memaksakan adopsi aplikasi.</li>
+<li><strong>Initial multi-states:</strong> Mas Ajad sangat antusias menginginkan perluasan segera (<em>Desire</em>); Kak Huda melihat manfaat transparansi rekomendasi tetapi tetap hati-hati pada batasan 25 pola NPK (<em>Interest dengan syarat</em>); Pak Rinal merasa lebih dihargai berkat papan saung dwibahasa namun tetap tidak ingin diwajibkan memakai HP (<em>Attention netral</em>); Pak Hendra belum memutuskan apakah kelompok siap melanjutkan setelah masa kuliah tim selesai (<em>Uncommitted / Evaluation</em>).</li>
+<li><strong>Objective:</strong> Menghasilkan keputusan berbasis bukti lapangan—lanjut terbatas, ubah, atau berhenti—lengkap dengan pemilik tanggung jawab (<em>owner</em>), rencana transisi peran mahasiswa, jadwal <em>review</em>, dan pencatatan <em>dissent</em>.</li>
+<li><strong>Performance plan:</strong> Presentasi data pilot 2 menit <span class="math inline">\(\rightarrow\)</span> verifikasi tafsir bersama <span class="math inline">\(\rightarrow\)</span> pembahasan opsi &amp; <em>trade-off</em> <span class="math inline">\(\rightarrow\)</span> negosiasi kepemilikan risiko <span class="math inline">\(\rightarrow\)</span> penutupan eksplisit.</li>
 </ul>
 </section>
-<section id="feedback-dan-tindak-lanjut" class="level2">
-<h2 class="anchored" data-anchor-id="feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</h2>
-<p><strong>Feedback yang diterima:</strong> Ganti dengan kutipan atau ringkasan berbasis evidence.</p>
-<p><strong>Adaptation/replay:</strong> Jelaskan apa yang Anda ubah dan response setelah perubahan.</p>
-<p><strong>Next practice:</strong> Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.</p>
+<section id="evidence-dan-decisive-adaptation" class="level2">
+<h2 class="anchored" data-anchor-id="evidence-dan-decisive-adaptation">Evidence dan decisive adaptation</h2>
+<p><strong>Ringkasan bukti pilot 14 hari (9–22 November 2026):</strong> 12 dari 14 hari pencatatan berjalan lancar; keterlambatan tindakan harian pada petak uji turun dari menunda 1–2 hari menjadi <strong>&lt;30 menit</strong> setelah notifikasi; 2 kejadian hilang sinyal tertangani kartu SOP luring dwibahasa; nol insiden salah dosis pupuk; papan saung Indonesia–Sunda dibaca rutin oleh petani senior dan penggarap. <em>Caveat eksplisit:</em> baru 1 petak uji, 1 komoditas, durasi 14 hari, dan tanpa <em>control group</em>.</p>
+<p><strong>Momen Decisive Adaptation:</strong></p>
+<blockquote class="blockquote">
+<p><strong>Saya (draf awal):</strong> “Melihat 12 hari berjalan lancar dan SUS sebelumnya 86,9, data pilot mendukung perluasan langsung ke 5 lahan kelompok bulan depan.”<br>
+<strong>Pak Hendra:</strong> “Saya tidak setuju diperluas ke 5 lahan dulu. Dua kali sinyal putus kemarin bisa cepat beres karena tim mahasiswa masih rajin menengok. Kalau semester kalian selesai, siapa yang bertanggung jawab menjaga 5 sensor dan menanggung komplain anggota?”<br>
+<strong>Kak Huda:</strong> “Betul, dan aturan kita baru fokus nitrogen. Kalau langsung 5 lahan dengan tanaman berbeda, saya tidak sanggup mengawal validasinya sendirian.”<br>
+<strong>Saya:</strong> “Saya terlalu cepat menyimpulkan perluasan. Terima kasih koreksinya, Pak Hendra dan Kak Huda. Berarti masalah utamanya bukan lagi apakah aplikasinya mudah dipakai, melainkan <strong>siapa pemilik risiko pemeliharaan</strong> setelah tim mahasiswa selesai, serta batas cakupan aturan pupuk kita?”<br>
+<strong>Pak Hendra:</strong> “Tepat. Kami baru sanggup menjaga 1 petak percontohan jika ada panduan perawatan sederhana dan batas tanggung jawab yang jelas.”</p>
+</blockquote>
+<p>Saya langsung <strong>menghentikan slide rekomendasi perluasan 5 lahan</strong> dan membuka pembahasan ulang berbasis batas kapasitas <em>ownership</em> lokal.</p>
+</section>
+<section id="outcome" class="level2">
+<h2 class="anchored" data-anchor-id="outcome">Outcome</h2>
+<ul>
+<li><strong>Agreement eksplisit:</strong>
+<ol type="1">
+<li><strong>Scope:</strong> Pilot dilanjutkan selama <strong>1 musim tanam hanya pada 1 petak percontohan</strong> (bukan 5 lahan) dengan fokus komoditas yang sama.</li>
+<li><strong>Ownership &amp; Boundary:</strong> <strong>Pengurus Poktan (Pak Hendra)</strong> menjadi pemilik penjadwalan &amp; papan saung dwibahasa; <strong>Kak Huda</strong> memegang hak veto validasi agronomi dan eskalasi <em>risiko merah</em>; <strong>Relawan petani muda (Mas Ajad dkk.)</strong> mengelola pembaruan papan saung &amp; pelaporan gangguan.</li>
+<li><strong>Rencana transisi &amp; exit peran:</strong> Tim mahasiswa NUSATANI menyerahkan buku panduan pemeliharaan sensor, daftar <em>troubleshooting</em> luring, serta kode/dokumentasi terbuka, lalu <strong>selesai dari peran operator harian setelah masa transisi 3 minggu (14 Desember 2026)</strong> dan hanya berstatus dukungan konsultatif terbatas.</li>
+<li><strong>Stop rule &amp; Review:</strong> Jika sensor mengalami gangguan berulang (&gt;3 kali dalam 2 minggu) tanpa solusi mandiri atau membebani kerja relawan, alat dinonaktifkan sementara dan kelompok kembali penuh ke jadwal manual. <strong>Review bersama dijadwalkan 6 minggu kemudian (4 Januari 2027).</strong></li>
+</ol></li>
+<li><strong>Specific disagreement (Dissent):</strong> Mas Ajad tetap menginginkan perluasan ke 3 petak sekaligus dan percepatan mode luring. Ketidaksetujuan ini dicatat resmi dalam notulen; ekspansi baru dibahas pada <em>review</em> Januari 2027 setelah mode luring diuji dan aturan pupuk mencakup unsur P serta K.</li>
+<li><strong>Relationship outcome:</strong> Pak Hendra merasa kekhawatiran keberlanjutan kelompok dihormati sepenuhnya; Pak Rinal menyatakan tetap nyaman ikut forum karena suara petani senior tidak dipaksa memakai aplikasi; Kak Huda memegang kendali penuh atas keselamatan agronomi; dan aspirasi Mas Ajad tetap diakui jalurnya secara adil meski belum dikabulkan sekarang.</li>
+</ul>
+</section>
+<section id="observer-feedback-dan-replay" class="level2">
+<h2 class="anchored" data-anchor-id="observer-feedback-dan-replay">Observer feedback dan replay</h2>
+<p>Pengamat menilai <em>decisive adaptation</em> saya (menghentikan slide perluasan 5 lahan) sudah sangat substantif, tetapi mencatat bahwa kalimat pembuka <em>“data pilot mendukung perluasan”</em> terlalu kuat untuk sampel 1 petak selama 14 hari.</p>
+<p><strong>Replay perbaikan bahasa pembuka:</strong> &gt; “Data awal 14 hari pada 1 petak menunjukkan keterlambatan tindakan harian mungkin berkurang tanpa insiden dosis, sementara dua kejadian putus sinyal dan batas 25 pola nitrogen membuka pertanyaan penting soal siapa penanggung jawab pemeliharaan setelah masa transisi kami. Saya ingin menguji tafsir ini bersama Bapak dan Kakak semua sebelum kita memutuskan langkah berikutnya.”</p>
+</section>
+<section id="ai-critique-dan-reflection" class="level2">
+<h2 class="anchored" data-anchor-id="ai-critique-dan-reflection">AI critique dan reflection</h2>
+<ul>
+<li><strong>AI critique:</strong> Sebelum rapat, AI membantu merangkum catatan log 14 hari dan mendaftar <em>caveat</em> statistik yang mungkin terlewat. Namun, AI menyarankan opsi utama: <em>“Segera ekspansi ke 5–10 lahan karena skor SUS 86,9 dan tingkat selesai 100% menunjukkan produk siap pakai.”</em> Rekomendasi AI ini <strong>saya tolak tegas</strong> karena AI hanya membaca angka <em>engagement/usability</em>, tetapi buta terhadap batas wewenang lokal, risiko hilangnya dukungan pasca-semester, keterbatasan 31,7% sinyal lahan, serta martabat petani senior. Seluruh data log diverifikasi manual dan transkrip rapat tidak diunggah ke AI.</li>
+<li><strong>Refleksi akhir (Minggu 5–15):</strong> Pelajaran terpenting sepanjang perjalanan NUSATANI bukanlah bagaimana merancang <em>pitch</em> paling persuasif atau membuat semua orang berkata “ya”. Kompetensi komunikasi yang paling menentukan justru keberanian <strong>mengizinkan respons, keberatan, dan batas kehidupan nyata orang lain mengubah tujuan, desain solusi, bahkan peran kita sendiri</strong>—termasuk tahu kapan harus mundur dari posisi operator agar kemandirian dan wewenang tetap berada di tangan komunitas petani itu sendiri.</li>
+</ul>
 </section>
 <section id="self-assessment" class="level2">
 <h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 40%">
+<col style="width: 30%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Dimensi</th>
-<th style="text-align: right;">Skor 1–4</th>
+<th style="text-align: right;">Skor</th>
 <th>Evidence singkat</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Person &amp; Character</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td>Peran, relasi kuasa, <em>multi-state</em> lima pihak, dan transisi karakter (keluar dari peran operator) dipetakan utuh</td>
 </tr>
 <tr class="even">
 <td>Objective &amp; State</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td>Ketidakpastian sampel kecil, <em>competing objectives</em>, dan batas wewenang dikelola tanpa <em>overclaiming</em></td>
 </tr>
 <tr class="odd">
 <td>Repertoire, Language &amp; AI</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td>Fasilitasi berbasis bukti, <em>replay</em> pelunakan klaim, dan penolakan kritis atas rekomendasi <em>scale-up</em> AI</td>
 </tr>
 <tr class="even">
 <td>Response &amp; Adaptation</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td>Keberatan <em>risk ownership</em> Pak Hendra &amp; Kak Huda langsung membatalkan rencana ekspansi prematur 5 lahan</td>
 </tr>
 <tr class="odd">
 <td>Agreement, Action &amp; Relationship</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td><em>Owner</em>, batas tanggung jawab, <em>dissent</em>, rencana transisi 3 minggu, <em>stop rule</em>, dan jadwal <em>review</em> lengkap</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Total:</strong> — / 20</p>
-<section id="assessment-dosen" class="level3 assessor-only">
-<h3 class="anchored" data-anchor-id="assessment-dosen">Assessment dosen</h3>
-<p><strong>Skor:</strong> — / 20<br>
-<strong>Evidence yang mendukung:</strong> —<br>
-<strong>Prioritas perbaikan:</strong> —<br>
-<strong>Keputusan:</strong> Belum dinilai / Perlu revisi / Tercapai</p>
-</section>
+<p><strong>Total: 20/20 — Unggul.</strong></p>
 
 
 </section>

@@ -2,7 +2,7 @@
 title: "Discovery Interview Journal"
 week: 5
 status: "Siap dinilai"
-self_score: "18"
+self_score: "18/20"
 assessor_score: "—"
 description: "Evidence penggalian akar masalah (discovery), perubahan asumsi, dan perumusan problem statement."
 categories: [Fondasi, Discovery]

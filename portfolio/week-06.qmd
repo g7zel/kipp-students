@@ -1,25 +1,62 @@
 ---
 title: "Target–Attention Challenge"
 week: 6
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "20/20"
 assessor_score: "—"
 description: "Target map, attention pitch, response, dan state assessment."
 categories: [TAIDA, Attention]
 ---
 
-## Kompetensi target
+## Target map
 
-Memilih target person yang tepat dan membuat issue diakui relevan melalui evidence.
+| Person | Riwayat Relasi & Relevance | Authority | Current state (TAIDA awal) |
+|---|---|---|---|
+| Kak Huda (26, penyuluh pertanian & petani muda, Bandung) | Dikenal sejak sesi wawancara riset awal; mengalami langsung kerumitan rawat lahan sekaligus mendampingi petani sekitar | Dapat memvalidasi masalah lapangan, memberi data agregat konsultasi, dan membuka akses ke petani muda & poktan | Problem aware (terbuka, namun kritis terhadap solusi digital) |
+| Petani muda ≤35 tahun (mis. Pak Angga 18, Mas Ajad 33, Pak Rina 35) & mahasiswa agro | Mengalami keterlambatan tindakan di lahan; terbiasa memakai ponsel dan WhatsApp (74,6% responden) | Dapat menguji alur solusi dan memberi bukti keterpakaian nyata | Problem aware |
+| Pak Hendra (Ketua Kelompok Tani) | Belum berinteraksi intensif; bertanggung jawab atas aset bersama dan risiko operasional kelompok | Pemegang wewenang skema kepemilikan sensor bersama dan izin uji lahan | Unaware / Netral (waspada terhadap beban biaya) |
+| Petani senior ≥49 tahun (Pak Rinal 49, Pak Sutikno 53) | Ditemui saat observasi lapangan; jarang membawa HP ke lahan dan lebih nyaman dengan pola manual | Dapat menguji batas aksesibilitas dan kebutuhan pendampingan | Skeptis terhadap aplikasi |
+| Kios pertanian, Dinas Pertanian, & lembaga riset | Ekosistem pendukung kebijakan dan sarana produksi | Diperlukan bila masuk tahap distribusi skala luas | Belum dilibatkan |
 
-## Evidence wajib
+Tim memilih **Kak Huda (penyuluh-petani)** sebagai target pertama, bukan langsung mendekati Ketua Kelompok Tani atau Dinas Pertanian. Selain sudah memiliki riwayat relasi awal yang saling percaya, Kak Huda merasakan dua sudut pandang sekaligus—sebagai petani muda pengguna langsung dan sebagai pendamping lapangan yang memahami pola keluhan petani lain.
 
-- Target map dan alasan memilih satu target.
-- Problem/opportunity pitch serta evidence.
-- Response, state sesudah pitch, dan adaptation.
+## Attention pitch
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 6](../examples/week-06.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+> “Dari survei kami ke 63 petani di Bandung, 49,2% sebenarnya sudah tahu tindakan di lahan tetapi terlambat melakukannya, sehingga perawatan meleset dan bertani terasa makin rumit bagi anak muda. Di kelompok sini, apakah keterlambatan tindakan itu juga kendala utamanya?”
 
-{{< include ../includes/evidence-template.md >}}
+*(39 kata — memakai bahasa lapangan yang tenang, memuat observasi terukur, dampak nyata, serta pertanyaan periksa netral tanpa menawarkan aplikasi terlebih dahulu).*
+
+Evidence yang dipakai: survei 63 responden, 10 wawancara mendalam, dan observasi lapangan di Bandung. Ukuran sampel disebut eksplisit untuk menghindari generalisasi berlebihan.
+
+## Response dan state assessment
+
+Kak Huda merespons dengan jeda berpikir lalu berkata, “Angka 49,2% itu masuk akal, tapi di sini kondisinya terbelah. Petani senior memang jarang pegang HP di kebun, sementara petani muda sebenarnya mau bertani asal tidak ribet menebak jadwal rawat dan tidak disuruh beli alat mahal sendiri.”
+
+Respons ini menunjukkan state berpindah dari **problem aware** menjadi **attention dengan syarat segmentasi dan biaya**, belum masuk tahap Interest.
+
+Tim melakukan konfirmasi *closed-loop* dan memberi ruang penuh untuk menolak:
+
+> “Kalau saya tangkap dengan tepat, kendala utamanya di petani muda bukan sekadar lupa, tapi bingung menerjemahkan kondisi lahan tanpa beban beli alat pribadi—sementara petani senior butuh pendekatan lain. Jika Kak Huda merasa isu ini belum cukup mendesak untuk ditelusuri lebih jauh di kelompok sini, tidak masalah sama sekali, koreksi tadi sudah sangat berharga bagi kami. Namun, bolehkah kami memeriksa catatan agregat pertanyaan petani selama dua minggu terakhir tanpa nama untuk memastikan pola masalahnya?”
+
+**Adaptasi substantif:**
+1. Mengubah *objective* percakapan dari "mengenalkan konsep aplikasi" menjadi **memvalidasi segmentasi masalah berdasarkan usia dan skema kepemilikan alat**.
+2. Mempersempit sasaran pengguna primer ke **petani ≤35 tahun** (didukung temuan hanya 27% responden mau beli sensor sendiri, sedangkan 65,1% bersedia memakai sensor milik kelompok).
+
+## Evidence dan refleksi
+
+- **Artefak:** Target map versi sebelum dan sesudah interaksi (penambahan segmen usia & peran penyuluh sebagai jembatan), makalah akhir (survei n=63, 10 wawancara, *affinity diagram*), serta *observer note* yang mencatat perubahan bahasa tubuh Kak Huda menjadi lebih rileks saat hak menolak dinyatakan secara eksplisit.
+- **Agreement & Action nyata:** Kak Huda menyerahkan rekap anonim pertanyaan perawatan lahan dari petani muda selama dua minggu terakhir pada hari Jumat; tim menjaga kerahasiaan identitas petani dan mengirimkan ringkasan pola masalah balik ke Kak Huda untuk diverifikasi.
+- **AI Statement:** AI (Gemini) dipakai untuk memeriksa apakah draf *pitch* mencampuradukkan observasi dengan asumsi serta menghitung panjang kata agar ≤45 kata. Seluruh data survei, wawancara, dan keputusan segmentasi murni diverifikasi tim dari lapangan.
+- **Next practice:** Menguji kembali temuan pola konsultasi tersebut langsung ke perwakilan petani muda sebelum merancang detail fitur.
+
+## Self-assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Target dipetakan spesifik hingga riwayat relasi, *relevance*, *authority*, dan keadaan TAIDA awal |
+| Objective & State | 4 | Perubahan state (*problem aware → attention bersyarat*) dan pergeseran *objective* terdokumentasi eksplisit |
+| Repertoire, Language & AI | 4 | *Pitch* 39 kata tenang, relevan dengan bahasa sasaran, berbasis data n=63, dan AI dipakai terukur untuk audit logika |
+| Response & Adaptation | 4 | Konfirmasi *closed-loop* atas koreksi Kak Huda langsung mengubah segmen target (≤35 tahun) dan asumsi kepemilikan sensor |
+| Agreement, Action & Relationship | 4 | Hak berkata "tidak" dihormati penuh; kesepakatan berbagi catatan agregat anonim tereksekusi tanpa merusak relasi |
+
+**Total: 20/20 — Unggul.**

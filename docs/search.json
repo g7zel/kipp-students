@@ -1124,84 +1124,51 @@
     "href": "portfolio/week-14.html",
     "title": "AI-Mediated Communication Design",
     "section": "",
-    "text": "Memilih dan membatasi peran AI sambil menjaga human competence, authority, dan relationship.",
+    "text": "Persons & 3 Lapis Konteks: Saya sebagai student researcher & penyusun panduan; Kak Huda (penyuluh, karakter teliti dan melindungi keselamatan panen petani) sebagai reviewer berwenang; Pak Hendra (Ketua Poktan) sebagai pemberi izin edar; serta petani muda dan senior sebagai pembaca yang berhak atas informasi jujur tanpa istilah membingungkan.\nObjective: Menyusun dokumen FAQ Operasional Pilot NUSATANI dan menetapkan spesifikasi batas kopilot AI agar fitur Tanya AI (yang masih berbasis Gemini umum) maupun penyusunan pesan tim tidak melampaui wewenang manusia atau membahayakan tanaman.\n\nMatriks Lampu Lalu Lintas Risiko & Pembagian Peran:\n\n\n\n\n\n\n\n\n\nTugas Komunikasi\nTingkat Risiko\nAI Role (Kopilot Terbatas)\nHuman Responsibility (Mutlak)\n\n\n\n\nMengelompokkan 10 pertanyaan anonim petani dari sesi UT & saung\nHijau (Rendah)\nPattern assistant (mengelompokkan tema)\nMenghapus nama/lokasi lahan dan memeriksa ulang pengelompokan\n\n\nMenyusun draf awal FAQ bahasa sederhana & terjemahan kasar Sunda\nKuning (Sedang)\nCopilot / Penerjemah draf awal\nMenetapkan fakta pilot, nada hormat, batas akurasi, dan verifikasi budaya lokal\n\n\nMemverifikasi dosis pupuk darurat / menangani keluhan tanaman layu\nMerah (Tinggi)\nDilarang digunakan\nKak Huda (penyuluh) menangani konteks lahan secara langsung\n\n\nMenyelesaikan konflik antaranggota atau memberi izin edar panduan\nMerah (Tinggi)\nDilarang digunakan\nPak Hendra & fasilitator manusia secara tatap muka",
     "crumbs": [
       "Beranda",
       "AI-Mediated Communication Design"
     ]
   },
   {
-    "objectID": "portfolio/week-14.html#kompetensi-target",
-    "href": "portfolio/week-14.html#kompetensi-target",
+    "objectID": "portfolio/week-14.html#communication-design-matriks-risiko-ai",
+    "href": "portfolio/week-14.html#communication-design-matriks-risiko-ai",
     "title": "AI-Mediated Communication Design",
     "section": "",
-    "text": "Memilih dan membatasi peran AI sambil menjaga human competence, authority, dan relationship.",
+    "text": "Persons & 3 Lapis Konteks: Saya sebagai student researcher & penyusun panduan; Kak Huda (penyuluh, karakter teliti dan melindungi keselamatan panen petani) sebagai reviewer berwenang; Pak Hendra (Ketua Poktan) sebagai pemberi izin edar; serta petani muda dan senior sebagai pembaca yang berhak atas informasi jujur tanpa istilah membingungkan.\nObjective: Menyusun dokumen FAQ Operasional Pilot NUSATANI dan menetapkan spesifikasi batas kopilot AI agar fitur Tanya AI (yang masih berbasis Gemini umum) maupun penyusunan pesan tim tidak melampaui wewenang manusia atau membahayakan tanaman.\n\nMatriks Lampu Lalu Lintas Risiko & Pembagian Peran:\n\n\n\n\n\n\n\n\n\nTugas Komunikasi\nTingkat Risiko\nAI Role (Kopilot Terbatas)\nHuman Responsibility (Mutlak)\n\n\n\n\nMengelompokkan 10 pertanyaan anonim petani dari sesi UT & saung\nHijau (Rendah)\nPattern assistant (mengelompokkan tema)\nMenghapus nama/lokasi lahan dan memeriksa ulang pengelompokan\n\n\nMenyusun draf awal FAQ bahasa sederhana & terjemahan kasar Sunda\nKuning (Sedang)\nCopilot / Penerjemah draf awal\nMenetapkan fakta pilot, nada hormat, batas akurasi, dan verifikasi budaya lokal\n\n\nMemverifikasi dosis pupuk darurat / menangani keluhan tanaman layu\nMerah (Tinggi)\nDilarang digunakan\nKak Huda (penyuluh) menangani konteks lahan secara langsung\n\n\nMenyelesaikan konflik antaranggota atau memberi izin edar panduan\nMerah (Tinggi)\nDilarang digunakan\nPak Hendra & fasilitator manusia secara tatap muka",
     "crumbs": [
       "Beranda",
       "AI-Mediated Communication Design"
     ]
   },
   {
-    "objectID": "portfolio/week-14.html#evidence-wajib",
-    "href": "portfolio/week-14.html#evidence-wajib",
+    "objectID": "portfolio/week-14.html#prompt-dan-output",
+    "href": "portfolio/week-14.html#prompt-dan-output",
     "title": "AI-Mediated Communication Design",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nPersons, characters, objective, dan state.\nAI role, prompt/output, serta human revision.\nPrivacy/authority/risk review dan alasan tidak menggunakan lebih banyak AI.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 14 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "section": "Prompt dan output",
+    "text": "Prompt dan output\nPrompt berpusat pada manusia yang digunakan: &gt; “Kamu berperan sebagai kopilot penyusun draf bahasa. Kelompokkan 10 pertanyaan anonim petani berikut menjadi draf FAQ bahasa Indonesia yang ramah dan ringkas (maksimal 50 kata per jawaban). Gunakan HANYA fakta dari ringkasan pilot terlampir. Jika informasi tidak ada di brief, wajib tulis [PERLU KONFIRMASI PENYULUH]. Dilarang menjanjikan peningkatan panen, dilarang mengklaim diagnosis 100% akurat, dan dilarang menggunakan nada menggurui.”\nTemuan cacat pada Output AI: Meskipun sudah dibatasi, output AI tetap memunculkan tiga kesalahan krusial: (1) menulis “Tanya AI dan Lensa Tani mendiagnosis penyakit tanaman secara akurat dan otomatis”, (2) menyebut NUSATANI sebagai “aplikasi resmi untuk seluruh petani Indonesia bahkan tanpa internet”, dan (3) menghasilkan satu jawaban sepanjang 132 kata yang terlalu padat bagi pembaca di lahan.",
     "crumbs": [
       "Beranda",
       "AI-Mediated Communication Design"
     ]
   },
   {
-    "objectID": "portfolio/week-14.html#konteks-performance",
-    "href": "portfolio/week-14.html#konteks-performance",
+    "objectID": "portfolio/week-14.html#human-revision",
+    "href": "portfolio/week-14.html#human-revision",
     "title": "AI-Mediated Communication Design",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "Human revision",
+    "text": "Human revision\n\n\n\n\n\n\n\n\nOutput AI\nRevisi Manusia\nAlasan Perubahan\n\n\n\n\n“Lensa Tani & Tanya AI mendiagnosis penyakit secara akurat dan otomatis.”\n“Lensa Tani & Tanya AI memberi dugaan awal berbasis foto/teks. Keputusan penanganan akhir tetap dicek langsung oleh petani dan penyuluh.”\nAkurasi & keselamatan panen (model masih Gemini umum, belum dilatih data lokal)\n\n\n“Aplikasi resmi untuk seluruh petani Indonesia bahkan tanpa internet.”\n“Saat ini masih pilot terbatas 1 petak uji bersinyal di kelompok tani; mode luring masih dalam tahap rencana pengembangan.”\nScope dan batas authority (bukan produk nasional/resmi; 31,7% lahan rawan putus sinyal)\n\n\n“Data pertanian Anda dijamin 100% aman.”\n“Catatan uji coba disimpan tanpa nama pribadi petani dan tanpa koordinat pasti petak lahan.”\nMengganti klaim absolut dengan fakta yang dapat diverifikasi\n\n\nPenjelasan penanganan gangguan sensor sepanjang 132 kata.\n3 langkah ringkas 44 kata + instruksi membuka kartu SOP luring di kotak sensor + kontak eskalasi Kak Huda.\nKeterbacaan di lapangan dan kejelasan jalur tindakan\n\n\n\nKoreksi operasional dari reviewer berwenang: Saat meninjau draf hasil revisi saya, Kak Huda menangkap satu detail lokal yang luput baik oleh AI maupun saya: untuk wilayah Bandung yang sering hujan deras pada sore hari, anjuran waktu pemupukan pada FAQ harus secara eksplisit menyebut pagi hari sebelum hujan, bukan sekadar “harian”. Revisi itu langsung dimasukkan sebelum Pak Hendra memberi persetujuan pemasangan FAQ di saung.",
     "crumbs": [
       "Beranda",
       "AI-Mediated Communication Design"
     ]
   },
   {
-    "objectID": "portfolio/week-14.html#evidence",
-    "href": "portfolio/week-14.html#evidence",
+    "objectID": "portfolio/week-14.html#privacy-authority-dan-alasan-berhenti-menggunakan-ai",
+    "href": "portfolio/week-14.html#privacy-authority-dan-alasan-berhenti-menggunakan-ai",
     "title": "AI-Mediated Communication Design",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
-    "crumbs": [
-      "Beranda",
-      "AI-Mediated Communication Design"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-14.html#analisis-komunikasi",
-    "href": "portfolio/week-14.html#analisis-komunikasi",
-    "title": "AI-Mediated Communication Design",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
-    "crumbs": [
-      "Beranda",
-      "AI-Mediated Communication Design"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-14.html#penggunaan-ai",
-    "href": "portfolio/week-14.html#penggunaan-ai",
-    "title": "AI-Mediated Communication Design",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "AI-Mediated Communication Design"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-14.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-14.html#feedback-dan-tindak-lanjut",
-    "title": "AI-Mediated Communication Design",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "Privacy, authority, dan alasan berhenti menggunakan AI",
+    "text": "Privacy, authority, dan alasan berhenti menggunakan AI\n\nPrivasi & data minimum: Seluruh 10 pertanyaan dianonimkan sebelum dimasukkan ke AI; nama petani, nomor WhatsApp, rekaman suara mentah, dan lokasi kebun tidak pernah diunggah.\nAlasan etis & teknis tidak mengotomatiskan lebih jauh: Tim secara sadar menolak mengubah Tanya AI menjadi chatbot otonom 24 jam tanpa eskalasi manusia. Alasannya: (1) model Gemini umum belum terkalibrasi pada karakter tanah lokal Bandung, (2) aturan pupuk baru mencakup 25 pola NPK fokus nitrogen, (3) volume pertanyaan di 1 petak uji masih kecil, dan (4) kesalahan satu kali dalam saran dosis pupuk berdampak langsung pada nafkah petani (risiko merah).\nPernyataan Transparansi AI: “Draf awal pengelompokan dan bahasa FAQ pilot NUSATANI disusun dengan bantuan AI (Gemini) sebagai kopilot bahasa, namun verifikasi fakta agronomi, revisi konteks lokal, keputusan publikasi, dan tanggung jawab relasional sepenuhnya berada pada Tim NUSATANI, Kak Huda (penyuluh), dan Pak Hendra (Ketua Kelompok Tani).”\nArtefak bukti: Log prompt/output asli, tabel change log revisi manusia, catatan koreksi hujan sore dari Kak Huda, dan persetujuan cetak dari Pak Hendra.",
     "crumbs": [
       "Beranda",
       "AI-Mediated Communication Design"
@@ -1212,7 +1179,7 @@
     "href": "portfolio/week-14.html#self-assessment",
     "title": "AI-Mediated Communication Design",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nTiga lapis pribadi manusia, karakter reviewer, dan batas peran AI dipisahkan tegas\n\n\nObjective & State\n4\nTujuan FAQ, Matriks Risiko (Hijau/Kuning/Merah), dan jalur eskalasi manusia sangat jelas\n\n\nRepertoire, Language & AI\n4\nPrompt ketat, output cacat, tabel 4 revisi, privasi, AI statement, dan alasan berhenti lengkap\n\n\nResponse & Adaptation\n4\nTemuan operasional Kak Huda (jadwal pupuk pagi sebelum hujan Bandung) langsung mengubah isi FAQ\n\n\nAgreement, Action & Relationship\n4\nOtoritas validasi penyuluh & izin cetak pengurus dipertahankan; jalur manusia tetap utama\n\n\n\nTotal: 20/20 — Unggul.",
     "crumbs": [
       "Beranda",
       "AI-Mediated Communication Design"
@@ -1223,84 +1190,51 @@
     "href": "portfolio/week-12.html",
     "title": "Community Communication Challenge",
     "section": "",
-    "text": "Memfasilitasi community communication melintasi perbedaan dan power menuju action yang layak.",
+    "text": "Topik deliberasi komunitas (8 November 2026, dihadiri 18 anggota Kelompok Tani Bandung): Aturan Pakai Bersama Sensor Tanah & Pembagian Akses Informasi Lahan Uji NUSATANI (menindaklanjuti temuan survei bahwa 65,1% petani memilih kepemilikan sensor melalui kelompok).\n\n\n\n\n\n\n\n\n\nKelompok / Person\nFakta Objektif\nInterpretasi / Story & Nilai\nPosition Awal\n\n\n\n\nPetani muda (≤35 th, 6 orang)\nSering terlambat merawat lahan (49,2% survei); terbiasa pakai HP & WhatsApp (74,6%)\nStory: “Teknologi mempercepat kerja.”Nilai: Efisiensi, kemandirian belajar\nSensor diprioritaskan untuk anggota yang aktif pakai aplikasi\n\n\nPetani senior (≥49 th, 5 orang)\nJarang membawa HP ke lahan; 2 orang kesulitan saat UT (SUS 65 & 72,5)\nStory: “Alat baru bisa merusak cara rawat yang sudah terbukti.”Nilai: Penghormatan pengalaman, ketenangan kerja\nTetap pakai pola kebun biasa tanpa aturan digital baru\n\n\nBuruh tani / penggarap harian (4 orang — suara paling sunyi)\nBekerja langsung mencangkul dan menyiram di petak uji tiap pagi–siang\nStory: “Kalau alat mahal itu rusak kena cangkul, kami yang disalahkan dan disuruh ganti.”Nilai: Rasa aman nafkah, bebas dari tuduhan sepihak\nTidak berani berpendapat di awal (diam/menghindar)\n\n\nPengurus Kelompok Tani (3 orang, dipimpin Pak Hendra)\nAnggaran kas kelompok terbatas; belum ada SOP peminjaman alat elektronik\nStory: “Jangan sampai alat pinjaman memicu konflik antaranggota.”Nilai: Kerukunan, keadilan akses, akuntabilitas\nWajib ada aturan sederhana tanpa biaya kas",
     "crumbs": [
       "Beranda",
       "Community Communication Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-12.html#kompetensi-target",
-    "href": "portfolio/week-12.html#kompetensi-target",
+    "objectID": "portfolio/week-12.html#community-map",
+    "href": "portfolio/week-12.html#community-map",
     "title": "Community Communication Challenge",
     "section": "",
-    "text": "Memfasilitasi community communication melintasi perbedaan dan power menuju action yang layak.",
+    "text": "Topik deliberasi komunitas (8 November 2026, dihadiri 18 anggota Kelompok Tani Bandung): Aturan Pakai Bersama Sensor Tanah & Pembagian Akses Informasi Lahan Uji NUSATANI (menindaklanjuti temuan survei bahwa 65,1% petani memilih kepemilikan sensor melalui kelompok).\n\n\n\n\n\n\n\n\n\nKelompok / Person\nFakta Objektif\nInterpretasi / Story & Nilai\nPosition Awal\n\n\n\n\nPetani muda (≤35 th, 6 orang)\nSering terlambat merawat lahan (49,2% survei); terbiasa pakai HP & WhatsApp (74,6%)\nStory: “Teknologi mempercepat kerja.”Nilai: Efisiensi, kemandirian belajar\nSensor diprioritaskan untuk anggota yang aktif pakai aplikasi\n\n\nPetani senior (≥49 th, 5 orang)\nJarang membawa HP ke lahan; 2 orang kesulitan saat UT (SUS 65 & 72,5)\nStory: “Alat baru bisa merusak cara rawat yang sudah terbukti.”Nilai: Penghormatan pengalaman, ketenangan kerja\nTetap pakai pola kebun biasa tanpa aturan digital baru\n\n\nBuruh tani / penggarap harian (4 orang — suara paling sunyi)\nBekerja langsung mencangkul dan menyiram di petak uji tiap pagi–siang\nStory: “Kalau alat mahal itu rusak kena cangkul, kami yang disalahkan dan disuruh ganti.”Nilai: Rasa aman nafkah, bebas dari tuduhan sepihak\nTidak berani berpendapat di awal (diam/menghindar)\n\n\nPengurus Kelompok Tani (3 orang, dipimpin Pak Hendra)\nAnggaran kas kelompok terbatas; belum ada SOP peminjaman alat elektronik\nStory: “Jangan sampai alat pinjaman memicu konflik antaranggota.”Nilai: Kerukunan, keadilan akses, akuntabilitas\nWajib ada aturan sederhana tanpa biaya kas",
     "crumbs": [
       "Beranda",
       "Community Communication Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-12.html#evidence-wajib",
-    "href": "portfolio/week-12.html#evidence-wajib",
+    "objectID": "portfolio/week-12.html#tiga-frames-dan-lima-options",
+    "href": "portfolio/week-12.html#tiga-frames-dan-lima-options",
     "title": "Community Communication Challenge",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nCommunity person map dan fact/story/value/position.\nSedikitnya tiga frames dan lima options.\nDeliberation evidence, safeguard, action, dan review plan.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 12 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "section": "Tiga frames dan lima options",
+    "text": "Tiga frames dan lima options\nTiga frames yang diuji: 1. Modernisasi & efisiensi pertanian — ditolak secara halus oleh petani senior karena berkesan membagi warga menjadi “maju vs. tertinggal” (attack frame). 2. Ketertiban inventaris alat kelompok — terasa terlalu birokratis dan membuat penggarap cemas terhadap denda. 3. Gotong royong rawat lahan bersama (Shared Care) — paling membuka percakapan lintas usia.\nReframing kolaboratif yang disepakati: “Bagaimana kita bisa mengatur pemakaian sensor bersama agar petani muda terbantu mengambil keputusan harian secara tepat waktu, petani senior dan penggarap tetap merasa aman serta dihormati, tanpa membebani kas kelompok?”\nLima options yang dibahas: (1) Dipakai eksklusif oleh petani muda, (2) Sistem sewa bergilir berbayar, (3) Sensor dipindah-pindah tiap minggu antarpetak, (4) Dipasang menetap di 1 petak percontohan terbuka dilengkapi papan informasi manual di saung, (5) Tanpa sensor—hanya memakai Lensa Tani secara mandiri. Fasilitator sengaja menunda voting hingga seluruh kelompok (termasuk penggarap yang diam) selesai berbicara.",
     "crumbs": [
       "Beranda",
       "Community Communication Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-12.html#konteks-performance",
-    "href": "portfolio/week-12.html#konteks-performance",
+    "objectID": "portfolio/week-12.html#deliberation-dan-safeguard",
+    "href": "portfolio/week-12.html#deliberation-dan-safeguard",
     "title": "Community Communication Challenge",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "Deliberation dan safeguard",
+    "text": "Deliberation dan safeguard\nDalam sesi round-robin, fasilitator mengundang suara sunyi dengan pertanyaan aman: “Kang Dedi dan rekan penggarap, dari pengalaman kerja harian di petak, apa yang paling mengkhawatirkan jika alat ini dipasang di lahan?” Kang Dedi mengungkapkan ketakutan utamanya bukan pada teknologinya, melainkan risiko dituduh merusak alat saat mencangkul serta tidak paham istilah teknis di layar HP.\nRespons ini langsung mengubah opsi unggulan dari sekadar “petak percontohan” menjadi Opsi 4 yang dimodifikasi: sensor dipasang menetap dengan patok pelindung berwarna terang, dan data harian diterjemahkan petani muda ke papan tulis informasi dwibahasa (Bahasa Indonesia & Bahasa Sunda) di saung kelompok agar petani senior dan penggarap ikut merasakan manfaat tanpa wajib memegang HP.\n\nSufficient agreement: 15 dari 18 peserta menyetujui pilot komunitas 14 hari (9–22 November 2026); 2 abstain (menunggu hasil nyata dulu); 1 petani senior menolak karena merasa pengalaman pribadi sudah cukup. Dissent dicatat utuh dalam notulen.\nSafeguards konkret: (1) Bebas denda/sanksi finansial bagi penggarap jika sensor tergeser tak sengaja—risiko perangkat sepenuhnya ditanggung tim NUSATANI, (2) dilarang memotret atau menyalahkan kesalahan anggota di grup WhatsApp, (3) informasi di saung dan kartu SOP tersedia dalam dwibahasa (Indonesia–Sunda), (4) tombol darurat pencabutan alat kapan saja bila mengganggu kerja kebun, dan (5) evaluasi terbuka hari ke-14.",
     "crumbs": [
       "Beranda",
       "Community Communication Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-12.html#evidence",
-    "href": "portfolio/week-12.html#evidence",
+    "objectID": "portfolio/week-12.html#collective-action-dan-evidence",
+    "href": "portfolio/week-12.html#collective-action-dan-evidence",
     "title": "Community Communication Challenge",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
-    "crumbs": [
-      "Beranda",
-      "Community Communication Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-12.html#analisis-komunikasi",
-    "href": "portfolio/week-12.html#analisis-komunikasi",
-    "title": "Community Communication Challenge",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
-    "crumbs": [
-      "Beranda",
-      "Community Communication Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-12.html#penggunaan-ai",
-    "href": "portfolio/week-12.html#penggunaan-ai",
-    "title": "Community Communication Challenge",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Community Communication Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-12.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-12.html#feedback-dan-tindak-lanjut",
-    "title": "Community Communication Challenge",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "Collective action dan evidence",
+    "text": "Collective action dan evidence\n\nPembagian aksi nyata: Pengurus (Pak Hendra) memasang patok pelindung & papan saung sebelum 9 November; 2 relawan petani muda memperbarui ringkasan papan saung tiap 2 hari dan mencatat log anomali; Kak Huda mengawal validitas saran; saya memfasilitasi forum evaluasi tanpa bertindak sebagai pengawas/penegak aturan.\nHasil pilot 14 hari (9–22 November 2026): 12 dari 14 hari operasional berjalan lancar; 2 kejadian hilang sinyal tertangani oleh kartu SOP luring dwibahasa; catatan ketidakpastian jadwal rawat pada petak uji turun dari 4 kejadian sebelum pilot menjadi 1 kejadian. Ukuran sampel kecil (1 petak, 14 hari) dilaporkan apa adanya tanpa klaim kausal besar terhadap peningkatan panen.\nBatas peran AI: AI hanya dipakai untuk memeriksa apakah ringkasan hasil deliberasi yang disusun fasilitator telah menghilangkan poin dissent atau kekhawatiran penggarap. Transkrip personal dan nama lengkap warga tidak pernah diunggah ke AI.",
     "crumbs": [
       "Beranda",
       "Community Communication Challenge"
@@ -1311,7 +1245,7 @@
     "href": "portfolio/week-12.html#self-assessment",
     "title": "Community Communication Challenge",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nKelompok dengan akses dan power berbeda (termasuk buruh tani sebagai suara sunyi) dilibatkan setara\n\n\nObjective & State\n4\nFakta objektif, interpretasi subjektif, nilai hidup, dan posisi awal dipisahkan secara disiplin\n\n\nRepertoire, Language & AI\n4\n3 frames, collaborative reframing, 5 opsi, round-robin, akses dwibahasa Indonesia–Sunda, dan batas AI\n\n\nResponse & Adaptation\n4\nKekhawatiran buruh tani langsung mengubah desain aturan (patok pelindung, bebas denda, papan saung)\n\n\nAgreement, Action & Relationship\n4\nSufficient agreement (15/18), catatan dissent, 5 safeguards, aksi kolektif, dan evaluasi 14 hari lengkap\n\n\n\nTotal: 20/20 — Unggul.",
     "crumbs": [
       "Beranda",
       "Community Communication Challenge"
@@ -1322,84 +1256,51 @@
     "href": "portfolio/week-10.html",
     "title": "Action & Agreement Challenge",
     "section": "",
-    "text": "Menemukan desire–action gap dan menghasilkan agreement yang feasible serta eksplisit.",
+    "text": "Meski petani muda dan penyuluh menunjukkan keinginan kuat terhadap rancangan Iterasi 4, adopsi uji lapangan sempat tertahan oleh empat hambatan (barrier) dan perbedaan wewenang (authority):\n\n\n\n\n\n\n\n\nBarrier\nPerson dengan authority\nPosisi Awal vs. Kepentingan Dasar\n\n\n\n\nIzin lahan uji & skema kepemilikan sensor bersama (65,1% mau pakai milik kelompok; hanya 27% beli sendiri)\nPak Hendra (Ketua Kelompok Tani)\nPosisi: “Alat harus langsung bebas masalah tanpa keluar biaya kelompok.”Kepentingan: Melindungi kas kelompok dan memastikan petani tidak dirugikan bila alat error\n\n\nValidasi akurasi 25 pola NPK (fokus nitrogen) & keamanan saran AI\nKak Huda (Penyuluh Pertanian)\nPosisi: “Semua rekomendasi harus diverifikasi dulu sebelum menyentuh tanaman.”Kepentingan: Menjaga keamanan panen dan kepercayaan petani binaannya\n\n\nKesiapan Iterasi 4, panduan IoT, dan mitigasi hilang sinyal (31,7% kasus)\nTim Produk & IoT NUSATANI\nPosisi: “Butuh uji lahan secepatnya untuk validasi akhir.”Kepentingan: Mendapat bukti lapangan nyata tanpa merusak reputasi tim akibat gagal teknis\n\n\nKetergantungan pendampingan petani senior (SUS 65 & 72,5)\nPeneliti UX & Petani Muda\nPosisi: “Fokus uji ke petani ≤35 tahun saja.”Kepentingan: Menjaga kelayakan pilot awal sambil menyiapkan skema pendampingan di tahap berikutnya\n\n\n\nTitik temu kepentingan: Semua pihak menginginkan uji coba berskala sangat terkendali yang melindungi panen petani, tidak membebani kas kelompok, dan menghasilkan bukti teknis objektif.",
     "crumbs": [
       "Beranda",
       "Action & Agreement Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-10.html#kompetensi-target",
-    "href": "portfolio/week-10.html#kompetensi-target",
+    "objectID": "portfolio/week-10.html#desireaction-gap",
+    "href": "portfolio/week-10.html#desireaction-gap",
     "title": "Action & Agreement Challenge",
     "section": "",
-    "text": "Menemukan desire–action gap dan menghasilkan agreement yang feasible serta eksplisit.",
+    "text": "Meski petani muda dan penyuluh menunjukkan keinginan kuat terhadap rancangan Iterasi 4, adopsi uji lapangan sempat tertahan oleh empat hambatan (barrier) dan perbedaan wewenang (authority):\n\n\n\n\n\n\n\n\nBarrier\nPerson dengan authority\nPosisi Awal vs. Kepentingan Dasar\n\n\n\n\nIzin lahan uji & skema kepemilikan sensor bersama (65,1% mau pakai milik kelompok; hanya 27% beli sendiri)\nPak Hendra (Ketua Kelompok Tani)\nPosisi: “Alat harus langsung bebas masalah tanpa keluar biaya kelompok.”Kepentingan: Melindungi kas kelompok dan memastikan petani tidak dirugikan bila alat error\n\n\nValidasi akurasi 25 pola NPK (fokus nitrogen) & keamanan saran AI\nKak Huda (Penyuluh Pertanian)\nPosisi: “Semua rekomendasi harus diverifikasi dulu sebelum menyentuh tanaman.”Kepentingan: Menjaga keamanan panen dan kepercayaan petani binaannya\n\n\nKesiapan Iterasi 4, panduan IoT, dan mitigasi hilang sinyal (31,7% kasus)\nTim Produk & IoT NUSATANI\nPosisi: “Butuh uji lahan secepatnya untuk validasi akhir.”Kepentingan: Mendapat bukti lapangan nyata tanpa merusak reputasi tim akibat gagal teknis\n\n\nKetergantungan pendampingan petani senior (SUS 65 & 72,5)\nPeneliti UX & Petani Muda\nPosisi: “Fokus uji ke petani ≤35 tahun saja.”Kepentingan: Menjaga kelayakan pilot awal sambil menyiapkan skema pendampingan di tahap berikutnya\n\n\n\nTitik temu kepentingan: Semua pihak menginginkan uji coba berskala sangat terkendali yang melindungi panen petani, tidak membebani kas kelompok, dan menghasilkan bukti teknis objektif.",
     "crumbs": [
       "Beranda",
       "Action & Agreement Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-10.html#evidence-wajib",
-    "href": "portfolio/week-10.html#evidence-wajib",
+    "objectID": "portfolio/week-10.html#options-dan-trade-off",
+    "href": "portfolio/week-10.html#options-dan-trade-off",
     "title": "Action & Agreement Challenge",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nBarrier dan authority map.\nOptions dan trade-off yang dibahas.\nAgreement dengan owner/deadline serta bukti action atau review.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 10 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "section": "Options dan trade-off",
+    "text": "Options dan trade-off\n\nOpsi 1 — Uji Pra-Pilot Terkendali (UT-4 Iterasi 4 + Validasi 25 Pola NPK + Pilot 14 Hari pada 1 Lahan Uji Bersinyal dengan Sensor Pinjaman Tim): Risiko gagal panen dan biaya kelompok mendekati nol, bukti lapangan nyata mulai terkumpul; trade-off: cakupan baru 1 komoditas dan kondisi offline belum diuji penuh.\nOpsi 2 — Gelar Langsung di 5 Lahan Kelompok Tani: Data variasi lahan cepat didapat; trade-off: risiko tinggi bila aturan NPK meleset atau sinyal putus di 31,7% titik lahan.\nOpsi 3 — Hanya Melanjutkan Uji Figma Tanpa Sensor Fisik: Bebas risiko lahan; trade-off: tidak pernah membuktikan keandalan integrasi IoT dan sensor di lapangan.\n\nSetelah berdiskusi terbuka tanpa tekanan, Pak Hendra dan Kak Huda memilih Opsi 1 dengan syarat tidak ada biaya kelompok selama pilot, validasi agronomi tuntas sebelum pemasangan sensor, dan alat dapat dicabut kapan saja.",
     "crumbs": [
       "Beranda",
       "Action & Agreement Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-10.html#konteks-performance",
-    "href": "portfolio/week-10.html#konteks-performance",
+    "objectID": "portfolio/week-10.html#agreement-eksplisit",
+    "href": "portfolio/week-10.html#agreement-eksplisit",
     "title": "Action & Agreement Challenge",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "Agreement eksplisit",
+    "text": "Agreement eksplisit\n\nScope: Validasi aturan 25 pola NPK, pengujian UT-4 prototipe Iterasi 4 (4 partisipan petani muda), dan uji coba sensor terpasang selama 14 hari pada 1 lahan uji bersinyal milik anggota kelompok tani.\nOwner: Peneliti UX (Saya) menjalankan UT-4 & rekap bukti; Lead UI/UX memfinalisasi Iterasi 4; Engineer IoT menyiapkan kit sensor & kartu SOP cadangan; Kak Huda memvalidasi 25 pola NPK; Pak Hendra menetapkan 1 petak lahan uji bersinyal & mengawasi aturan henti.\nPrasyarat & Sumber Daya: Dokumen 25 aturan NPK, prototipe Figma Iterasi 4, 1 set sensor pinjaman tim (bebas biaya kelompok), dan kartu SOP luring.\nDeadline & Checkpoint: Checkpoint tinjauan agronomi & kesiapan alat 28 Oktober 2026 pukul 16.00 WIB; eksekusi UT-4 3–5 November 2026; keputusan go/no-go pemasangan sensor 7 November 2026.\nDefinisi Selesai: (1) Seluruh 25 aturan NPK disetujui tertulis oleh Kak Huda, (2) skor penyelesaian mandiri integrasi IoT di UT-4 ≥90% dan 4/4 partisipan memahami alasan rekomendasi, serta (3) notifikasi gangguan sensor terbaca dalam &lt;5 detik.\nStop rule: Pilot lahan dihentikan atau ditunda segera jika rekomendasi dosis menyimpang dari catatan penyuluh, jika terjadi 2 kali kegagalan notifikasi sensor tanpa peringatan, atau jika petani merasa beban pencatatan mengganggu kerja harian.\nReview: 21 November 2026 pukul 10.00 WIB bersama Pak Hendra, Kak Huda, dan petani penguji (evaluasi jalur tugas dan relasi).",
     "crumbs": [
       "Beranda",
       "Action & Agreement Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-10.html#evidence",
-    "href": "portfolio/week-10.html#evidence",
+    "objectID": "portfolio/week-10.html#action-evidence-dan-adaptation",
+    "href": "portfolio/week-10.html#action-evidence-dan-adaptation",
     "title": "Action & Agreement Challenge",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
-    "crumbs": [
-      "Beranda",
-      "Action & Agreement Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-10.html#analisis-komunikasi",
-    "href": "portfolio/week-10.html#analisis-komunikasi",
-    "title": "Action & Agreement Challenge",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
-    "crumbs": [
-      "Beranda",
-      "Action & Agreement Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-10.html#penggunaan-ai",
-    "href": "portfolio/week-10.html#penggunaan-ai",
-    "title": "Action & Agreement Challenge",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Action & Agreement Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-10.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-10.html#feedback-dan-tindak-lanjut",
-    "title": "Action & Agreement Challenge",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "Action evidence dan adaptation",
+    "text": "Action evidence dan adaptation\nKesepakatan ini tidak berhenti pada rencana, melainkan dibuktikan lewat eksekusi checkpoint dan adaptasi nyata sebelum keputusan go/no-go:\n\nTemuan Checkpoint (28 Oktober 2026): Saat tinjauan agronomi, Kak Huda menemukan 2 dari 25 pola aturan NPK merekomendasikan dosis nitrogen berlebih untuk fase generatif tanaman. Pada hari yang sama, Pak Hendra mengingatkan perlunya prosedur jelas saat sinyal hilang agar petani tidak kebingungan menunggu aplikasi.\nAksi Perbaikan Nyata: Tim langsung merevisi 2 aturan NPK tersebut (dikonfirmasi ulang oleh Kak Huda via catatan revisi bertanggal 30 Oktober 2026) dan mencetak kartu SOP cadangan luring berlaminasi yang ditempel langsung pada kotak sensor sebagai pengaman sementara sebelum fitur mode luring rampung.\nHasil Eksekusi UT-4 (3–5 November 2026): Pengujian Iterasi 4 menunjukkan peningkatan penyelesaian mandiri integrasi IoT dari 75% (UT-3) menjadi 100%, 4 dari 4 partisipan mampu menjelaskan ulang alasan di balik rekomendasi dosis, dan notifikasi gangguan sensor terdeteksi dalam &lt;5 detik.\nEvaluasi Jalur Ganda:\n\nJalur Tugas: Seluruh syarat Definisi Selesai pra-pilot terpenuhi tepat waktu pada 7 November 2026 sehingga izin uji 1 lahan disetujui Pak Hendra; integritas data tetap dijaga dengan memisahkan hasil terverifikasi dari template kosong sebelumnya.\nJalur Relasi: Kepercayaan antara tim, penyuluh, dan Ketua Kelompok Tani menguat karena keberatan keduanya langsung diwujudkan menjadi perubahan teknis nyata, dan hak menghentikan pilot kapan saja tetap dipegang penuh oleh pihak kelompok tani.\n\n\nAI Statement: AI digunakan untuk menyusun checklist awal identifikasi risiko operasional dan menguji ketajaman rumusan stop rule agar bebas dari kata kabur. Otoritas validasi agronomi sepenuhnya dipegang oleh Kak Huda, dan izin lahan sepenuhnya dipegang oleh Pak Hendra—AI tidak pernah diminta menyatakan sistem aman untuk lahan.",
     "crumbs": [
       "Beranda",
       "Action & Agreement Challenge"
@@ -1410,7 +1311,7 @@
     "href": "portfolio/week-10.html#self-assessment",
     "title": "Action & Agreement Challenge",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nAuthority, tanggung jawab, serta Posisi vs. Kepentingan tiap pihak dipetakan tajam dan empatik\n\n\nObjective & State\n4\nDesire–action gap, 4 barrier, dan titik temu kepentingan dirumuskan sangat konkret\n\n\nRepertoire, Language & AI\n4\n3 opsi & trade-off proporsional; formula kesepakatan bebas kata kabur; batas peran AI transparan\n\n\nResponse & Adaptation\n4\nTemuan checkpoint (2 aturan NPK & SOP luring) langsung dieksekusi sebelum go/no-go dan teruji di UT-4\n\n\nAgreement, Action & Relationship\n4\nScope, owner, checkpoint, definisi selesai, stop rule, review, bukti aksi nyata, dan evaluasi jalur ganda lengkap\n\n\n\nTotal: 20/20 — Unggul.",
     "crumbs": [
       "Beranda",
       "Action & Agreement Challenge"
@@ -1476,84 +1377,51 @@
     "href": "portfolio/week-06.html",
     "title": "Target–Attention Challenge",
     "section": "",
-    "text": "Memilih target person yang tepat dan membuat issue diakui relevan melalui evidence.",
+    "text": "Person\nRiwayat Relasi & Relevance\nAuthority\nCurrent state (TAIDA awal)\n\n\n\n\nKak Huda (26, penyuluh pertanian & petani muda, Bandung)\nDikenal sejak sesi wawancara riset awal; mengalami langsung kerumitan rawat lahan sekaligus mendampingi petani sekitar\nDapat memvalidasi masalah lapangan, memberi data agregat konsultasi, dan membuka akses ke petani muda & poktan\nProblem aware (terbuka, namun kritis terhadap solusi digital)\n\n\nPetani muda ≤35 tahun (mis. Pak Angga 18, Mas Ajad 33, Pak Rina 35) & mahasiswa agro\nMengalami keterlambatan tindakan di lahan; terbiasa memakai ponsel dan WhatsApp (74,6% responden)\nDapat menguji alur solusi dan memberi bukti keterpakaian nyata\nProblem aware\n\n\nPak Hendra (Ketua Kelompok Tani)\nBelum berinteraksi intensif; bertanggung jawab atas aset bersama dan risiko operasional kelompok\nPemegang wewenang skema kepemilikan sensor bersama dan izin uji lahan\nUnaware / Netral (waspada terhadap beban biaya)\n\n\nPetani senior ≥49 tahun (Pak Rinal 49, Pak Sutikno 53)\nDitemui saat observasi lapangan; jarang membawa HP ke lahan dan lebih nyaman dengan pola manual\nDapat menguji batas aksesibilitas dan kebutuhan pendampingan\nSkeptis terhadap aplikasi\n\n\nKios pertanian, Dinas Pertanian, & lembaga riset\nEkosistem pendukung kebijakan dan sarana produksi\nDiperlukan bila masuk tahap distribusi skala luas\nBelum dilibatkan\n\n\n\nTim memilih Kak Huda (penyuluh-petani) sebagai target pertama, bukan langsung mendekati Ketua Kelompok Tani atau Dinas Pertanian. Selain sudah memiliki riwayat relasi awal yang saling percaya, Kak Huda merasakan dua sudut pandang sekaligus—sebagai petani muda pengguna langsung dan sebagai pendamping lapangan yang memahami pola keluhan petani lain.",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-06.html#kompetensi-target",
-    "href": "portfolio/week-06.html#kompetensi-target",
+    "objectID": "portfolio/week-06.html#target-map",
+    "href": "portfolio/week-06.html#target-map",
     "title": "Target–Attention Challenge",
     "section": "",
-    "text": "Memilih target person yang tepat dan membuat issue diakui relevan melalui evidence.",
+    "text": "Person\nRiwayat Relasi & Relevance\nAuthority\nCurrent state (TAIDA awal)\n\n\n\n\nKak Huda (26, penyuluh pertanian & petani muda, Bandung)\nDikenal sejak sesi wawancara riset awal; mengalami langsung kerumitan rawat lahan sekaligus mendampingi petani sekitar\nDapat memvalidasi masalah lapangan, memberi data agregat konsultasi, dan membuka akses ke petani muda & poktan\nProblem aware (terbuka, namun kritis terhadap solusi digital)\n\n\nPetani muda ≤35 tahun (mis. Pak Angga 18, Mas Ajad 33, Pak Rina 35) & mahasiswa agro\nMengalami keterlambatan tindakan di lahan; terbiasa memakai ponsel dan WhatsApp (74,6% responden)\nDapat menguji alur solusi dan memberi bukti keterpakaian nyata\nProblem aware\n\n\nPak Hendra (Ketua Kelompok Tani)\nBelum berinteraksi intensif; bertanggung jawab atas aset bersama dan risiko operasional kelompok\nPemegang wewenang skema kepemilikan sensor bersama dan izin uji lahan\nUnaware / Netral (waspada terhadap beban biaya)\n\n\nPetani senior ≥49 tahun (Pak Rinal 49, Pak Sutikno 53)\nDitemui saat observasi lapangan; jarang membawa HP ke lahan dan lebih nyaman dengan pola manual\nDapat menguji batas aksesibilitas dan kebutuhan pendampingan\nSkeptis terhadap aplikasi\n\n\nKios pertanian, Dinas Pertanian, & lembaga riset\nEkosistem pendukung kebijakan dan sarana produksi\nDiperlukan bila masuk tahap distribusi skala luas\nBelum dilibatkan\n\n\n\nTim memilih Kak Huda (penyuluh-petani) sebagai target pertama, bukan langsung mendekati Ketua Kelompok Tani atau Dinas Pertanian. Selain sudah memiliki riwayat relasi awal yang saling percaya, Kak Huda merasakan dua sudut pandang sekaligus—sebagai petani muda pengguna langsung dan sebagai pendamping lapangan yang memahami pola keluhan petani lain.",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-06.html#evidence-wajib",
-    "href": "portfolio/week-06.html#evidence-wajib",
+    "objectID": "portfolio/week-06.html#attention-pitch",
+    "href": "portfolio/week-06.html#attention-pitch",
     "title": "Target–Attention Challenge",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nTarget map dan alasan memilih satu target.\nProblem/opportunity pitch serta evidence.\nResponse, state sesudah pitch, dan adaptation.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 6 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "section": "Attention pitch",
+    "text": "Attention pitch\n\n“Dari survei kami ke 63 petani di Bandung, 49,2% sebenarnya sudah tahu tindakan di lahan tetapi terlambat melakukannya, sehingga perawatan meleset dan bertani terasa makin rumit bagi anak muda. Di kelompok sini, apakah keterlambatan tindakan itu juga kendala utamanya?”\n\n(39 kata — memakai bahasa lapangan yang tenang, memuat observasi terukur, dampak nyata, serta pertanyaan periksa netral tanpa menawarkan aplikasi terlebih dahulu).\nEvidence yang dipakai: survei 63 responden, 10 wawancara mendalam, dan observasi lapangan di Bandung. Ukuran sampel disebut eksplisit untuk menghindari generalisasi berlebihan.",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-06.html#konteks-performance",
-    "href": "portfolio/week-06.html#konteks-performance",
+    "objectID": "portfolio/week-06.html#response-dan-state-assessment",
+    "href": "portfolio/week-06.html#response-dan-state-assessment",
     "title": "Target–Attention Challenge",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "Response dan state assessment",
+    "text": "Response dan state assessment\nKak Huda merespons dengan jeda berpikir lalu berkata, “Angka 49,2% itu masuk akal, tapi di sini kondisinya terbelah. Petani senior memang jarang pegang HP di kebun, sementara petani muda sebenarnya mau bertani asal tidak ribet menebak jadwal rawat dan tidak disuruh beli alat mahal sendiri.”\nRespons ini menunjukkan state berpindah dari problem aware menjadi attention dengan syarat segmentasi dan biaya, belum masuk tahap Interest.\nTim melakukan konfirmasi closed-loop dan memberi ruang penuh untuk menolak:\n\n“Kalau saya tangkap dengan tepat, kendala utamanya di petani muda bukan sekadar lupa, tapi bingung menerjemahkan kondisi lahan tanpa beban beli alat pribadi—sementara petani senior butuh pendekatan lain. Jika Kak Huda merasa isu ini belum cukup mendesak untuk ditelusuri lebih jauh di kelompok sini, tidak masalah sama sekali, koreksi tadi sudah sangat berharga bagi kami. Namun, bolehkah kami memeriksa catatan agregat pertanyaan petani selama dua minggu terakhir tanpa nama untuk memastikan pola masalahnya?”\n\nAdaptasi substantif: 1. Mengubah objective percakapan dari “mengenalkan konsep aplikasi” menjadi memvalidasi segmentasi masalah berdasarkan usia dan skema kepemilikan alat. 2. Mempersempit sasaran pengguna primer ke petani ≤35 tahun (didukung temuan hanya 27% responden mau beli sensor sendiri, sedangkan 65,1% bersedia memakai sensor milik kelompok).",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-06.html#evidence",
-    "href": "portfolio/week-06.html#evidence",
+    "objectID": "portfolio/week-06.html#evidence-dan-refleksi",
+    "href": "portfolio/week-06.html#evidence-dan-refleksi",
     "title": "Target–Attention Challenge",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
-    "crumbs": [
-      "Beranda",
-      "Target–Attention Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-06.html#analisis-komunikasi",
-    "href": "portfolio/week-06.html#analisis-komunikasi",
-    "title": "Target–Attention Challenge",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
-    "crumbs": [
-      "Beranda",
-      "Target–Attention Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-06.html#penggunaan-ai",
-    "href": "portfolio/week-06.html#penggunaan-ai",
-    "title": "Target–Attention Challenge",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Target–Attention Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-06.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-06.html#feedback-dan-tindak-lanjut",
-    "title": "Target–Attention Challenge",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "Evidence dan refleksi",
+    "text": "Evidence dan refleksi\n\nArtefak: Target map versi sebelum dan sesudah interaksi (penambahan segmen usia & peran penyuluh sebagai jembatan), makalah akhir (survei n=63, 10 wawancara, affinity diagram), serta observer note yang mencatat perubahan bahasa tubuh Kak Huda menjadi lebih rileks saat hak menolak dinyatakan secara eksplisit.\nAgreement & Action nyata: Kak Huda menyerahkan rekap anonim pertanyaan perawatan lahan dari petani muda selama dua minggu terakhir pada hari Jumat; tim menjaga kerahasiaan identitas petani dan mengirimkan ringkasan pola masalah balik ke Kak Huda untuk diverifikasi.\nAI Statement: AI (Gemini) dipakai untuk memeriksa apakah draf pitch mencampuradukkan observasi dengan asumsi serta menghitung panjang kata agar ≤45 kata. Seluruh data survei, wawancara, dan keputusan segmentasi murni diverifikasi tim dari lapangan.\nNext practice: Menguji kembali temuan pola konsultasi tersebut langsung ke perwakilan petani muda sebelum merancang detail fitur.",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
@@ -1564,7 +1432,7 @@
     "href": "portfolio/week-06.html#self-assessment",
     "title": "Target–Attention Challenge",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nTarget dipetakan spesifik hingga riwayat relasi, relevance, authority, dan keadaan TAIDA awal\n\n\nObjective & State\n4\nPerubahan state (problem aware → attention bersyarat) dan pergeseran objective terdokumentasi eksplisit\n\n\nRepertoire, Language & AI\n4\nPitch 39 kata tenang, relevan dengan bahasa sasaran, berbasis data n=63, dan AI dipakai terukur untuk audit logika\n\n\nResponse & Adaptation\n4\nKonfirmasi closed-loop atas koreksi Kak Huda langsung mengubah segmen target (≤35 tahun) dan asumsi kepemilikan sensor\n\n\nAgreement, Action & Relationship\n4\nHak berkata “tidak” dihormati penuh; kesepakatan berbagi catatan agregat anonim tereksekusi tanpa merusak relasi\n\n\n\nTotal: 20/20 — Unggul.",
     "crumbs": [
       "Beranda",
       "Target–Attention Challenge"
@@ -6785,84 +6653,51 @@
     "href": "portfolio/week-07.html",
     "title": "Problem–Solution Interest Pitch",
     "section": "",
-    "text": "Menghubungkan solution mechanism dengan problem, benefit, dan value yang relevan.",
+    "text": "Rekap konsultasi dua minggu dari Kak Huda menguatkan data survei (49,2% terlambat bertindak; 74,6% memakai WhatsApp; 65,1% mau memakai sensor milik kelompok dibanding 27% beli sendiri). Akar masalah yang disepakati: petani muda kewalahan menerjemahkan kondisi lahan menjadi jadwal perawatan harian yang tepat waktu.\nSolution hypothesis: Prototipe aplikasi NUSATANI (Figma) mengubah kondisi lahan menjadi panduan tindakan harian yang sederhana melalui tiga fitur inti, setelah dilakukan Detoks Fitur ketat.\nHasil Detoks Fitur (dipangkas/ditunda): Komunitas petani, marketplace jual hasil tani, analisis lintas musim, penjadwalan lintas lahan, dan mode luring dipangkas dari versi awal agar tidak memicu feature dumping.\n\n\n\n\n\n\n\n\n\nProblem\nMechanism\nExpected benefit\nNilai Relasional (Per Peran)\n\n\n\n\nTerlambat bertindak & bingung menafsirkan angka sensor\nMonitor & Panduan Tindakan: mengubah data sensor tanah (kelembapan, pH, NPK, suhu) milik kelompok menjadi to-do list harian (jenis pupuk, dosis, waktu, notifikasi, tanda selesai)\nPetani langsung mendapat langkah kerja konkret tanpa menafsirkan angka mentah\nPetani muda: kepastian jadwal harian tanpa bingung angka.Penyuluh: berkurangnya pertanyaan dasar berulang\n\n\nSulit mengenali hama/penyakit dini\nLensa Tani: foto daun untuk dugaan hama/penyakit, tingkat keparahan, dan saran penanganan (jalan tanpa sensor)\nDeteksi awal gangguan tanaman lebih cepat tanpa biaya perangkat\nPetani muda: mengurangi risiko telat penanganan.Kelompok tani: bisa dipakai sebelum pengadaan sensor\n\n\nAplikasi pertanian terasa asing dan rumit\nTanya AI: asisten teks/suara bergaya WhatsApp (dipakai 74,6% responden) yang menyatu di dalam Lensa Tani\nInteraksi terasa akrab seperti berkirim pesan biasa\nPetani muda: kurva belajar rendah sehingga bertani terasa lebih simpel",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#kompetensi-target",
-    "href": "portfolio/week-07.html#kompetensi-target",
+    "objectID": "portfolio/week-07.html#attention-evidence-dan-solution-hypothesis",
+    "href": "portfolio/week-07.html#attention-evidence-dan-solution-hypothesis",
     "title": "Problem–Solution Interest Pitch",
     "section": "",
-    "text": "Menghubungkan solution mechanism dengan problem, benefit, dan value yang relevan.",
+    "text": "Rekap konsultasi dua minggu dari Kak Huda menguatkan data survei (49,2% terlambat bertindak; 74,6% memakai WhatsApp; 65,1% mau memakai sensor milik kelompok dibanding 27% beli sendiri). Akar masalah yang disepakati: petani muda kewalahan menerjemahkan kondisi lahan menjadi jadwal perawatan harian yang tepat waktu.\nSolution hypothesis: Prototipe aplikasi NUSATANI (Figma) mengubah kondisi lahan menjadi panduan tindakan harian yang sederhana melalui tiga fitur inti, setelah dilakukan Detoks Fitur ketat.\nHasil Detoks Fitur (dipangkas/ditunda): Komunitas petani, marketplace jual hasil tani, analisis lintas musim, penjadwalan lintas lahan, dan mode luring dipangkas dari versi awal agar tidak memicu feature dumping.\n\n\n\n\n\n\n\n\n\nProblem\nMechanism\nExpected benefit\nNilai Relasional (Per Peran)\n\n\n\n\nTerlambat bertindak & bingung menafsirkan angka sensor\nMonitor & Panduan Tindakan: mengubah data sensor tanah (kelembapan, pH, NPK, suhu) milik kelompok menjadi to-do list harian (jenis pupuk, dosis, waktu, notifikasi, tanda selesai)\nPetani langsung mendapat langkah kerja konkret tanpa menafsirkan angka mentah\nPetani muda: kepastian jadwal harian tanpa bingung angka.Penyuluh: berkurangnya pertanyaan dasar berulang\n\n\nSulit mengenali hama/penyakit dini\nLensa Tani: foto daun untuk dugaan hama/penyakit, tingkat keparahan, dan saran penanganan (jalan tanpa sensor)\nDeteksi awal gangguan tanaman lebih cepat tanpa biaya perangkat\nPetani muda: mengurangi risiko telat penanganan.Kelompok tani: bisa dipakai sebelum pengadaan sensor\n\n\nAplikasi pertanian terasa asing dan rumit\nTanya AI: asisten teks/suara bergaya WhatsApp (dipakai 74,6% responden) yang menyatu di dalam Lensa Tani\nInteraksi terasa akrab seperti berkirim pesan biasa\nPetani muda: kurva belajar rendah sehingga bertani terasa lebih simpel",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#evidence-wajib",
-    "href": "portfolio/week-07.html#evidence-wajib",
+    "objectID": "portfolio/week-07.html#pitch-dan-demonstration",
+    "href": "portfolio/week-07.html#pitch-dan-demonstration",
     "title": "Problem–Solution Interest Pitch",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nAttention evidence dan problem–solution link.\nInterest pitch dengan evidence atau demonstration.\nResponse, state assessment, hidden concern, dan adaptation.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 7 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "section": "Pitch dan demonstration",
+    "text": "Pitch dan demonstration\n\n“Dari catatan konsultasi dua minggu kemarin, petani muda paling sering bingung menerjemahkan kondisi lahan menjadi jadwal rawat harian. Ibarat indikator di dashboard motor yang langsung memberi tahu kapan ganti oli tanpa memaksa kita membaca suhu mesin, NUSATANI mengubah data sensor kelompok menjadi daftar tugas harian—lengkap dengan jenis pupuk, dosis, dan waktunya—ditambah Lensa Tani dan Tanya AI bergaya WhatsApp yang tetap jalan tanpa sensor. Fitur marketplace sengaja kami pangkas agar ringkas. Batasnya, fitur foto dan AI masih butuh sinyal serta belum menggantikan pengamatan mata petani. Maukah Kak Huda mencoba alur ini dan menunjukkan bagian mana yang paling berisiko?”\n\n(103 kata — mengikuti 5 langkah komunikasi berlapis, dilengkapi analogi membumi serta pengakuan batas sejak awal).\nDemonstrasi dilakukan melalui Usability Testing interaktif pada prototipe Figma (s.hmif.dev/Iterasi1NUSATANI) selama UT-1 (4 partisipan: Nana 19, Pak Rinal 49, Shasa 19, Pak Angga 18) dan UT-2 pada 8–11 Agustus 2026 (5 partisipan: Pak Sutikno 53, Kak Huda 26, Kak Irwan 18, Lina 19, Kak Yoga 18).",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#konteks-performance",
-    "href": "portfolio/week-07.html#konteks-performance",
+    "objectID": "portfolio/week-07.html#hidden-concern-dan-adaptation",
+    "href": "portfolio/week-07.html#hidden-concern-dan-adaptation",
     "title": "Problem–Solution Interest Pitch",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "Hidden concern dan adaptation",
+    "text": "Hidden concern dan adaptation\nTim awalnya mengira keberatan utama hanya berkutat pada biaya sensor. Uji lapangan mengungkap tiga hidden concern terkait beban kognitif, alur tugas, dan kesenjangan usia:\n\nBeban tafsir angka: Tampilan Monitor awal yang menyajikan data sensor mentah membuat partisipan ragu menentukan tindakan.\nFriksi navigasi: Di UT-1, tombol simpan panen hanya diselesaikan tanpa bantuan oleh 25% partisipan, dan Tanya AI yang terpisah hanya mencapai 60% penyelesaian tanpa bantuan.\nBatas adopsi petani senior: Dua petani ≥49 tahun mencetak SUS terendah (Pak Rinal 49: 65; Pak Sutikno 53: 72,5) dan memerlukan pendampingan langsung.\n\nAdaptasi substantif lintas iterasi: - Mengubah Monitor dari angka mentah menjadi daftar kegiatan (to-do list). - Memisahkan menu Lahan dan Kelola Tanaman serta menonjolkan tombol simpan panen. - Memindahkan Tanya AI ke dalam alur Lensa Tani di Iterasi 3 sehingga penyelesaian tanpa bantuan naik dari 60% menjadi 100%. - Mengakui secara terbuka batas prototipe (masih Figma, Tanya AI memakai Gemini umum, aturan pupuk baru 25 pola NPK fokus nitrogen, dan 31,7% responden pernah hilang sinyal) beserta rencana mitigasi bertahap.\nState assessment: Sinyal Interest terkonfirmasi kuat—partisipan menyebut aplikasi membuat bertani jauh lebih simpel, tingkat selesai tanpa bantuan naik 83% (UT-1) → 86% (UT-2) → 100% (UT-3), dan SUS meningkat 81,3 → 82,0 → 86,9. Namun, tim sadar ini baru Interest pada antarmuka, belum Desire untuk memakai di lahan nyata.",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
     ]
   },
   {
-    "objectID": "portfolio/week-07.html#evidence",
-    "href": "portfolio/week-07.html#evidence",
+    "objectID": "portfolio/week-07.html#evidence-ai-dan-feedback",
+    "href": "portfolio/week-07.html#evidence-ai-dan-feedback",
     "title": "Problem–Solution Interest Pitch",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
-    "crumbs": [
-      "Beranda",
-      "Problem–Solution Interest Pitch"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-07.html#analisis-komunikasi",
-    "href": "portfolio/week-07.html#analisis-komunikasi",
-    "title": "Problem–Solution Interest Pitch",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
-    "crumbs": [
-      "Beranda",
-      "Problem–Solution Interest Pitch"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-07.html#penggunaan-ai",
-    "href": "portfolio/week-07.html#penggunaan-ai",
-    "title": "Problem–Solution Interest Pitch",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Problem–Solution Interest Pitch"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-07.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-07.html#feedback-dan-tindak-lanjut",
-    "title": "Problem–Solution Interest Pitch",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "Evidence, AI, dan feedback",
+    "text": "Evidence, AI, dan feedback\n\nArtefak: Prototipe lintas iterasi (s.hmif.dev/Iterasi1NUSATANI), naskah moderator, tabel metrik per tugas dan SUS di makalah akhir (baseline UT-1 SUS 81,3; n=4), serta catatan observer tentang momen ketika pertanyaan “Bagian mana yang paling berisiko?” membuka hidden concern pengguna.\nKesepakatan tindak lanjut: Kak Huda bersedia mengikuti putaran uji berikutnya (terbukti hadir kembali di UT-3) bersama tiga partisipan petani muda lain, dengan kesepakatan bahwa seluruh kritik keras dicatat sebagai syarat perbaikan sebelum uji lahan.\nAI Statement: AI dipakai untuk membantu menyusun alternatif analogi dan daftar risiko umum UI/UX, lalu seluruh asumsi diverifikasi langsung lewat sesi UT. AI tidak dipakai untuk menghasilkan data pengujian.",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
@@ -6873,7 +6708,7 @@
     "href": "portfolio/week-07.html#self-assessment",
     "title": "Problem–Solution Interest Pitch",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nNilai relasional dibedakan presisi antara petani muda, penyuluh, dan keterbatasan petani senior\n\n\nObjective & State\n4\nInterest (SUS 86,9; selesai 100%) dibedakan secara tajam dari kesiapan pakai di lahan nyata\n\n\nRepertoire, Language & AI\n4\nDetoks fitur tegas, analogi dashboard motor jernih, serta batas solusi & AI diakui sejak awal\n\n\nResponse & Adaptation\n4\nHidden concern UT mengubah mekanisme inti (data mentah → to-do list, relokasi Tanya AI 60% → 100%)\n\n\nAgreement, Action & Relationship\n4\nPartisipan terlibat sukarela dalam uji berulang (Kak Huda di UT-2 & UT-3) dengan ruang kritik aman\n\n\n\nTotal: 20/20 — Unggul.",
     "crumbs": [
       "Beranda",
       "Problem–Solution Interest Pitch"
@@ -6884,84 +6719,51 @@
     "href": "portfolio/week-09.html",
     "title": "Desire-State Communication",
     "section": "",
-    "text": "Membangun desired state bersama target dan menghubungkannya dengan solution secara kredibel.",
+    "text": "Elemen\nRumusan selaras dengan nilai & aspirasi target\n\n\n\n\nCurrent state\nPetani muda sering terlambat mengambil tindakan (49,2%); pada prototipe UT-3, menu sudah mudah diklik (100% selesai), tetapi 3 dari 4 partisipan bingung arti label “kondisi tanah cukup baik” dan tidak tahu alasan di balik dosis rekomendasi\n\n\nDesired state\nPetani muda percaya diri menjalankan perawatan harian yang tepat waktu karena memahami alasan ilmiah di balik setiap saran (identitas sebagai petani modern yang paham lahan, bukan sekadar mengikuti perintah aplikasi), serta penyuluh terbantu mendampingi tanpa takut salah rekomendasi\n\n\nValue\nOtonomi dan kepastian keputusan harian bagi petani muda ≤35 tahun; perlindungan kredibilitas pendampingan bagi penyuluh (Kak Huda)\n\n\nAcceptable risk\nPengujian hanya dilakukan pada 1 lahan uji bersinyal setelah aturan pupuk divalidasi penyuluh; keputusan akhir perawatan tetap sepenuhnya di tangan petani\n\n\nEvidence threshold\n100% partisipan uji lanjutan memahami alasan rekomendasi (menjawab temuan 3/4 partisipan UT-3), penyelesaian integrasi IoT tanpa bantuan naik dari 75% ke ≥90%, dan notifikasi gangguan sensor dikenali dalam &lt;5 detik",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
     ]
   },
   {
-    "objectID": "portfolio/week-09.html#kompetensi-target",
-    "href": "portfolio/week-09.html#kompetensi-target",
+    "objectID": "portfolio/week-09.html#current-dan-desired-state",
+    "href": "portfolio/week-09.html#current-dan-desired-state",
     "title": "Desire-State Communication",
     "section": "",
-    "text": "Membangun desired state bersama target dan menghubungkannya dengan solution secara kredibel.",
+    "text": "Elemen\nRumusan selaras dengan nilai & aspirasi target\n\n\n\n\nCurrent state\nPetani muda sering terlambat mengambil tindakan (49,2%); pada prototipe UT-3, menu sudah mudah diklik (100% selesai), tetapi 3 dari 4 partisipan bingung arti label “kondisi tanah cukup baik” dan tidak tahu alasan di balik dosis rekomendasi\n\n\nDesired state\nPetani muda percaya diri menjalankan perawatan harian yang tepat waktu karena memahami alasan ilmiah di balik setiap saran (identitas sebagai petani modern yang paham lahan, bukan sekadar mengikuti perintah aplikasi), serta penyuluh terbantu mendampingi tanpa takut salah rekomendasi\n\n\nValue\nOtonomi dan kepastian keputusan harian bagi petani muda ≤35 tahun; perlindungan kredibilitas pendampingan bagi penyuluh (Kak Huda)\n\n\nAcceptable risk\nPengujian hanya dilakukan pada 1 lahan uji bersinyal setelah aturan pupuk divalidasi penyuluh; keputusan akhir perawatan tetap sepenuhnya di tangan petani\n\n\nEvidence threshold\n100% partisipan uji lanjutan memahami alasan rekomendasi (menjawab temuan 3/4 partisipan UT-3), penyelesaian integrasi IoT tanpa bantuan naik dari 75% ke ≥90%, dan notifikasi gangguan sensor dikenali dalam &lt;5 detik",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
     ]
   },
   {
-    "objectID": "portfolio/week-09.html#evidence-wajib",
-    "href": "portfolio/week-09.html#evidence-wajib",
+    "objectID": "portfolio/week-09.html#featurebenefitvalueoutcome-chain",
+    "href": "portfolio/week-09.html#featurebenefitvalueoutcome-chain",
     "title": "Desire-State Communication",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nCurrent dan desired state milik person.\nFeature–benefit–value–outcome chain.\nRisk, evidence threshold, response, dan adaptation.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 9 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "section": "Feature–benefit–value–outcome chain",
+    "text": "Feature–benefit–value–outcome chain\nData sensor kelompok + Lensa Tani + kartu alasan rekomendasi transparan → petani melihat kondisi tanah beserta alasan dosis yang disarankan → tindakan perawatan dilakukan tepat waktu dengan keyakinan penuh → risiko kesalahan dan keterlambatan penanganan menurun → bertani terasa lebih terukur, bermartabat, dan menarik bagi generasi muda.\nAnalogi & batasnya: Mekanisme ini dijelaskan seperti asisten catatan medis yang merangkum hasil cek dan memberi opsi tindakan beserta alasannya, bukan dokter pengganti—batasnya, akurasi awal masih bergantung pada validasi pakar lokal dan kestabilan sinyal. Setiap panah dalam rantai diperlakukan sebagai hipotesis yang harus diuji di lahan.",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
     ]
   },
   {
-    "objectID": "portfolio/week-09.html#konteks-performance",
-    "href": "portfolio/week-09.html#konteks-performance",
+    "objectID": "portfolio/week-09.html#percakapan-dan-response",
+    "href": "portfolio/week-09.html#percakapan-dan-response",
     "title": "Desire-State Communication",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "Percakapan dan response",
+    "text": "Percakapan dan response\nPada UT-3 (2–5 Oktober 2026) yang melibatkan 4 partisipan ≤35 tahun—Kak Huda (26, penyuluh-petani), Mas Ajad (33, petani Tuban), Fadhly (20, mahasiswa agro), dan Pak Rina (35, petani padi Jogja)—terjadi pergeseran hambatan dari navigasi ke kepercayaan terhadap rekomendasi:\n\nKak Huda: “Tampilannya sudah enak sekali, tapi waktu muncul tulisan ‘kondisi tanah cukup baik’ lalu langsung keluar rekomendasi pupuk, saya ragu. Kalau petani muda ikut saja tanpa tahu alasannya, lalu sensornya error tapi notifikasinya tidak kelihatan, nanti gagal panen dan penyuluh juga ikut kena.”\nTim: “Jadi, bagi Kak Huda, aplikasi yang mudah diklik justru berbahaya jika tidak menjelaskan alasan rekomendasinya dan tidak memberi peringatan keras saat sensor bermasalah?”\nKak Huda: “Betul. Saya ingin petani muda makin paham lahannya, bukan malah bergantung buta pada alat.”\n\nTemuan ini diperkuat data UT-3: 3 dari 4 partisipan mempertanyakan arti “kondisi tanah cukup baik”, dan penyelesaian mandiri integrasi IoT turun dari 80% (UT-2) menjadi 75% (UT-3).\nAdaptasi substantif (Kompas Desain Iterasi 4): Keberatan Kak Huda langsung dijadikan kompas untuk merancang Iterasi 4 di Figma: 1. Menambahkan kartu alasan rekomendasi yang menjelaskan hubungan indikator tanah dengan saran dosis. 2. Menyusun panduan pemasangan IoT bertahap (step-by-step). 3. Membuat notifikasi gangguan sensor jauh lebih menonjol dengan indikator status sinkronisasi terakhir.",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
     ]
   },
   {
-    "objectID": "portfolio/week-09.html#evidence",
-    "href": "portfolio/week-09.html#evidence",
+    "objectID": "portfolio/week-09.html#risk-dan-evidence",
+    "href": "portfolio/week-09.html#risk-dan-evidence",
     "title": "Desire-State Communication",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
-    "crumbs": [
-      "Beranda",
-      "Desire-State Communication"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-09.html#analisis-komunikasi",
-    "href": "portfolio/week-09.html#analisis-komunikasi",
-    "title": "Desire-State Communication",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
-    "crumbs": [
-      "Beranda",
-      "Desire-State Communication"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-09.html#penggunaan-ai",
-    "href": "portfolio/week-09.html#penggunaan-ai",
-    "title": "Desire-State Communication",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Desire-State Communication"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-09.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-09.html#feedback-dan-tindak-lanjut",
-    "title": "Desire-State Communication",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "Risk dan evidence",
+    "text": "Risk dan evidence\nTangga Bukti (3 tingkat dipadukan sesuai risiko keputusan): 1. Tingkat 2 (Prototipe Interaktif): Demonstrasi langsung prototipe Figma Iterasi 1–3 yang dicoba ~12 partisipan unik. Batas: belum aplikasi produksi dan sensor belum terpasang di tanah nyata. 2. Tingkat 3 (User Story Nyata): Testimoni konkret Mas Ajad (33) dan Pak Rina (35) yang menilai alur to-do list dan Lensa Tani menyederhanakan pengecekan harian. Batas: pengalaman bersifat kualitatif dalam konteks simulasi. 3. Tingkat 4 (Data Uji Skala Kecil): Metrik 3 putaran UT (n=4, 5, 4; selesai tanpa bantuan 83% → 86% → 100%; SUS 81,3 → 82,0 → 86,9). Batas: sampel kecil, belum tergeneralisasi, dan UT-3 seluruhnya ≤35 tahun.\nPengakuan risiko sebagai pembangun kredibilitas: Tim secara proaktif mengakui bahwa Tanya AI masih memakai Gemini umum (belum dilatih data lokal), aturan pupuk baru mencakup 25 pola NPK fokus nitrogen, dan 31,7% responden pernah kehilangan sinyal di lahan. Sikap terbuka ini justru membuat Kak Huda percaya pada integritas tim dan bersedia membantu proses validasi agronomi. Sesi ditutup dengan kesepakatan bahwa jika hasil tinjauan agronomi menunjukkan sistem belum aman, penolakan Kak Huda akan diterima sebagai data penting untuk mencegah kerugian petani.\nAI Statement: AI dipakai untuk menguji potensi lompatan logika pada value chain dan menyimulasikan keberatan penyuluh. Tim menolak saran AI yang mengklaim “peningkatan panen 20%” karena tidak memiliki dasar uji lapangan.",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
@@ -6972,7 +6774,7 @@
     "href": "portfolio/week-09.html#self-assessment",
     "title": "Desire-State Communication",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nDesired state selaras dengan nilai batin dan identitas sasaran (petani paham alasan; kredibilitas penyuluh terjaga)\n\n\nObjective & State\n4\nCurrent/desired state, acceptable risk, dan evidence threshold terukur dan eksplisit\n\n\nRepertoire, Language & AI\n4\n3 tingkat Tangga Bukti, analogi dengan batas jelas, dan pengakuan risiko jujur membangun kredibilitas utama\n\n\nResponse & Adaptation\n4\nKeberatan 3/4 partisipan UT-3 & Kak Huda menjadi kompas perubahan arsitektur informasi ke Iterasi 4\n\n\nAgreement, Action & Relationship\n4\nKebebasan menolak ditegaskan sebagai data sehat; Kak Huda menyepakati tahap tinjauan agronomi sebelum pilot\n\n\n\nTotal: 20/20 — Unggul.",
     "crumbs": [
       "Beranda",
       "Desire-State Communication"
@@ -6983,84 +6785,51 @@
     "href": "portfolio/week-11.html",
     "title": "Multi-Person Negotiation Challenge",
     "section": "",
-    "text": "Memfasilitasi beberapa person dengan objective, constraint, authority, dan state berbeda.",
+    "text": "Setelah persetujuan pra-pilot di Minggu 10, tim memfasilitasi perundingan meja bundar lima pihak (6 November 2026) untuk menyepakati aturan operasional pilot sensor bersama selama 14 hari.\n\n\n\n\n\n\n\n\n\n\nPerson\nPosition (Tuntutan Awal)\nInterest / Constraint & Nilai\nAuthority\nState Awal\n\n\n\n\nPak Hendra (Ketua Kelompok Tani)\n“Sensor harus bebas biaya kelompok dan tidak merepotkan pengurus.”\nMelindungi kas kelompok (hanya 27% petani mau beli sendiri) & menjaga kerukunan sosial\nFinal approval izin lahan & aset bersama\nAttention → Desire\n\n\nKak Huda (Penyuluh Pertanian)\n“Semua rekomendasi pupuk wajib dikunci lewat verifikasi penyuluh.”\nMenjaga keamanan panen & reputasi pendampingan; 25 pola NPK masih fokus nitrogen\nTechnical / agronomic clearance\nDesire\n\n\nMas Ajad & Pak Angga (Petani Muda ≤35 th)\n“Fitur Tanya AI dan panduan harus aktif 24 jam termasuk di lahan tanpa sinyal.”\nKepastian tindakan harian tanpa terlambat (49,2% kasus survei); kepraktisan kerja\nPengguna aktif (dapat berpartisipasi/menolak)\nDesire\n\n\nPak Rinal & Pak Sutikno (Petani Senior ≥49 th)\n“Jangan wajibkan semua anggota pakai aplikasi; cukup cara manual saja.”\nRasa dihargai dan tidak tersisih dari kelompok; jarang membawa HP ke lahan (SUS 65 & 72,5)\nPengaruh sosial & keteladanan di kelompok tani\nTarget (Defensif)\n\n\nTim Produk & IoT NUSATANI\n“Fokus uji penuh 1 lahan bersinyal dengan aplikasi Iterasi 4.”\nKeandalan sistem, bukti lapangan objektif; keterbatasan mode luring (masih roadmap)\nPemeliharaan teknis & pembaruan prototipe\nDesire\n\n\n\nCommon ground: Semua pihak ingin keterlambatan perawatan lahan berkurang dan petani muda makin bersemangat bertani, tanpa membahayakan panen, membebani kas kelompok, atau meminggirkan petani senior.",
     "crumbs": [
       "Beranda",
       "Multi-Person Negotiation Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-11.html#kompetensi-target",
-    "href": "portfolio/week-11.html#kompetensi-target",
+    "objectID": "portfolio/week-11.html#stakeholder-dan-multi-state-map",
+    "href": "portfolio/week-11.html#stakeholder-dan-multi-state-map",
     "title": "Multi-Person Negotiation Challenge",
     "section": "",
-    "text": "Memfasilitasi beberapa person dengan objective, constraint, authority, dan state berbeda.",
+    "text": "Setelah persetujuan pra-pilot di Minggu 10, tim memfasilitasi perundingan meja bundar lima pihak (6 November 2026) untuk menyepakati aturan operasional pilot sensor bersama selama 14 hari.\n\n\n\n\n\n\n\n\n\n\nPerson\nPosition (Tuntutan Awal)\nInterest / Constraint & Nilai\nAuthority\nState Awal\n\n\n\n\nPak Hendra (Ketua Kelompok Tani)\n“Sensor harus bebas biaya kelompok dan tidak merepotkan pengurus.”\nMelindungi kas kelompok (hanya 27% petani mau beli sendiri) & menjaga kerukunan sosial\nFinal approval izin lahan & aset bersama\nAttention → Desire\n\n\nKak Huda (Penyuluh Pertanian)\n“Semua rekomendasi pupuk wajib dikunci lewat verifikasi penyuluh.”\nMenjaga keamanan panen & reputasi pendampingan; 25 pola NPK masih fokus nitrogen\nTechnical / agronomic clearance\nDesire\n\n\nMas Ajad & Pak Angga (Petani Muda ≤35 th)\n“Fitur Tanya AI dan panduan harus aktif 24 jam termasuk di lahan tanpa sinyal.”\nKepastian tindakan harian tanpa terlambat (49,2% kasus survei); kepraktisan kerja\nPengguna aktif (dapat berpartisipasi/menolak)\nDesire\n\n\nPak Rinal & Pak Sutikno (Petani Senior ≥49 th)\n“Jangan wajibkan semua anggota pakai aplikasi; cukup cara manual saja.”\nRasa dihargai dan tidak tersisih dari kelompok; jarang membawa HP ke lahan (SUS 65 & 72,5)\nPengaruh sosial & keteladanan di kelompok tani\nTarget (Defensif)\n\n\nTim Produk & IoT NUSATANI\n“Fokus uji penuh 1 lahan bersinyal dengan aplikasi Iterasi 4.”\nKeandalan sistem, bukti lapangan objektif; keterbatasan mode luring (masih roadmap)\nPemeliharaan teknis & pembaruan prototipe\nDesire\n\n\n\nCommon ground: Semua pihak ingin keterlambatan perawatan lahan berkurang dan petani muda makin bersemangat bertani, tanpa membahayakan panen, membebani kas kelompok, atau meminggirkan petani senior.",
     "crumbs": [
       "Beranda",
       "Multi-Person Negotiation Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-11.html#evidence-wajib",
-    "href": "portfolio/week-11.html#evidence-wajib",
+    "objectID": "portfolio/week-11.html#negotiation-evidence",
+    "href": "portfolio/week-11.html#negotiation-evidence",
     "title": "Multi-Person Negotiation Challenge",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nStakeholder person map dan multi-state TAIDA.\nPosition–interest analysis, common ground, dan options.\nNegotiation evidence, agreement/dissent, dan relationship review.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 11 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "section": "Negotiation evidence",
+    "text": "Negotiation evidence\nSelama 10 menit pertama, fasilitator (saya) menggali hidden agenda tanpa menawarkan kompromi prematur:\n\nPak Rinal: “Kalau semua urusan kebun pindah ke HP, kami yang tua jadi tidak dianggap lagi di kelompok.”\nMas Ajad: “Kami tidak bermaksud menyingkirkan bapak, tapi di lahan kami butuh panduan cepat—apalagi 31,7% area kadang hilang sinyal.”\nKak Huda: “Kalau Tanya AI dibiarkan menjawab bebas saat offline atau tanpa pagar aturan, lalu dosisnya keliru, petani yang rugi.”\nFasilitator (Saya): “Saya mendengar tiga kebutuhan yang sebenarnya saling melindungi: Mas Ajad butuh panduan cepat di lahan, Kak Huda butuh pagar keamanan agronomi, dan Pak Rinal butuh kepastian bahwa petani senior tetap dilibatkan penuh. Bagaimana jika pilot kita pecah dua tahap—Tahap 1 menguji panduan terverifikasi di 1 petak bersinyal sekaligus menyediakan ringkasan cetak/lisan untuk petani senior, sementara mode luring masuk Tahap 2?”\nPak Hendra: “Kalau tidak memungut iuran dan ada pendampingan lintas usia, pengurus bisa menyetujui Tahap 1.”\n\nFasilitator tidak memaksakan konsensus tunggal, melainkan memisahkan ambisi fitur sesuai kendala wewenang dan kesiapan teknis.",
     "crumbs": [
       "Beranda",
       "Multi-Person Negotiation Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-11.html#konteks-performance",
-    "href": "portfolio/week-11.html#konteks-performance",
+    "objectID": "portfolio/week-11.html#options-agreement-dan-dissent",
+    "href": "portfolio/week-11.html#options-agreement-dan-dissent",
     "title": "Multi-Person Negotiation Challenge",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "Options, agreement, dan dissent",
+    "text": "Options, agreement, dan dissent\nTiga alternatif dari sesi ideation dikerucutkan menjadi kesepakatan dua tahap:\n\nTahap 1 (Pilot 14 Hari, 9–22 November 2026): Pemasangan 1 kit sensor pinjaman tim pada 1 petak bersinyal; aplikasi Iterasi 4 dijalankan dengan 25 pola NPK terverifikasi Kak Huda + kartu SOP luring di kotak sensor; petani muda membuat ringkasan mingguan cetak/lisan untuk dibahas bersama petani senior (pendampingan lintas generasi).\nTahap 2 (Pengembangan Lanjutan): Pengembangan mode luring dan perluasan fitur Tanya AI berbasis data lokal hanya dilanjutkan jika Tahap 1 mencapai threshold minimal 10 dari 14 hari data valid tanpa insiden kesalahan dosis dan tanpa keluhan eksklusi sosial.\n\nSpecific disagreement (Dissent): Perwakilan petani muda (Mas Ajad) mencatat ketidaksetujuan spesifik bahwa penundaan mode luring membuat kendala 31,7% area minim sinyal belum teruji secara digital pada Tahap 1. Catatan dissent ini dipertahankan secara resmi dalam notulen keputusan agar menjadi agenda prioritas pada review 23 November 2026.",
     "crumbs": [
       "Beranda",
       "Multi-Person Negotiation Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-11.html#evidence",
-    "href": "portfolio/week-11.html#evidence",
+    "objectID": "portfolio/week-11.html#relationship-review-dan-ai",
+    "href": "portfolio/week-11.html#relationship-review-dan-ai",
     "title": "Multi-Person Negotiation Challenge",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
-    "crumbs": [
-      "Beranda",
-      "Multi-Person Negotiation Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-11.html#analisis-komunikasi",
-    "href": "portfolio/week-11.html#analisis-komunikasi",
-    "title": "Multi-Person Negotiation Challenge",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
-    "crumbs": [
-      "Beranda",
-      "Multi-Person Negotiation Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-11.html#penggunaan-ai",
-    "href": "portfolio/week-11.html#penggunaan-ai",
-    "title": "Multi-Person Negotiation Challenge",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Multi-Person Negotiation Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-11.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-11.html#feedback-dan-tindak-lanjut",
-    "title": "Multi-Person Negotiation Challenge",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "Relationship review dan AI",
+    "text": "Relationship review dan AI\n\nRelationship repair: Pada menit ke-7, pengamat mencatat saya sempat terlalu cepat memparafrasa pendapat Mas Ajad sehingga memotong kalimat Pak Rinal yang hendak berbicara. Saya langsung melakukan repair secara terbuka (“Maaf Pak Rinal, saya tadi memotong penjelasan Bapak. Silakan Bapak lanjutkan kekhawatiran Bapak tadi agar masuk penuh dalam catatan kita”). Setelah momen ini, Pak Rinal menyampaikan ide ringkasan lisan di saung yang akhirnya diadopsi dalam kesepakatan.\nEvaluasi Jalur Ganda: Seluruh 5 pihak menandatangani akurasi ringkasan keputusan (jalur tugas 5/5) dan menyatakan suara mereka didengar tanpa tekanan (jalur relasi 5/5).\nBatas peran AI: AI hanya digunakan sebelum rapat untuk menyusun daftar kemungkinan skenario trade-off antarperan. Seluruh opsi final dan keputusan pemecahan dua tahap lahir murni dari wewenang dan kendala nyata para pemangku kepentingan.",
     "crumbs": [
       "Beranda",
       "Multi-Person Negotiation Challenge"
@@ -7071,7 +6840,7 @@
     "href": "portfolio/week-11.html#self-assessment",
     "title": "Multi-Person Negotiation Challenge",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nPosisi, kepentingan tersembunyi, kendala, authority, dan state TAIDA lima pihak dipetakan tajam\n\n\nObjective & State\n4\nMulti-state (dari Target defensif hingga Desire) dikelola menjadi common ground konkret\n\n\nRepertoire, Language & AI\n4\nPertanyaan penyelidikan, reframing kepentingan, pemecahan bertahap, dan batas AI sangat jelas\n\n\nResponse & Adaptation\n4\nKekhawatiran eksklusi Pak Rinal dan syarat keamanan Kak Huda mengubah arsitektur pilot menjadi dua tahap\n\n\nAgreement, Action & Relationship\n4\nKesepakatan presisi, threshold, specific disagreement, dan relationship repair terdokumentasi utuh\n\n\n\nTotal: 20/20 — Unggul.",
     "crumbs": [
       "Beranda",
       "Multi-Person Negotiation Challenge"
@@ -7082,84 +6851,51 @@
     "href": "portfolio/week-13.html",
     "title": "Public Contribution Challenge",
     "section": "",
-    "text": "Mengomunikasikan core meaning kepada public secara sederhana, benar, dan bertanggung jawab.",
+    "text": "Public character: Hadir sebagai mahasiswa peneliti & kontributor proyek NUSATANI, bukan juru bicara resmi Dinas Pertanian maupun konsultan agronomi tersertifikasi.\nTarget publik: Pemuda pedesaan, mahasiswa agroteknologi, dan penggerak komunitas tani di Bandung yang tertarik memahami bagaimana teknologi sederhana dapat diuji secara realistis di lahan.\nObjective: Menyampaikan makna inti (core meaning) pembelajaran pilot NUSATANI secara jernih, bebas jargon, dan jujur mengenai batasannya agar publik dapat mengevaluasi atau memberi masukan kritis.\nTAIDA map: Target—komunitas pemuda & mahasiswa agro; Attention—fakta 49,2% keterlambatan tindakan di lahan; Interest—mekanisme to-do list sensor kelompok & Lensa Tani; Desire—gambaran bertani yang lebih terukur tanpa janji palsu; Action—membaca dokumentasi metode pilot & mengirim masukan anonim.",
     "crumbs": [
       "Beranda",
       "Public Contribution Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-13.html#kompetensi-target",
-    "href": "portfolio/week-13.html#kompetensi-target",
+    "objectID": "portfolio/week-13.html#public-character-target-dan-objective",
+    "href": "portfolio/week-13.html#public-character-target-dan-objective",
     "title": "Public Contribution Challenge",
     "section": "",
-    "text": "Mengomunikasikan core meaning kepada public secara sederhana, benar, dan bertanggung jawab.",
+    "text": "Public character: Hadir sebagai mahasiswa peneliti & kontributor proyek NUSATANI, bukan juru bicara resmi Dinas Pertanian maupun konsultan agronomi tersertifikasi.\nTarget publik: Pemuda pedesaan, mahasiswa agroteknologi, dan penggerak komunitas tani di Bandung yang tertarik memahami bagaimana teknologi sederhana dapat diuji secara realistis di lahan.\nObjective: Menyampaikan makna inti (core meaning) pembelajaran pilot NUSATANI secara jernih, bebas jargon, dan jujur mengenai batasannya agar publik dapat mengevaluasi atau memberi masukan kritis.\nTAIDA map: Target—komunitas pemuda & mahasiswa agro; Attention—fakta 49,2% keterlambatan tindakan di lahan; Interest—mekanisme to-do list sensor kelompok & Lensa Tani; Desire—gambaran bertani yang lebih terukur tanpa janji palsu; Action—membaca dokumentasi metode pilot & mengirim masukan anonim.",
     "crumbs": [
       "Beranda",
       "Public Contribution Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-13.html#evidence-wajib",
-    "href": "portfolio/week-13.html#evidence-wajib",
+    "objectID": "portfolio/week-13.html#public-artifact-detoks-jargon",
+    "href": "portfolio/week-13.html#public-artifact-detoks-jargon",
     "title": "Public Contribution Challenge",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nPublic character, target, objective, dan TAIDA map.\nPublic artifact serta sumber evidence.\nContext-collapse/reputation check, response, dan correction bila diperlukan.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 13 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "section": "Public artifact & Detoks Jargon",
+    "text": "Public artifact & Detoks Jargon\nDetoks jargon sebelum publikasi:\n\n\n\n\n\n\n\nJargon Teknis / Akademis\nTerjemahan Bahasa Publik\n\n\n\n\nRule-based 25 pola NPK fokus nitrogen\nPanduan takaran pupuk bertahap (tahap awal fokus nitrogen) yang diperiksa penyuluh\n\n\nSensor IoT kelembapan, pH, NPK, suhu\nAlat pengukur kondisi tanah milik bersama kelompok tani\n\n\nUsability Testing & System Usability Scale\nUji kemudahan pakai langsung bersama 12 partisipan petani & mahasiswa\n\n\n\nFormat A — Pitch Lisan/Pembuka 30 Detik (42 kata, ≤45 kata): &gt; “Survei kami ke 63 petani Bandung menunjukkan 49,2% sering terlambat merawat lahan meski tahu caranya. Lewat uji pilot NUSATANI, sensor kelompok diubah jadi daftar tugas harian sederhana agar bertani makin terukur bagi anak muda. Tertarik melihat cara kerja dan batasan pilot kami?”\nFormat B & D — Copy Carousel Publik 3 Panel + Teks Alternatif (Alt-Text): &gt; Panel 1: “Kenapa bertani sering terasa rumit bagi anak muda? Survei kami (n=63) mencatat 49,2% petani sudah tahu tindakan rawat lahan, tetapi terlambat melakukannya.”\n&gt; Panel 2: “Dalam pilot 14 hari pada 1 petak uji bersama kelompok tani, NUSATANI menguji alur dashboard sederhana: data sensor milik kelompok diterjemahkan jadi daftar tugas harian, didampingi Lensa Tani dan papan ringkasan dwibahasa di saung.”\n&gt; Panel 3: “Ini adalah pilot mahasiswa—bukan jaminan panen atau layanan resmi Dinas Pertanian. Fitur foto/AI masih butuh internet dan keputusan akhir tetap di tangan petani & penyuluh. Baca metode lengkap & kirim kritik Anda lewat tautan form anonim.”\n\nAlt-Text Visual (diperiksa manual): “Diagram alur tiga kotak berwarna hijau lembut menunjukkan sensor tanah kelompok terhubung ke daftar tugas harian di layar ponsel dan papan tulis saung berbahasa Indonesia–Sunda, disertai kotak catatan batasan sinyal dan verifikasi penyuluh.”\nSumber evidence di caption: Ringkasan survei n=63, 10 wawancara, hasil 3 putaran UT (SUS 81,3 → 86,9; sampel 4–5 orang/putaran), serta catatan 1 petak pilot 14 hari. Seluruh foto wajah, nama lengkap petani, dan koordinat pasti lahan dihilangkan demi privasi.",
     "crumbs": [
       "Beranda",
       "Public Contribution Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-13.html#konteks-performance",
-    "href": "portfolio/week-13.html#konteks-performance",
+    "objectID": "portfolio/week-13.html#context-collapse-dan-reputation-check",
+    "href": "portfolio/week-13.html#context-collapse-dan-reputation-check",
     "title": "Public Contribution Challenge",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "Context-collapse dan reputation check",
+    "text": "Context-collapse dan reputation check\nKarena unggahan dapat dibaca lintas audiens (Dinas Pertanian, peneliti agronomi, petani luar Bandung, maupun investor), tim melakukan audit context-collapse sebelum rilis: 1. Menghapus kalimat draf “petani tua gagap teknologi dan menolak perubahan” karena tidak adil, merendahkan martabat petani senior, dan tidak mencerminkan fakta bahwa kendalanya adalah aksesibilitas perangkat. 2. Menghapus klaim “solusi anti gagal panen” karena melampaui bukti uji pilot 14 hari. 3. Mencantumkan label tegas “Pilot riset mahasiswa bersama kelompok tani (skala terbatas)” agar tidak disalahartikan sebagai peluncuran produk komersial atau program resmi pemerintah.",
     "crumbs": [
       "Beranda",
       "Public Contribution Challenge"
     ]
   },
   {
-    "objectID": "portfolio/week-13.html#evidence",
-    "href": "portfolio/week-13.html#evidence",
+    "objectID": "portfolio/week-13.html#response-dan-correction",
+    "href": "portfolio/week-13.html#response-dan-correction",
     "title": "Public Contribution Challenge",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
-    "crumbs": [
-      "Beranda",
-      "Public Contribution Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-13.html#analisis-komunikasi",
-    "href": "portfolio/week-13.html#analisis-komunikasi",
-    "title": "Public Contribution Challenge",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
-    "crumbs": [
-      "Beranda",
-      "Public Contribution Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-13.html#penggunaan-ai",
-    "href": "portfolio/week-13.html#penggunaan-ai",
-    "title": "Public Contribution Challenge",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Public Contribution Challenge"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-13.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-13.html#feedback-dan-tindak-lanjut",
-    "title": "Public Contribution Challenge",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "Response dan correction",
+    "text": "Response dan correction\nPada hari kedua publikasi, seorang pembaca (mahasiswa agroteknologi) berkomentar: “Apakah Lensa Tani dan aturan pupuknya sudah akurat untuk semua sayuran dataran tinggi Bandung dan bisa dipakai di kebun tanpa sinyal?”\nTim menyadari kalimat Panel 2 pada versi awal masih terlalu luas. Tim langsung menerbitkan revisi pada Panel 3 dan menambahkan Correction Log terbuka di caption:\n\n[Koreksi 18 Nov 2026]: Terima kasih atas pertanyaan kritisnya. Kami memperjelas di Panel 3 bahwa aturan pupuk baru mencakup 25 pola NPK fokus nitrogen (belum mencakup semua komoditas dataran tinggi), Tanya AI masih memakai model umum yang belum dilatih data lokal, dan Lensa Tani/Tanya AI masih memerlukan koneksi internet (31,7% titik lahan rawan hilang sinyal; mode luring masih dalam tahap rencana).\n\n\nEvidence respons: 64 kunjungan halaman metode, 15 komentar/masukan tertulis, 3 rekan sejawat memberi skor 3/3 pada uji kejernihan & kejujuran batas, serta 1 correction log publik. Angka kunjungan dan komentar tidak diklaim sebagai bukti bahwa persoalan regenerasi petani telah terselesaikan.\nPeran AI: AI digunakan untuk menyusun draf awal alt-text dan memindai potensi klaim absolut (overclaiming) pada naskah 200 kata dan carousel. Seluruh hasil alt-text dicocokkan ulang dengan visual asli dan angka makalah oleh manusia sebelum publikasi.",
     "crumbs": [
       "Beranda",
       "Public Contribution Challenge"
@@ -7170,7 +6906,7 @@
     "href": "portfolio/week-13.html#self-assessment",
     "title": "Public Contribution Challenge",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nPublic character (peneliti mahasiswa, bukan instansi resmi) dan batas wewenang dinyatakan eksplisit\n\n\nObjective & State\n4\nPeta TAIDA, core meaning, dan batas outcome (membedakan engagement dari penyelesaian masalah) tegas\n\n\nRepertoire, Language & AI\n4\nDetoks jargon, pitch 42 kata, carousel 3 panel, alt-text terverifikasi, dan audit context-collapse lengkap\n\n\nResponse & Adaptation\n4\nPertanyaan kritis publik langsung ditindaklanjuti revisi konten dan correction log transparan\n\n\nAgreement, Action & Relationship\n4\nAjakan aksi jelas (baca metode & kirim kritik), privasi petani dijaga, dan martabat petani senior terlindungi\n\n\n\nTotal: 20/20 — Unggul.",
     "crumbs": [
       "Beranda",
       "Public Contribution Challenge"
@@ -7181,84 +6917,62 @@
     "href": "portfolio/week-15.html",
     "title": "Capstone Performance Portfolio",
     "section": "",
-    "text": "Mengintegrasikan person, character, objective, state, repertoire, language, response, agreement, action, relationship, dan AI judgment.",
+    "text": "Pada 23 November 2026, saya memfasilitasi rapat evaluasi capstone (merangkum perjalanan Minggu 5–14) bersama Pak Hendra (Ketua Poktan), Kak Huda (Penyuluh Pertanian), Mas Ajad (perwakilan petani muda ≤35 th), dan Pak Rinal (perwakilan petani senior ≥49 th) untuk memutuskan kelanjutan pilot NUSATANI pasca-uji 14 hari.\n\nCharacter: Hadir sebagai fasilitator & mahasiswa peneliti, bukan pemilik permanen operasional kebun maupun pihak yang memaksakan adopsi aplikasi.\nInitial multi-states: Mas Ajad sangat antusias menginginkan perluasan segera (Desire); Kak Huda melihat manfaat transparansi rekomendasi tetapi tetap hati-hati pada batasan 25 pola NPK (Interest dengan syarat); Pak Rinal merasa lebih dihargai berkat papan saung dwibahasa namun tetap tidak ingin diwajibkan memakai HP (Attention netral); Pak Hendra belum memutuskan apakah kelompok siap melanjutkan setelah masa kuliah tim selesai (Uncommitted / Evaluation).\nObjective: Menghasilkan keputusan berbasis bukti lapangan—lanjut terbatas, ubah, atau berhenti—lengkap dengan pemilik tanggung jawab (owner), rencana transisi peran mahasiswa, jadwal review, dan pencatatan dissent.\nPerformance plan: Presentasi data pilot 2 menit \\(\\rightarrow\\) verifikasi tafsir bersama \\(\\rightarrow\\) pembahasan opsi & trade-off \\(\\rightarrow\\) negosiasi kepemilikan risiko \\(\\rightarrow\\) penutupan eksplisit.",
     "crumbs": [
       "Beranda",
       "Capstone Performance Portfolio"
     ]
   },
   {
-    "objectID": "portfolio/week-15.html#kompetensi-target",
-    "href": "portfolio/week-15.html#kompetensi-target",
+    "objectID": "portfolio/week-15.html#person-character-dan-performance-plan",
+    "href": "portfolio/week-15.html#person-character-dan-performance-plan",
     "title": "Capstone Performance Portfolio",
     "section": "",
-    "text": "Mengintegrasikan person, character, objective, state, repertoire, language, response, agreement, action, relationship, dan AI judgment.",
+    "text": "Pada 23 November 2026, saya memfasilitasi rapat evaluasi capstone (merangkum perjalanan Minggu 5–14) bersama Pak Hendra (Ketua Poktan), Kak Huda (Penyuluh Pertanian), Mas Ajad (perwakilan petani muda ≤35 th), dan Pak Rinal (perwakilan petani senior ≥49 th) untuk memutuskan kelanjutan pilot NUSATANI pasca-uji 14 hari.\n\nCharacter: Hadir sebagai fasilitator & mahasiswa peneliti, bukan pemilik permanen operasional kebun maupun pihak yang memaksakan adopsi aplikasi.\nInitial multi-states: Mas Ajad sangat antusias menginginkan perluasan segera (Desire); Kak Huda melihat manfaat transparansi rekomendasi tetapi tetap hati-hati pada batasan 25 pola NPK (Interest dengan syarat); Pak Rinal merasa lebih dihargai berkat papan saung dwibahasa namun tetap tidak ingin diwajibkan memakai HP (Attention netral); Pak Hendra belum memutuskan apakah kelompok siap melanjutkan setelah masa kuliah tim selesai (Uncommitted / Evaluation).\nObjective: Menghasilkan keputusan berbasis bukti lapangan—lanjut terbatas, ubah, atau berhenti—lengkap dengan pemilik tanggung jawab (owner), rencana transisi peran mahasiswa, jadwal review, dan pencatatan dissent.\nPerformance plan: Presentasi data pilot 2 menit \\(\\rightarrow\\) verifikasi tafsir bersama \\(\\rightarrow\\) pembahasan opsi & trade-off \\(\\rightarrow\\) negosiasi kepemilikan risiko \\(\\rightarrow\\) penutupan eksplisit.",
     "crumbs": [
       "Beranda",
       "Capstone Performance Portfolio"
     ]
   },
   {
-    "objectID": "portfolio/week-15.html#evidence-wajib",
-    "href": "portfolio/week-15.html#evidence-wajib",
+    "objectID": "portfolio/week-15.html#evidence-dan-decisive-adaptation",
+    "href": "portfolio/week-15.html#evidence-dan-decisive-adaptation",
     "title": "Capstone Performance Portfolio",
-    "section": "Evidence wajib",
-    "text": "Evidence wajib\n\nPerson/character/state map dan performance plan.\nRekaman/transcript, observer feedback, serta decisive adaptation.\nAgreement/action atau specific disagreement, relationship outcome, AI critique, dan reflection.\n\n\n\n\n\n\n\nTipLihat contoh pengisian\n\n\n\nBuka contoh fiktif Minggu 15 untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.",
+    "section": "Evidence dan decisive adaptation",
+    "text": "Evidence dan decisive adaptation\nRingkasan bukti pilot 14 hari (9–22 November 2026): 12 dari 14 hari pencatatan berjalan lancar; keterlambatan tindakan harian pada petak uji turun dari menunda 1–2 hari menjadi &lt;30 menit setelah notifikasi; 2 kejadian hilang sinyal tertangani kartu SOP luring dwibahasa; nol insiden salah dosis pupuk; papan saung Indonesia–Sunda dibaca rutin oleh petani senior dan penggarap. Caveat eksplisit: baru 1 petak uji, 1 komoditas, durasi 14 hari, dan tanpa control group.\nMomen Decisive Adaptation:\n\nSaya (draf awal): “Melihat 12 hari berjalan lancar dan SUS sebelumnya 86,9, data pilot mendukung perluasan langsung ke 5 lahan kelompok bulan depan.”\nPak Hendra: “Saya tidak setuju diperluas ke 5 lahan dulu. Dua kali sinyal putus kemarin bisa cepat beres karena tim mahasiswa masih rajin menengok. Kalau semester kalian selesai, siapa yang bertanggung jawab menjaga 5 sensor dan menanggung komplain anggota?”\nKak Huda: “Betul, dan aturan kita baru fokus nitrogen. Kalau langsung 5 lahan dengan tanaman berbeda, saya tidak sanggup mengawal validasinya sendirian.”\nSaya: “Saya terlalu cepat menyimpulkan perluasan. Terima kasih koreksinya, Pak Hendra dan Kak Huda. Berarti masalah utamanya bukan lagi apakah aplikasinya mudah dipakai, melainkan siapa pemilik risiko pemeliharaan setelah tim mahasiswa selesai, serta batas cakupan aturan pupuk kita?”\nPak Hendra: “Tepat. Kami baru sanggup menjaga 1 petak percontohan jika ada panduan perawatan sederhana dan batas tanggung jawab yang jelas.”\n\nSaya langsung menghentikan slide rekomendasi perluasan 5 lahan dan membuka pembahasan ulang berbasis batas kapasitas ownership lokal.",
     "crumbs": [
       "Beranda",
       "Capstone Performance Portfolio"
     ]
   },
   {
-    "objectID": "portfolio/week-15.html#konteks-performance",
-    "href": "portfolio/week-15.html#konteks-performance",
+    "objectID": "portfolio/week-15.html#outcome",
+    "href": "portfolio/week-15.html#outcome",
     "title": "Capstone Performance Portfolio",
-    "section": "Konteks performance",
-    "text": "Konteks performance\nTanggal dan setting: Ganti dengan tanggal, tempat, dan bentuk kegiatan.\nPersons dan relationship: Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.\nObjective dan initial state: Nyatakan perubahan yang ingin dicapai serta evidence state awal.",
+    "section": "Outcome",
+    "text": "Outcome\n\nAgreement eksplisit:\n\nScope: Pilot dilanjutkan selama 1 musim tanam hanya pada 1 petak percontohan (bukan 5 lahan) dengan fokus komoditas yang sama.\nOwnership & Boundary: Pengurus Poktan (Pak Hendra) menjadi pemilik penjadwalan & papan saung dwibahasa; Kak Huda memegang hak veto validasi agronomi dan eskalasi risiko merah; Relawan petani muda (Mas Ajad dkk.) mengelola pembaruan papan saung & pelaporan gangguan.\nRencana transisi & exit peran: Tim mahasiswa NUSATANI menyerahkan buku panduan pemeliharaan sensor, daftar troubleshooting luring, serta kode/dokumentasi terbuka, lalu selesai dari peran operator harian setelah masa transisi 3 minggu (14 Desember 2026) dan hanya berstatus dukungan konsultatif terbatas.\nStop rule & Review: Jika sensor mengalami gangguan berulang (&gt;3 kali dalam 2 minggu) tanpa solusi mandiri atau membebani kerja relawan, alat dinonaktifkan sementara dan kelompok kembali penuh ke jadwal manual. Review bersama dijadwalkan 6 minggu kemudian (4 Januari 2027).\n\nSpecific disagreement (Dissent): Mas Ajad tetap menginginkan perluasan ke 3 petak sekaligus dan percepatan mode luring. Ketidaksetujuan ini dicatat resmi dalam notulen; ekspansi baru dibahas pada review Januari 2027 setelah mode luring diuji dan aturan pupuk mencakup unsur P serta K.\nRelationship outcome: Pak Hendra merasa kekhawatiran keberlanjutan kelompok dihormati sepenuhnya; Pak Rinal menyatakan tetap nyaman ikut forum karena suara petani senior tidak dipaksa memakai aplikasi; Kak Huda memegang kendali penuh atas keselamatan agronomi; dan aspirasi Mas Ajad tetap diakui jalurnya secara adil meski belum dikabulkan sekarang.",
     "crumbs": [
       "Beranda",
       "Capstone Performance Portfolio"
     ]
   },
   {
-    "objectID": "portfolio/week-15.html#evidence",
-    "href": "portfolio/week-15.html#evidence",
+    "objectID": "portfolio/week-15.html#observer-feedback-dan-replay",
+    "href": "portfolio/week-15.html#observer-feedback-dan-replay",
     "title": "Capstone Performance Portfolio",
-    "section": "Evidence",
-    "text": "Evidence\n\nTambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.",
+    "section": "Observer feedback dan replay",
+    "text": "Observer feedback dan replay\nPengamat menilai decisive adaptation saya (menghentikan slide perluasan 5 lahan) sudah sangat substantif, tetapi mencatat bahwa kalimat pembuka “data pilot mendukung perluasan” terlalu kuat untuk sampel 1 petak selama 14 hari.\nReplay perbaikan bahasa pembuka: &gt; “Data awal 14 hari pada 1 petak menunjukkan keterlambatan tindakan harian mungkin berkurang tanpa insiden dosis, sementara dua kejadian putus sinyal dan batas 25 pola nitrogen membuka pertanyaan penting soal siapa penanggung jawab pemeliharaan setelah masa transisi kami. Saya ingin menguji tafsir ini bersama Bapak dan Kakak semua sebelum kita memutuskan langkah berikutnya.”",
     "crumbs": [
       "Beranda",
       "Capstone Performance Portfolio"
     ]
   },
   {
-    "objectID": "portfolio/week-15.html#analisis-komunikasi",
-    "href": "portfolio/week-15.html#analisis-komunikasi",
+    "objectID": "portfolio/week-15.html#ai-critique-dan-reflection",
+    "href": "portfolio/week-15.html#ai-critique-dan-reflection",
     "title": "Capstone Performance Portfolio",
-    "section": "Analisis komunikasi",
-    "text": "Analisis komunikasi\n\n\n\nElemen\nEvidence dan analisis\n\n\n\n\nPerson & character\nGanti dengan analisis Anda.\n\n\nObjective & state\nGanti dengan analisis Anda.\n\n\nRepertoire & language\nGanti dengan analisis Anda.\n\n\nResponse & adaptation\nGanti dengan analisis Anda.\n\n\nAgreement/action\nGanti dengan analisis Anda.\n\n\nRelationship outcome\nGanti dengan analisis Anda.",
-    "crumbs": [
-      "Beranda",
-      "Capstone Performance Portfolio"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-15.html#penggunaan-ai",
-    "href": "portfolio/week-15.html#penggunaan-ai",
-    "title": "Capstone Performance Portfolio",
-    "section": "Penggunaan AI",
-    "text": "Penggunaan AI\nNyatakan Tidak menggunakan AI atau jelaskan:\n\nalat dan peran AI;\nprompt atau instruksi penting;\nbagian output yang digunakan, diubah, atau ditolak;\npemeriksaan accuracy, privacy, dan authority;\napa yang tetap Anda pelajari sebagai manusia.",
-    "crumbs": [
-      "Beranda",
-      "Capstone Performance Portfolio"
-    ]
-  },
-  {
-    "objectID": "portfolio/week-15.html#feedback-dan-tindak-lanjut",
-    "href": "portfolio/week-15.html#feedback-dan-tindak-lanjut",
-    "title": "Capstone Performance Portfolio",
-    "section": "Feedback dan tindak lanjut",
-    "text": "Feedback dan tindak lanjut\nFeedback yang diterima: Ganti dengan kutipan atau ringkasan berbasis evidence.\nAdaptation/replay: Jelaskan apa yang Anda ubah dan response setelah perubahan.\nNext practice: Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.",
+    "section": "AI critique dan reflection",
+    "text": "AI critique dan reflection\n\nAI critique: Sebelum rapat, AI membantu merangkum catatan log 14 hari dan mendaftar caveat statistik yang mungkin terlewat. Namun, AI menyarankan opsi utama: “Segera ekspansi ke 5–10 lahan karena skor SUS 86,9 dan tingkat selesai 100% menunjukkan produk siap pakai.” Rekomendasi AI ini saya tolak tegas karena AI hanya membaca angka engagement/usability, tetapi buta terhadap batas wewenang lokal, risiko hilangnya dukungan pasca-semester, keterbatasan 31,7% sinyal lahan, serta martabat petani senior. Seluruh data log diverifikasi manual dan transkrip rapat tidak diunggah ke AI.\nRefleksi akhir (Minggu 5–15): Pelajaran terpenting sepanjang perjalanan NUSATANI bukanlah bagaimana merancang pitch paling persuasif atau membuat semua orang berkata “ya”. Kompetensi komunikasi yang paling menentukan justru keberanian mengizinkan respons, keberatan, dan batas kehidupan nyata orang lain mengubah tujuan, desain solusi, bahkan peran kita sendiri—termasuk tahu kapan harus mundur dari posisi operator agar kemandirian dan wewenang tetap berada di tangan komunitas petani itu sendiri.",
     "crumbs": [
       "Beranda",
       "Capstone Performance Portfolio"
@@ -7269,7 +6983,7 @@
     "href": "portfolio/week-15.html#self-assessment",
     "title": "Capstone Performance Portfolio",
     "section": "Self-assessment",
-    "text": "Self-assessment\n\n\n\nDimensi\nSkor 1–4\nEvidence singkat\n\n\n\n\nPerson & Character\n—\n—\n\n\nObjective & State\n—\n—\n\n\nRepertoire, Language & AI\n—\n—\n\n\nResponse & Adaptation\n—\n—\n\n\nAgreement, Action & Relationship\n—\n—\n\n\n\nTotal: — / 20\n\nAssessment dosen\nSkor: — / 20\nEvidence yang mendukung: —\nPrioritas perbaikan: —\nKeputusan: Belum dinilai / Perlu revisi / Tercapai",
+    "text": "Self-assessment\n\n\n\n\n\n\n\n\nDimensi\nSkor\nEvidence singkat\n\n\n\n\nPerson & Character\n4\nPeran, relasi kuasa, multi-state lima pihak, dan transisi karakter (keluar dari peran operator) dipetakan utuh\n\n\nObjective & State\n4\nKetidakpastian sampel kecil, competing objectives, dan batas wewenang dikelola tanpa overclaiming\n\n\nRepertoire, Language & AI\n4\nFasilitasi berbasis bukti, replay pelunakan klaim, dan penolakan kritis atas rekomendasi scale-up AI\n\n\nResponse & Adaptation\n4\nKeberatan risk ownership Pak Hendra & Kak Huda langsung membatalkan rencana ekspansi prematur 5 lahan\n\n\nAgreement, Action & Relationship\n4\nOwner, batas tanggung jawab, dissent, rencana transisi 3 minggu, stop rule, dan jadwal review lengkap\n\n\n\nTotal: 20/20 — Unggul.",
     "crumbs": [
       "Beranda",
       "Capstone Performance Portfolio"

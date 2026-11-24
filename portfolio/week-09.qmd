@@ -1,25 +1,63 @@
 ---
 title: "Desire-State Communication"
 week: 9
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "20/20"
 assessor_score: "—"
 description: "Current state, desired state, value, evidence, dan risk."
 categories: [TAIDA, Desire]
 ---
 
-## Kompetensi target
+## Current dan desired state
 
-Membangun desired state bersama target dan menghubungkannya dengan solution secara kredibel.
+| Elemen | Rumusan selaras dengan nilai & aspirasi target |
+|---|---|
+| Current state | Petani muda sering terlambat mengambil tindakan (49,2%); pada prototipe UT-3, menu sudah mudah diklik (100% selesai), tetapi 3 dari 4 partisipan bingung arti label *"kondisi tanah cukup baik"* dan tidak tahu alasan di balik dosis rekomendasi |
+| Desired state | Petani muda percaya diri menjalankan perawatan harian yang tepat waktu karena **memahami alasan ilmiah di balik setiap saran** (identitas sebagai petani modern yang paham lahan, bukan sekadar mengikuti perintah aplikasi), serta penyuluh terbantu mendampingi tanpa takut salah rekomendasi |
+| Value | Otonomi dan kepastian keputusan harian bagi petani muda ≤35 tahun; perlindungan kredibilitas pendampingan bagi penyuluh (Kak Huda) |
+| Acceptable risk | Pengujian hanya dilakukan pada 1 lahan uji bersinyal setelah aturan pupuk divalidasi penyuluh; keputusan akhir perawatan tetap sepenuhnya di tangan petani |
+| Evidence threshold | 100% partisipan uji lanjutan memahami alasan rekomendasi (menjawab temuan 3/4 partisipan UT-3), penyelesaian integrasi IoT tanpa bantuan naik dari 75% ke ≥90%, dan notifikasi gangguan sensor dikenali dalam <5 detik |
 
-## Evidence wajib
+## Feature–benefit–value–outcome chain
 
-- Current dan desired state milik person.
-- Feature–benefit–value–outcome chain.
-- Risk, evidence threshold, response, dan adaptation.
+`Data sensor kelompok + Lensa Tani + kartu alasan rekomendasi transparan` → petani melihat kondisi tanah beserta alasan dosis yang disarankan → tindakan perawatan dilakukan tepat waktu dengan keyakinan penuh → risiko kesalahan dan keterlambatan penanganan menurun → bertani terasa lebih terukur, bermartabat, dan menarik bagi generasi muda.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 9](../examples/week-09.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+**Analogi & batasnya:** Mekanisme ini dijelaskan seperti *asisten catatan medis* yang merangkum hasil cek dan memberi opsi tindakan beserta alasannya, **bukan dokter pengganti**—batasnya, akurasi awal masih bergantung pada validasi pakar lokal dan kestabilan sinyal. Setiap panah dalam rantai diperlakukan sebagai **hipotesis** yang harus diuji di lahan.
 
-{{< include ../includes/evidence-template.md >}}
+## Percakapan dan response
+
+Pada **UT-3** (2–5 Oktober 2026) yang melibatkan 4 partisipan ≤35 tahun—**Kak Huda** (26, penyuluh-petani), **Mas Ajad** (33, petani Tuban), **Fadhly** (20, mahasiswa agro), dan **Pak Rina** (35, petani padi Jogja)—terjadi pergeseran hambatan dari navigasi ke **kepercayaan terhadap rekomendasi**:
+
+> **Kak Huda:** “Tampilannya sudah enak sekali, tapi waktu muncul tulisan *‘kondisi tanah cukup baik’* lalu langsung keluar rekomendasi pupuk, saya ragu. Kalau petani muda ikut saja tanpa tahu alasannya, lalu sensornya error tapi notifikasinya tidak kelihatan, nanti gagal panen dan penyuluh juga ikut kena.”  
+> **Tim:** “Jadi, bagi Kak Huda, aplikasi yang mudah diklik justru berbahaya jika tidak menjelaskan alasan rekomendasinya dan tidak memberi peringatan keras saat sensor bermasalah?”  
+> **Kak Huda:** “Betul. Saya ingin petani muda makin paham lahannya, bukan malah bergantung buta pada alat.”
+
+Temuan ini diperkuat data UT-3: **3 dari 4 partisipan** mempertanyakan arti *"kondisi tanah cukup baik"*, dan penyelesaian mandiri **integrasi IoT** turun dari **80% (UT-2) menjadi 75% (UT-3)**.
+
+**Adaptasi substantif (Kompas Desain Iterasi 4):** Keberatan Kak Huda langsung dijadikan kompas untuk merancang **Iterasi 4** di Figma:
+1. Menambahkan **kartu alasan rekomendasi** yang menjelaskan hubungan indikator tanah dengan saran dosis.
+2. Menyusun **panduan pemasangan IoT bertahap** (*step-by-step*).
+3. Membuat **notifikasi gangguan sensor** jauh lebih menonjol dengan indikator status sinkronisasi terakhir.
+
+## Risk dan evidence
+
+**Tangga Bukti (3 tingkat dipadukan sesuai risiko keputusan):**
+1. **Tingkat 2 (Prototipe Interaktif):** Demonstrasi langsung prototipe Figma Iterasi 1–3 yang dicoba ~12 partisipan unik. *Batas:* belum aplikasi produksi dan sensor belum terpasang di tanah nyata.
+2. **Tingkat 3 (*User Story* Nyata):** Testimoni konkret Mas Ajad (33) dan Pak Rina (35) yang menilai alur *to-do list* dan *Lensa Tani* menyederhanakan pengecekan harian. *Batas:* pengalaman bersifat kualitatif dalam konteks simulasi.
+3. **Tingkat 4 (Data Uji Skala Kecil):** Metrik 3 putaran UT (n=4, 5, 4; selesai tanpa bantuan 83% → 86% → 100%; SUS 81,3 → 82,0 → 86,9). *Batas:* sampel kecil, belum tergeneralisasi, dan UT-3 seluruhnya ≤35 tahun.
+
+**Pengakuan risiko sebagai pembangun kredibilitas:** Tim secara proaktif mengakui bahwa *Tanya AI* masih memakai Gemini umum (belum dilatih data lokal), aturan pupuk baru mencakup 25 pola NPK fokus nitrogen, dan **31,7%** responden pernah kehilangan sinyal di lahan. Sikap terbuka ini justru membuat Kak Huda percaya pada integritas tim dan bersedia membantu proses validasi agronomi. Sesi ditutup dengan kesepakatan bahwa jika hasil tinjauan agronomi menunjukkan sistem belum aman, penolakan Kak Huda akan diterima sebagai data penting untuk mencegah kerugian petani.
+
+**AI Statement:** AI dipakai untuk menguji potensi lompatan logika pada *value chain* dan menyimulasikan keberatan penyuluh. Tim menolak saran AI yang mengklaim "peningkatan panen 20%" karena tidak memiliki dasar uji lapangan.
+
+## Self-assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | *Desired state* selaras dengan nilai batin dan identitas sasaran (petani paham alasan; kredibilitas penyuluh terjaga) |
+| Objective & State | 4 | *Current/desired state*, *acceptable risk*, dan *evidence threshold* terukur dan eksplisit |
+| Repertoire, Language & AI | 4 | 3 tingkat Tangga Bukti, analogi dengan batas jelas, dan pengakuan risiko jujur membangun kredibilitas utama |
+| Response & Adaptation | 4 | Keberatan 3/4 partisipan UT-3 & Kak Huda menjadi kompas perubahan arsitektur informasi ke Iterasi 4 |
+| Agreement, Action & Relationship | 4 | Kebebasan menolak ditegaskan sebagai data sehat; Kak Huda menyepakati tahap tinjauan agronomi sebelum pilot |
+
+**Total: 20/20 — Unggul.**

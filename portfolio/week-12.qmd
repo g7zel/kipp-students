@@ -1,25 +1,58 @@
 ---
 title: "Community Communication Challenge"
 week: 12
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "20/20"
 assessor_score: "—"
 description: "Framing, deliberation, sufficient agreement, dan collective action."
 categories: [Community, Deliberation]
 ---
 
-## Kompetensi target
+## Community map
 
-Memfasilitasi community communication melintasi perbedaan dan power menuju action yang layak.
+Topik deliberasi komunitas (8 November 2026, dihadiri 18 anggota Kelompok Tani Bandung): **Aturan Pakai Bersama Sensor Tanah & Pembagian Akses Informasi Lahan Uji NUSATANI** (menindaklanjuti temuan survei bahwa 65,1% petani memilih kepemilikan sensor melalui kelompok).
 
-## Evidence wajib
+| Kelompok / Person | Fakta Objektif | Interpretasi / Story & Nilai | Position Awal |
+|---|---|---|---|
+| Petani muda (≤35 th, 6 orang) | Sering terlambat merawat lahan (49,2% survei); terbiasa pakai HP & WhatsApp (74,6%) | *Story:* “Teknologi mempercepat kerja.”<br>*Nilai:* Efisiensi, kemandirian belajar | Sensor diprioritaskan untuk anggota yang aktif pakai aplikasi |
+| Petani senior (≥49 th, 5 orang) | Jarang membawa HP ke lahan; 2 orang kesulitan saat UT (SUS 65 & 72,5) | *Story:* “Alat baru bisa merusak cara rawat yang sudah terbukti.”<br>*Nilai:* Penghormatan pengalaman, ketenangan kerja | Tetap pakai pola kebun biasa tanpa aturan digital baru |
+| Buruh tani / penggarap harian (4 orang — suara paling sunyi) | Bekerja langsung mencangkul dan menyiram di petak uji tiap pagi–siang | *Story:* “Kalau alat mahal itu rusak kena cangkul, kami yang disalahkan dan disuruh ganti.”<br>*Nilai:* Rasa aman nafkah, bebas dari tuduhan sepihak | Tidak berani berpendapat di awal (diam/menghindar) |
+| Pengurus Kelompok Tani (3 orang, dipimpin Pak Hendra) | Anggaran kas kelompok terbatas; belum ada SOP peminjaman alat elektronik | *Story:* “Jangan sampai alat pinjaman memicu konflik antaranggota.”<br>*Nilai:* Kerukunan, keadilan akses, akuntabilitas | Wajib ada aturan sederhana tanpa biaya kas |
 
-- Community person map dan fact/story/value/position.
-- Sedikitnya tiga frames dan lima options.
-- Deliberation evidence, safeguard, action, dan review plan.
+## Tiga frames dan lima options
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 12](../examples/week-12.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+**Tiga frames yang diuji:**
+1. **Modernisasi & efisiensi pertanian** — ditolak secara halus oleh petani senior karena berkesan membagi warga menjadi "maju vs. tertinggal" (*attack frame*).
+2. **Ketertiban inventaris alat kelompok** — terasa terlalu birokratis dan membuat penggarap cemas terhadap denda.
+3. **Gotong royong rawat lahan bersama (*Shared Care*)** — paling membuka percakapan lintas usia.
 
-{{< include ../includes/evidence-template.md >}}
+**Reframing kolaboratif yang disepakati:** *“Bagaimana kita bisa mengatur pemakaian sensor bersama agar petani muda terbantu mengambil keputusan harian secara tepat waktu, petani senior dan penggarap tetap merasa aman serta dihormati, tanpa membebani kas kelompok?”*
+
+**Lima options yang dibahas:** (1) Dipakai eksklusif oleh petani muda, (2) Sistem sewa bergilir berbayar, (3) Sensor dipindah-pindah tiap minggu antarpetak, (4) Dipasang menetap di 1 petak percontohan terbuka dilengkapi papan informasi manual di saung, (5) Tanpa sensor—hanya memakai *Lensa Tani* secara mandiri. Fasilitator sengaja **menunda voting** hingga seluruh kelompok (termasuk penggarap yang diam) selesai berbicara.
+
+## Deliberation dan safeguard
+
+Dalam sesi *round-robin*, fasilitator mengundang suara sunyi dengan pertanyaan aman: *“Kang Dedi dan rekan penggarap, dari pengalaman kerja harian di petak, apa yang paling mengkhawatirkan jika alat ini dipasang di lahan?”* Kang Dedi mengungkapkan ketakutan utamanya bukan pada teknologinya, melainkan risiko **dituduh merusak alat saat mencangkul** serta tidak paham istilah teknis di layar HP.
+
+Respons ini langsung mengubah opsi unggulan dari sekadar "petak percontohan" menjadi **Opsi 4 yang dimodifikasi**: sensor dipasang menetap dengan **patok pelindung berwarna terang**, dan data harian diterjemahkan petani muda ke **papan tulis informasi dwibahasa (Bahasa Indonesia & Bahasa Sunda)** di saung kelompok agar petani senior dan penggarap ikut merasakan manfaat tanpa wajib memegang HP.
+
+- **Sufficient agreement:** **15 dari 18 peserta** menyetujui pilot komunitas 14 hari (9–22 November 2026); **2 abstain** (menunggu hasil nyata dulu); **1 petani senior menolak** karena merasa pengalaman pribadi sudah cukup. *Dissent* dicatat utuh dalam notulen.
+- **Safeguards konkret:** (1) Bebas denda/sanksi finansial bagi penggarap jika sensor tergeser tak sengaja—risiko perangkat sepenuhnya ditanggung tim NUSATANI, (2) dilarang memotret atau menyalahkan kesalahan anggota di grup WhatsApp, (3) informasi di saung dan kartu SOP tersedia dalam **dwibahasa (Indonesia–Sunda)**, (4) tombol darurat pencabutan alat kapan saja bila mengganggu kerja kebun, dan (5) evaluasi terbuka hari ke-14.
+
+## Collective action dan evidence
+
+- **Pembagian aksi nyata:** Pengurus (Pak Hendra) memasang patok pelindung & papan saung sebelum 9 November; 2 relawan petani muda memperbarui ringkasan papan saung tiap 2 hari dan mencatat log anomali; Kak Huda mengawal validitas saran; saya memfasilitasi forum evaluasi tanpa bertindak sebagai pengawas/penegak aturan.
+- **Hasil pilot 14 hari (9–22 November 2026):** 12 dari 14 hari operasional berjalan lancar; 2 kejadian hilang sinyal tertangani oleh kartu SOP luring dwibahasa; catatan ketidakpastian jadwal rawat pada petak uji turun dari 4 kejadian sebelum pilot menjadi 1 kejadian. Ukuran sampel kecil (1 petak, 14 hari) dilaporkan apa adanya **tanpa klaim kausal besar** terhadap peningkatan panen.
+- **Batas peran AI:** AI hanya dipakai untuk memeriksa apakah ringkasan hasil deliberasi yang disusun fasilitator telah menghilangkan poin *dissent* atau kekhawatiran penggarap. Transkrip personal dan nama lengkap warga tidak pernah diunggah ke AI.
+
+## Self-assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Kelompok dengan akses dan *power* berbeda (termasuk buruh tani sebagai suara sunyi) dilibatkan setara |
+| Objective & State | 4 | Fakta objektif, interpretasi subjektif, nilai hidup, dan posisi awal dipisahkan secara disiplin |
+| Repertoire, Language & AI | 4 | 3 *frames*, *collaborative reframing*, 5 opsi, *round-robin*, akses dwibahasa Indonesia–Sunda, dan batas AI |
+| Response & Adaptation | 4 | Kekhawatiran buruh tani langsung mengubah desain aturan (patok pelindung, bebas denda, papan saung) |
+| Agreement, Action & Relationship | 4 | *Sufficient agreement* (15/18), catatan *dissent*, 5 *safeguards*, aksi kolektif, dan evaluasi 14 hari lengkap |
+
+**Total: 20/20 — Unggul.**

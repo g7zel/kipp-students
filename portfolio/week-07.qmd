@@ -1,25 +1,65 @@
 ---
 title: "Problem–Solution Interest Pitch"
 week: 7
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "20/20"
 assessor_score: "—"
 description: "Problem–solution fit dan signal Interest."
 categories: [TAIDA, Interest]
 ---
 
-## Kompetensi target
+## Attention evidence dan solution hypothesis
 
-Menghubungkan solution mechanism dengan problem, benefit, dan value yang relevan.
+Rekap konsultasi dua minggu dari Kak Huda menguatkan data survei (49,2% terlambat bertindak; 74,6% memakai WhatsApp; 65,1% mau memakai sensor milik kelompok dibanding 27% beli sendiri). Akar masalah yang disepakati: petani muda kewalahan menerjemahkan kondisi lahan menjadi jadwal perawatan harian yang tepat waktu.
 
-## Evidence wajib
+**Solution hypothesis:** Prototipe aplikasi **NUSATANI** (Figma) mengubah kondisi lahan menjadi panduan tindakan harian yang sederhana melalui tiga fitur inti, setelah dilakukan **Detoks Fitur** ketat.
 
-- Attention evidence dan problem–solution link.
-- Interest pitch dengan evidence atau demonstration.
-- Response, state assessment, hidden concern, dan adaptation.
+**Hasil Detoks Fitur (dipangkas/ditunda):** Komunitas petani, *marketplace* jual hasil tani, analisis lintas musim, penjadwalan lintas lahan, dan mode luring dipangkas dari versi awal agar tidak memicu *feature dumping*.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 7](../examples/week-07.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+| Problem | Mechanism | Expected benefit | Nilai Relasional (Per Peran) |
+|---|---|---|---|
+| Terlambat bertindak & bingung menafsirkan angka sensor | *Monitor & Panduan Tindakan*: mengubah data sensor tanah (kelembapan, pH, NPK, suhu) milik kelompok menjadi *to-do list* harian (jenis pupuk, dosis, waktu, notifikasi, tanda selesai) | Petani langsung mendapat langkah kerja konkret tanpa menafsirkan angka mentah | **Petani muda:** kepastian jadwal harian tanpa bingung angka.<br>**Penyuluh:** berkurangnya pertanyaan dasar berulang |
+| Sulit mengenali hama/penyakit dini | *Lensa Tani*: foto daun untuk dugaan hama/penyakit, tingkat keparahan, dan saran penanganan (jalan tanpa sensor) | Deteksi awal gangguan tanaman lebih cepat tanpa biaya perangkat | **Petani muda:** mengurangi risiko telat penanganan.<br>**Kelompok tani:** bisa dipakai sebelum pengadaan sensor |
+| Aplikasi pertanian terasa asing dan rumit | *Tanya AI*: asisten teks/suara bergaya WhatsApp (dipakai 74,6% responden) yang menyatu di dalam *Lensa Tani* | Interaksi terasa akrab seperti berkirim pesan biasa | **Petani muda:** kurva belajar rendah sehingga bertani terasa lebih simpel |
 
-{{< include ../includes/evidence-template.md >}}
+## Pitch dan demonstration
+
+> “Dari catatan konsultasi dua minggu kemarin, petani muda paling sering bingung menerjemahkan kondisi lahan menjadi jadwal rawat harian. Ibarat indikator di *dashboard* motor yang langsung memberi tahu kapan ganti oli tanpa memaksa kita membaca suhu mesin, NUSATANI mengubah data sensor kelompok menjadi daftar tugas harian—lengkap dengan jenis pupuk, dosis, dan waktunya—ditambah *Lensa Tani* dan *Tanya AI* bergaya WhatsApp yang tetap jalan tanpa sensor. Fitur *marketplace* sengaja kami pangkas agar ringkas. Batasnya, fitur foto dan AI masih butuh sinyal serta belum menggantikan pengamatan mata petani. Maukah Kak Huda mencoba alur ini dan menunjukkan bagian mana yang paling berisiko?”
+
+*(103 kata — mengikuti 5 langkah komunikasi berlapis, dilengkapi analogi membumi serta pengakuan batas sejak awal).*
+
+Demonstrasi dilakukan melalui *Usability Testing* interaktif pada prototipe Figma (`s.hmif.dev/Iterasi1NUSATANI`) selama **UT-1** (4 partisipan: Nana 19, Pak Rinal 49, Shasa 19, Pak Angga 18) dan **UT-2** pada 8–11 Agustus 2026 (5 partisipan: Pak Sutikno 53, Kak Huda 26, Kak Irwan 18, Lina 19, Kak Yoga 18).
+
+## Hidden concern dan adaptation
+
+Tim awalnya mengira keberatan utama hanya berkutat pada biaya sensor. Uji lapangan mengungkap tiga *hidden concern* terkait **beban kognitif, alur tugas, dan kesenjangan usia**:
+
+1. **Beban tafsir angka:** Tampilan *Monitor* awal yang menyajikan data sensor mentah membuat partisipan ragu menentukan tindakan.
+2. **Friksi navigasi:** Di UT-1, tombol simpan panen hanya diselesaikan tanpa bantuan oleh **25%** partisipan, dan *Tanya AI* yang terpisah hanya mencapai **60%** penyelesaian tanpa bantuan.
+3. **Batas adopsi petani senior:** Dua petani ≥49 tahun mencetak SUS terendah (Pak Rinal 49: **65**; Pak Sutikno 53: **72,5**) dan memerlukan pendampingan langsung.
+
+**Adaptasi substantif lintas iterasi:**
+- Mengubah *Monitor* dari angka mentah menjadi **daftar kegiatan (*to-do list*)**.
+- Memisahkan menu **Lahan** dan **Kelola Tanaman** serta menonjolkan tombol simpan panen.
+- Memindahkan **Tanya AI** ke dalam alur **Lensa Tani** di Iterasi 3 sehingga penyelesaian tanpa bantuan naik dari **60% menjadi 100%**.
+- Mengakui secara terbuka batas prototipe (masih Figma, *Tanya AI* memakai Gemini umum, aturan pupuk baru 25 pola NPK fokus nitrogen, dan 31,7% responden pernah hilang sinyal) beserta rencana mitigasi bertahap.
+
+**State assessment:** Sinyal **Interest** terkonfirmasi kuat—partisipan menyebut aplikasi membuat bertani jauh lebih simpel, tingkat selesai tanpa bantuan naik **83% (UT-1) → 86% (UT-2) → 100% (UT-3)**, dan SUS meningkat **81,3 → 82,0 → 86,9**. Namun, tim sadar ini baru *Interest* pada antarmuka, belum *Desire* untuk memakai di lahan nyata.
+
+## Evidence, AI, dan feedback
+
+- **Artefak:** Prototipe lintas iterasi (`s.hmif.dev/Iterasi1NUSATANI`), naskah moderator, tabel metrik per tugas dan SUS di makalah akhir (baseline UT-1 SUS 81,3; n=4), serta catatan *observer* tentang momen ketika pertanyaan “Bagian mana yang paling berisiko?” membuka *hidden concern* pengguna.
+- **Kesepakatan tindak lanjut:** Kak Huda bersedia mengikuti putaran uji berikutnya (terbukti hadir kembali di UT-3) bersama tiga partisipan petani muda lain, dengan kesepakatan bahwa seluruh kritik keras dicatat sebagai syarat perbaikan sebelum uji lahan.
+- **AI Statement:** AI dipakai untuk membantu menyusun alternatif analogi dan daftar risiko umum UI/UX, lalu seluruh asumsi diverifikasi langsung lewat sesi UT. AI tidak dipakai untuk menghasilkan data pengujian.
+
+## Self-assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Nilai relasional dibedakan presisi antara petani muda, penyuluh, dan keterbatasan petani senior |
+| Objective & State | 4 | *Interest* (SUS 86,9; selesai 100%) dibedakan secara tajam dari kesiapan pakai di lahan nyata |
+| Repertoire, Language & AI | 4 | Detoks fitur tegas, analogi *dashboard* motor jernih, serta batas solusi & AI diakui sejak awal |
+| Response & Adaptation | 4 | *Hidden concern* UT mengubah mekanisme inti (*data mentah → to-do list*, relokasi *Tanya AI* 60% → 100%) |
+| Agreement, Action & Relationship | 4 | Partisipan terlibat sukarela dalam uji berulang (Kak Huda di UT-2 & UT-3) dengan ruang kritik aman |
+
+**Total: 20/20 — Unggul.**

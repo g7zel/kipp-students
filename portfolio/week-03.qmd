@@ -2,7 +2,7 @@
 title: "Relationship Conversation"
 week: 3
 status: "Siap dinilai"
-self_score: "19"
+self_score: "19/20"
 assessor_score: "—"
 description: "Evidence percakapan personal, listening, penentuan batasan (boundary), dan perbaikan hubungan."
 categories: [Fondasi, Inter-Personal]

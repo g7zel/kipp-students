@@ -1,25 +1,62 @@
 ---
 title: "Multi-Person Negotiation Challenge"
 week: 11
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "20/20"
 assessor_score: "—"
 description: "Stakeholder map, interests, options, trade-offs, dan agreement."
 categories: [Negotiation, Stakeholder]
 ---
 
-## Kompetensi target
+## Stakeholder dan multi-state map
 
-Memfasilitasi beberapa person dengan objective, constraint, authority, dan state berbeda.
+Setelah persetujuan pra-pilot di Minggu 10, tim memfasilitasi perundingan meja bundar lima pihak (6 November 2026) untuk menyepakati aturan operasional pilot sensor bersama selama 14 hari.
 
-## Evidence wajib
+| Person | Position (Tuntutan Awal) | Interest / Constraint & Nilai | Authority | State Awal |
+|---|---|---|---|---|
+| Pak Hendra (Ketua Kelompok Tani) | “Sensor harus bebas biaya kelompok dan tidak merepotkan pengurus.” | Melindungi kas kelompok (hanya 27% petani mau beli sendiri) & menjaga kerukunan sosial | Final approval izin lahan & aset bersama | Attention → Desire |
+| Kak Huda (Penyuluh Pertanian) | “Semua rekomendasi pupuk wajib dikunci lewat verifikasi penyuluh.” | Menjaga keamanan panen & reputasi pendampingan; 25 pola NPK masih fokus nitrogen | Technical / agronomic clearance | Desire |
+| Mas Ajad & Pak Angga (Petani Muda ≤35 th) | “Fitur *Tanya AI* dan panduan harus aktif 24 jam termasuk di lahan tanpa sinyal.” | Kepastian tindakan harian tanpa terlambat (49,2% kasus survei); kepraktisan kerja | Pengguna aktif (dapat berpartisipasi/menolak) | Desire |
+| Pak Rinal & Pak Sutikno (Petani Senior ≥49 th) | “Jangan wajibkan semua anggota pakai aplikasi; cukup cara manual saja.” | Rasa dihargai dan tidak tersisih dari kelompok; jarang membawa HP ke lahan (SUS 65 & 72,5) | Pengaruh sosial & keteladanan di kelompok tani | Target (Defensif) |
+| Tim Produk & IoT NUSATANI | “Fokus uji penuh 1 lahan bersinyal dengan aplikasi Iterasi 4.” | Keandalan sistem, bukti lapangan objektif; keterbatasan mode luring (masih *roadmap*) | Pemeliharaan teknis & pembaruan prototipe | Desire |
 
-- Stakeholder person map dan multi-state TAIDA.
-- Position–interest analysis, common ground, dan options.
-- Negotiation evidence, agreement/dissent, dan relationship review.
+**Common ground:** Semua pihak ingin keterlambatan perawatan lahan berkurang dan petani muda makin bersemangat bertani, tanpa membahayakan panen, membebani kas kelompok, atau meminggirkan petani senior.
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 11](../examples/week-11.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+## Negotiation evidence
 
-{{< include ../includes/evidence-template.md >}}
+Selama 10 menit pertama, fasilitator (saya) menggali *hidden agenda* tanpa menawarkan kompromi prematur:
+
+> **Pak Rinal:** “Kalau semua urusan kebun pindah ke HP, kami yang tua jadi tidak dianggap lagi di kelompok.”  
+> **Mas Ajad:** “Kami tidak bermaksud menyingkirkan bapak, tapi di lahan kami butuh panduan cepat—apalagi 31,7% area kadang hilang sinyal.”  
+> **Kak Huda:** “Kalau *Tanya AI* dibiarkan menjawab bebas saat offline atau tanpa pagar aturan, lalu dosisnya keliru, petani yang rugi.”  
+> **Fasilitator (Saya):** “Saya mendengar tiga kebutuhan yang sebenarnya saling melindungi: Mas Ajad butuh panduan cepat di lahan, Kak Huda butuh pagar keamanan agronomi, dan Pak Rinal butuh kepastian bahwa petani senior tetap dilibatkan penuh. Bagaimana jika pilot kita pecah dua tahap—Tahap 1 menguji panduan terverifikasi di 1 petak bersinyal sekaligus menyediakan ringkasan cetak/lisan untuk petani senior, sementara mode luring masuk Tahap 2?”  
+> **Pak Hendra:** “Kalau tidak memungut iuran dan ada pendampingan lintas usia, pengurus bisa menyetujui Tahap 1.”
+
+Fasilitator tidak memaksakan konsensus tunggal, melainkan memisahkan ambisi fitur sesuai kendala wewenang dan kesiapan teknis.
+
+## Options, agreement, dan dissent
+
+Tiga alternatif dari sesi *ideation* dikerucutkan menjadi **kesepakatan dua tahap**:
+
+- **Tahap 1 (Pilot 14 Hari, 9–22 November 2026):** Pemasangan 1 kit sensor pinjaman tim pada 1 petak bersinyal; aplikasi Iterasi 4 dijalankan dengan 25 pola NPK terverifikasi Kak Huda + kartu SOP luring di kotak sensor; petani muda membuat **ringkasan mingguan cetak/lisan** untuk dibahas bersama petani senior (pendampingan lintas generasi).
+- **Tahap 2 (Pengembangan Lanjutan):** Pengembangan mode luring dan perluasan fitur *Tanya AI* berbasis data lokal **hanya dilanjutkan** jika Tahap 1 mencapai *threshold* minimal **10 dari 14 hari data valid** tanpa insiden kesalahan dosis dan tanpa keluhan eksklusi sosial.
+
+**Specific disagreement (Dissent):** Perwakilan petani muda (Mas Ajad) mencatat ketidaksetujuan spesifik bahwa penundaan mode luring membuat kendala 31,7% area minim sinyal belum teruji secara digital pada Tahap 1. Catatan *dissent* ini dipertahankan secara resmi dalam notulen keputusan agar menjadi agenda prioritas pada *review* 23 November 2026.
+
+## Relationship review dan AI
+
+- **Relationship repair:** Pada menit ke-7, pengamat mencatat saya sempat terlalu cepat memparafrasa pendapat Mas Ajad sehingga memotong kalimat Pak Rinal yang hendak berbicara. Saya langsung melakukan *repair* secara terbuka (*“Maaf Pak Rinal, saya tadi memotong penjelasan Bapak. Silakan Bapak lanjutkan kekhawatiran Bapak tadi agar masuk penuh dalam catatan kita”*). Setelah momen ini, Pak Rinal menyampaikan ide ringkasan lisan di saung yang akhirnya diadopsi dalam kesepakatan.
+- **Evaluasi Jalur Ganda:** Seluruh 5 pihak menandatangani akurasi ringkasan keputusan (jalur tugas 5/5) dan menyatakan suara mereka didengar tanpa tekanan (jalur relasi 5/5).
+- **Batas peran AI:** AI hanya digunakan sebelum rapat untuk menyusun daftar kemungkinan skenario *trade-off* antarperan. Seluruh opsi final dan keputusan pemecahan dua tahap lahir murni dari wewenang dan kendala nyata para pemangku kepentingan.
+
+## Self-assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Posisi, kepentingan tersembunyi, kendala, *authority*, dan state TAIDA lima pihak dipetakan tajam |
+| Objective & State | 4 | Multi-state (dari *Target defensif* hingga *Desire*) dikelola menjadi *common ground* konkret |
+| Repertoire, Language & AI | 4 | Pertanyaan penyelidikan, *reframing* kepentingan, pemecahan bertahap, dan batas AI sangat jelas |
+| Response & Adaptation | 4 | Kekhawatiran eksklusi Pak Rinal dan syarat keamanan Kak Huda mengubah arsitektur pilot menjadi dua tahap |
+| Agreement, Action & Relationship | 4 | Kesepakatan presisi, *threshold*, *specific disagreement*, dan *relationship repair* terdokumentasi utuh |
+
+**Total: 20/20 — Unggul.**

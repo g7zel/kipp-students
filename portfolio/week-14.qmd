@@ -1,25 +1,60 @@
 ---
 title: "AI-Mediated Communication Design"
 week: 14
-status: "Belum dimulai"
-self_score: "—"
+status: "Selesai"
+self_score: "20/20"
 assessor_score: "—"
 description: "AI role, prompt, output, human revision, boundary, dan risk."
 categories: [AI, Ethics]
 ---
 
-## Kompetensi target
+## Communication design & Matriks Risiko AI
 
-Memilih dan membatasi peran AI sambil menjaga human competence, authority, dan relationship.
+- **Persons & 3 Lapis Konteks:** Saya sebagai *student researcher* & penyusun panduan; **Kak Huda** (penyuluh, karakter teliti dan melindungi keselamatan panen petani) sebagai *reviewer* berwenang; **Pak Hendra** (Ketua Poktan) sebagai pemberi izin edar; serta **petani muda dan senior** sebagai pembaca yang berhak atas informasi jujur tanpa istilah membingungkan.
+- **Objective:** Menyusun dokumen **FAQ Operasional Pilot NUSATANI** dan menetapkan spesifikasi batas kopilot AI agar fitur *Tanya AI* (yang masih berbasis Gemini umum) maupun penyusunan pesan tim tidak melampaui wewenang manusia atau membahayakan tanaman.
 
-## Evidence wajib
+**Matriks Lampu Lalu Lintas Risiko & Pembagian Peran:**
 
-- Persons, characters, objective, dan state.
-- AI role, prompt/output, serta human revision.
-- Privacy/authority/risk review dan alasan tidak menggunakan lebih banyak AI.
+| Tugas Komunikasi | Tingkat Risiko | AI Role (Kopilot Terbatas) | Human Responsibility (Mutlak) |
+|---|---|---|---|
+| Mengelompokkan 10 pertanyaan anonim petani dari sesi UT & saung | Hijau (Rendah) | *Pattern assistant* (mengelompokkan tema) | Menghapus nama/lokasi lahan dan memeriksa ulang pengelompokan |
+| Menyusun draf awal FAQ bahasa sederhana & terjemahan kasar Sunda | Kuning (Sedang) | *Copilot / Penerjemah* draf awal | Menetapkan fakta pilot, nada hormat, batas akurasi, dan verifikasi budaya lokal |
+| Memverifikasi dosis pupuk darurat / menangani keluhan tanaman layu | Merah (Tinggi) | **Dilarang digunakan** | Kak Huda (penyuluh) menangani konteks lahan secara langsung |
+| Menyelesaikan konflik antaranggota atau memberi izin edar panduan | Merah (Tinggi) | **Dilarang digunakan** | Pak Hendra & fasilitator manusia secara tatap muka |
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 14](../examples/week-14.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+## Prompt dan output
 
-{{< include ../includes/evidence-template.md >}}
+**Prompt berpusat pada manusia yang digunakan:**
+> “Kamu berperan sebagai kopilot penyusun draf bahasa. Kelompokkan 10 pertanyaan anonim petani berikut menjadi draf FAQ bahasa Indonesia yang ramah dan ringkas (maksimal 50 kata per jawaban). Gunakan HANYA fakta dari ringkasan pilot terlampir. Jika informasi tidak ada di brief, wajib tulis `[PERLU KONFIRMASI PENYULUH]`. Dilarang menjanjikan peningkatan panen, dilarang mengklaim diagnosis 100% akurat, dan dilarang menggunakan nada menggurui.”
+
+**Temuan cacat pada Output AI:** Meskipun sudah dibatasi, *output* AI tetap memunculkan tiga kesalahan krusial: (1) menulis *“Tanya AI dan Lensa Tani mendiagnosis penyakit tanaman secara akurat dan otomatis”*, (2) menyebut NUSATANI sebagai *“aplikasi resmi untuk seluruh petani Indonesia bahkan tanpa internet”*, dan (3) menghasilkan satu jawaban sepanjang **132 kata** yang terlalu padat bagi pembaca di lahan.
+
+## Human revision
+
+| Output AI | Revisi Manusia | Alasan Perubahan |
+|---|---|---|
+| “Lensa Tani & Tanya AI mendiagnosis penyakit secara akurat dan otomatis.” | “Lensa Tani & Tanya AI memberi **dugaan awal** berbasis foto/teks. Keputusan penanganan akhir tetap dicek langsung oleh petani dan penyuluh.” | Akurasi & keselamatan panen (model masih Gemini umum, belum dilatih data lokal) |
+| “Aplikasi resmi untuk seluruh petani Indonesia bahkan tanpa internet.” | “Saat ini masih **pilot terbatas 1 petak uji bersinyal** di kelompok tani; mode luring masih dalam tahap rencana pengembangan.” | *Scope* dan batas *authority* (bukan produk nasional/resmi; 31,7% lahan rawan putus sinyal) |
+| “Data pertanian Anda dijamin 100% aman.” | “Catatan uji coba disimpan tanpa nama pribadi petani dan tanpa koordinat pasti petak lahan.” | Mengganti klaim absolut dengan fakta yang dapat diverifikasi |
+| Penjelasan penanganan gangguan sensor sepanjang 132 kata. | 3 langkah ringkas **44 kata** + instruksi membuka kartu SOP luring di kotak sensor + kontak eskalasi Kak Huda. | Keterbacaan di lapangan dan kejelasan jalur tindakan |
+
+**Koreksi operasional dari reviewer berwenang:** Saat meninjau draf hasil revisi saya, **Kak Huda** menangkap satu detail lokal yang luput baik oleh AI maupun saya: untuk wilayah Bandung yang sering hujan deras pada sore hari, anjuran waktu pemupukan pada FAQ harus secara eksplisit menyebut **pagi hari sebelum hujan**, bukan sekadar "harian". Revisi itu langsung dimasukkan sebelum **Pak Hendra** memberi persetujuan pemasangan FAQ di saung.
+
+## Privacy, authority, dan alasan berhenti menggunakan AI
+
+- **Privasi & data minimum:** Seluruh 10 pertanyaan dianonimkan sebelum dimasukkan ke AI; nama petani, nomor WhatsApp, rekaman suara mentah, dan lokasi kebun tidak pernah diunggah.
+- **Alasan etis & teknis tidak mengotomatiskan lebih jauh:** Tim secara sadar **menolak** mengubah *Tanya AI* menjadi *chatbot* otonom 24 jam tanpa eskalasi manusia. Alasannya: (1) model Gemini umum belum terkalibrasi pada karakter tanah lokal Bandung, (2) aturan pupuk baru mencakup 25 pola NPK fokus nitrogen, (3) volume pertanyaan di 1 petak uji masih kecil, dan (4) kesalahan satu kali dalam saran dosis pupuk berdampak langsung pada nafkah petani (*risiko merah*).
+- **Pernyataan Transparansi AI:** *“Draf awal pengelompokan dan bahasa FAQ pilot NUSATANI disusun dengan bantuan AI (Gemini) sebagai kopilot bahasa, namun verifikasi fakta agronomi, revisi konteks lokal, keputusan publikasi, dan tanggung jawab relasional sepenuhnya berada pada Tim NUSATANI, Kak Huda (penyuluh), dan Pak Hendra (Ketua Kelompok Tani).”*
+- **Artefak bukti:** Log *prompt/output* asli, tabel *change log* revisi manusia, catatan koreksi hujan sore dari Kak Huda, dan persetujuan cetak dari Pak Hendra.
+
+## Self-assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Tiga lapis pribadi manusia, karakter *reviewer*, dan batas peran AI dipisahkan tegas |
+| Objective & State | 4 | Tujuan FAQ, Matriks Risiko (Hijau/Kuning/Merah), dan jalur eskalasi manusia sangat jelas |
+| Repertoire, Language & AI | 4 | *Prompt* ketat, *output* cacat, tabel 4 revisi, privasi, *AI statement*, dan alasan berhenti lengkap |
+| Response & Adaptation | 4 | Temuan operasional Kak Huda (jadwal pupuk pagi sebelum hujan Bandung) langsung mengubah isi FAQ |
+| Agreement, Action & Relationship | 4 | Otoritas validasi penyuluh & izin cetak pengurus dipertahankan; jalur manusia tetap utama |
+
+**Total: 20/20 — Unggul.**
