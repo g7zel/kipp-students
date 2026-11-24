@@ -1,7 +1,7 @@
 ---
 title: "Intra-Self Communication Journal"
 week: 2
-status: "Siap dinilai"
+status: "Selesai"
 self_score: "18/20"
 assessor_score: "—"
 description: "Evidence pengelolaan multiple states, trade-off, dan pergeseran narasi internal."
